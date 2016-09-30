@@ -1,0 +1,34 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+dev-util/geany:gtk3 - Use GTK+3 instead of GTK+2
+dev-util/geany:konsolebox - Use github.com/konsolebox/geany as source
+dev-util/geany:vte - Enable Terminal support (x11-libs/vte)
+dev-util/geany-plugins:autoclose - Enable the autoclose plugin.
+dev-util/geany-plugins:automark - Enable the automark plugin
+dev-util/geany-plugins:commander - Enable the commander plugin which provides a command panel for rapid access to any action.
+dev-util/geany-plugins:ctags - Enable ctags plugin
+dev-util/geany-plugins:debugger - Enable the debugger plugin which interfaces with sys-devel/gdb
+dev-util/geany-plugins:defineformat - Enable the defineformat plugin.
+dev-util/geany-plugins:devhelp - Enable the devhelp plugin which integrates dev-util/devhelp
+dev-util/geany-plugins:enchant - Enable spell checking using enchant
+dev-util/geany-plugins:gpg - Enable geanypg plugin which integrates GPG using app-crypt/gpgme
+dev-util/geany-plugins:gtkspell - Use gtkspell for dictionary support
+dev-util/geany-plugins:markdown - Enable the markdown plugin which uses app-text/discount and net-libs/webkit-gtk to display a realtime preview markdown.
+dev-util/geany-plugins:multiterm - Enable the multiterm plugin
+dev-util/geany-plugins:overview - Enable overview plugin
+dev-util/geany-plugins:scope - Enable the scope plugin which is a graphical GDB front-end
+dev-util/geany-plugins:soup - Enable updatechecker and geniuspaste plugins which require net-libs/libsoup
+dev-util/geany-plugins:webkit - Enable webhelper plugin which requires net-libs/webkit-gtk
+net-dns/dnscrypt-proxy:ldns - Use net-libs/ldns for DNSSEC/SSHFP validation
+net-dns/dnscrypt-proxy:plugins - Enable plugin support to inspect and modify queries and responses
+net-dns/dnscrypt-proxy:systemd - Use systemd's socket activation instead of creating the sockets itself
+net-dns/dnscrypt-proxy-multi:chroot - Add chroot support with /etc/init.d/dnscrypt-proxy-multi-chroot
+net-misc/tor:bufferevents - Use libevent's buffered IO implementation (unstable, buggy)
+net-misc/tor:chroot - Add chroot support with /etc/conf.d/tor-chroot and /etc/init.d/tor-chroot
+net-misc/tor:scrypt - Use app-crypt/libscrypt for the scrypt algorithm
+net-misc/tor:stats - Enable tracking of how much of each kind of resource we download
+net-misc/tor:tor-hardening - Compile tor with hardening on vanilla compilers/linkers
+net-misc/tor:transparent-proxy - Enable transparent proxying
+net-misc/tor:web - Build a tor2web service instead of a tor client
