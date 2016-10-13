@@ -5,8 +5,8 @@ EAPI=5
 HOMEPAGE=https://github.com/konsolebox/scripts
 IUSE=chroot
 LICENSE=public-domain
-RDEPEND==net-dns/dnscrypt-proxy-9999 >=dev-lang/ruby-2:= chroot? ( app-portage/portage-utils sys-apps/findutils sys-apps/rcopy sys-process/psmisc virtual/awk )
+RDEPEND=>=net-dns/dnscrypt-proxy-1.7.0 >=dev-lang/ruby-2:= chroot? ( app-portage/portage-utils sys-apps/findutils sys-apps/rcopy sys-process/psmisc virtual/awk )
 SLOT=0
 _eclass_exported_funcs=pkg_postinst:- src_unpack:git-r3 src_install:-
 _eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	git-r3	00f60a84fc7b499c99edfe99caea9f95	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
-_md5_=90a0b963886ea08b71dd75bf2fb3e774
+_md5_=ffd4199f77dd39ab47cfa1de9dc70922
