@@ -9,5 +9,5 @@ RDEPEND=>=app-shells/bash-4.0
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/34611edd00554a7a7f6e5de277faf54a1961cfee/libfind.sh -> libfind-2015.06.11.sh
 _eclass_exported_funcs=src_unpack:- src_prepare:- src_install:-
-_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	git-r3	86ff3e88fc8a07b4f595afa27e416341	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	git-r3	86ff3e88fc8a07b4f595afa27e416341	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
 _md5_=4675c48ff2b4a24d9653acb594d8e976
