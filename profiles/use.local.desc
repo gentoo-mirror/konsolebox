@@ -3,7 +3,7 @@
 # * generated automatically using pmaint *
 
 dev-util/geany:gtk3 - Use GTK+3 instead of GTK+2
-dev-util/geany:konsolebox - Use github.com/konsolebox/geany as source
+dev-util/geany:konsolebox - Use github.com/konsolebox/geany as source, or use patches from github.com/konsolebox/geany-patches
 dev-util/geany:vte - Enable Terminal support (x11-libs/vte)
 dev-util/geany-plugins:autoclose - Enable the autoclose plugin.
 dev-util/geany-plugins:automark - Enable the automark plugin
@@ -31,3 +31,5 @@ net-misc/tor:stats - Enable tracking of how much of each kind of resource we dow
 net-misc/tor:tor-hardening - Compile tor with hardening on vanilla compilers/linkers
 net-misc/tor:transparent-proxy - Enable transparent proxying
 net-misc/tor:web - Build a tor2web service instead of a tor client
+net-p2p/rtorrent:chroot - Add chroot support using sys-apps/jchroot
+net-p2p/rtorrent:daemon - Uses app-misc/screen to daemonize this application
