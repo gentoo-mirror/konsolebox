@@ -1,7 +1,7 @@
 dev-util/geany 1.29 9999: GTK+ based fast and lightweight IDE
 dev-util/geany-plugins 9999: A collection of different plugins for Geany
 media-fonts/montserrat 20140717: Inspired by the signage found in a historical neighborhood of Buenos Aires
-media-sound/playshell 0.2.3 9999: A console-based frontend for playing media
+media-sound/playshell 0.2.4 9999: A console-based frontend for playing media
 net-dns/dnscrypt-proxy 9999: A tool for securing communications between a client and a DNS resolver
 net-dns/dnscrypt-proxy-multi 9999: Runs multiple instances of dnscrypt-proxy
 net-misc/tor 0.2.7.6-r1 0.2.8.9: Anonymizing overlay network for TCP
