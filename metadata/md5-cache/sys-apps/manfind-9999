@@ -8,4 +8,4 @@ RDEPEND=>=app-shells/bash-4.0
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_install:-
 _eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
-_md5_=6490cdbd2e5a89c9aa32899b64bce1a6
+_md5_=198f39837beead55c85eb5afe00791f7

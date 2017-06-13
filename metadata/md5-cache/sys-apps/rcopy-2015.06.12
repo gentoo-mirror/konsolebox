@@ -2,10 +2,10 @@ DEFINED_PHASES=install prepare unpack
 DESCRIPTION=Relatively copies binaries along with their dependencies to a directory
 EAPI=5
 HOMEPAGE=https://github.com/konsolebox/scripts
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~amd64 ~arm ~x86
 LICENSE=public-domain
 RDEPEND=>=app-shells/bash-4.0
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/8fac56379118292a45347f86010d8845043c879a/rcopy.sh -> rcopy-2015.06.12.sh
 _eclass_exported_funcs=src_unpack:- src_prepare:- src_install:-
-_md5_=10acba306532f8a6cc9996884858904e
+_md5_=f075d137c32ec3532e47d96965e2b703

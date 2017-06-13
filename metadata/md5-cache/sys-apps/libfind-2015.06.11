@@ -3,11 +3,11 @@ DEPEND=>=dev-vcs/git-1.8.2.1
 DESCRIPTION=Finds library files based on expressions
 EAPI=5
 HOMEPAGE=https://github.com/konsolebox/scripts
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~amd64 ~arm ~x86
 LICENSE=public-domain
 RDEPEND=>=app-shells/bash-4.0
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/34611edd00554a7a7f6e5de277faf54a1961cfee/libfind.sh -> libfind-2015.06.11.sh
 _eclass_exported_funcs=src_unpack:- src_prepare:- src_install:-
 _eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
-_md5_=4675c48ff2b4a24d9653acb594d8e976
+_md5_=2f401178f843dcbe18e647a21bd30b5e

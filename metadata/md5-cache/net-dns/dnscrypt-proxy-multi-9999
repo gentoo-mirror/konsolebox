@@ -9,4 +9,4 @@ RDEPEND=>=net-dns/dnscrypt-proxy-1.7.0 >=dev-lang/ruby-2:= chroot? ( app-portage
 SLOT=0
 _eclass_exported_funcs=pkg_postinst:- src_unpack:git-r3 src_install:-
 _eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
-_md5_=ffd4199f77dd39ab47cfa1de9dc70922
+_md5_=0ea063f8bfdea5d37db3660eae5db13d
