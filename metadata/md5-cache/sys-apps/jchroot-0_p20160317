@@ -7,5 +7,5 @@ LICENSE=ISC
 SLOT=0
 SRC_URI=https://github.com/vincentbernat/jchroot/archive/17f549cffe973cf8b6ddc0e88d8061ba7bb87ca0.zip -> jchroot-17f549cffe973cf8b6ddc0e88d8061ba7bb87ca0.zip
 _eclass_exported_funcs=src_compile:- src_install:-
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
 _md5_=faf040c6a55e5f4c78bdd5008678c861
