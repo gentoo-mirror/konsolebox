@@ -1,4 +1,4 @@
-dev-libs/xxhash 0.6.2: Extremely fast non-cryptographic hash algorithm
+dev-libs/xxhash 0.6.2-r1: Extremely fast non-cryptographic hash algorithm
 dev-util/geany 1.29 9999: GTK+ based fast and lightweight IDE
 dev-util/geany-json-prettifier 1.5: A JSON formatter prettifier, minifier and validator plugin for Geany editor
 dev-util/geany-plugins 9999: A collection of different plugins for Geany
@@ -9,7 +9,7 @@ net-dns/dnscrypt-proxy-multi 9999: Runs multiple instances of dnscrypt-proxy
 net-misc/tor 0.2.7.6-r1 0.2.8.9: Anonymizing overlay network for TCP
 net-p2p/rtorrent 0.9.6: BitTorrent Client using libtorrent
 sys-apps/binfind 2015.02.19 9999: Searches files based on the value of $PATH
-sys-apps/jchroot 0_p20160317 9999: chroot with more isolation
+sys-apps/jchroot 0_p20160317 0_p20170810 9999: chroot with more isolation
 sys-apps/libfind 2015.06.11 9999: Finds library files based on expressions
 sys-apps/manfind 2015.02.19-r1 9999: Searches for manual pages based on $MANPATH
 sys-apps/rcopy 2015.06.12 9999: Relatively copies binaries along with their dependencies to a directory

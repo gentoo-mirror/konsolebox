@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=chroot with more isolation
+EAPI=5
+HOMEPAGE=https://github.com/vincentbernat/jchroot
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=ISC
+SLOT=0
+SRC_URI=https://github.com/vincentbernat/jchroot/archive/3ad09cca4879c27f7eef657b7fa1dd8b4f6aa47b.zip -> jchroot-3ad09cca4879c27f7eef657b7fa1dd8b4f6aa47b.zip
+_eclass_exported_funcs=src_compile:- src_install:-
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=4d5bd8b704c8b52930bac78e6bb45441
