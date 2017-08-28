@@ -24,6 +24,6 @@ The file should contain something like this:
 
 You can change the value of `location`, and the protocol used (i.e., use `https://` instead of `git://`).
 
-Run initial sync after:
+Run initial sync after.
 
     emerge --sync
