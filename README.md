@@ -2,7 +2,7 @@
 
 An overlay for Gentoo Linux's Portage.
 
-# Usage
+## Usage
 
 Add the repository with layman:
 
