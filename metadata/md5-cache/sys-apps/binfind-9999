@@ -6,6 +6,5 @@ HOMEPAGE=https://github.com/konsolebox/scripts
 LICENSE=public-domain
 RDEPEND=>=app-shells/bash-4.0 !app-text/binfind
 SLOT=0
-_eclass_exported_funcs=src_unpack:git-r3 src_install:-
 _eclasses_=git-r3	4f7ddb4119309845d6687213171ab445
 _md5_=17374c87700ccadc22794144dfef2db2

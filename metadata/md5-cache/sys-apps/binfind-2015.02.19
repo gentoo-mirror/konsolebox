@@ -7,5 +7,4 @@ LICENSE=public-domain
 RDEPEND=>=app-shells/bash-4.0 !app-text/binfind
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/a8b3cec9ccc70e91a5c42ab87d875b606fa88fc3/binfind.sh -> binfind-2015.02.19.sh
-_eclass_exported_funcs=src_unpack:- src_prepare:- src_install:-
 _md5_=f0856a0c5889d9f539694d924a82a25d

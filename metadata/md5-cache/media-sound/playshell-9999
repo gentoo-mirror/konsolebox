@@ -6,6 +6,5 @@ HOMEPAGE=https://sourceforge.net/projects/playshell
 LICENSE=public-domain
 RDEPEND=>=app-shells/bash-3.2:= virtual/editor
 SLOT=0
-_eclass_exported_funcs=src_unpack:git-r3
 _eclasses_=git-r3	4f7ddb4119309845d6687213171ab445
 _md5_=83611a3fd61d4936dc20488bec980f0c
