@@ -1,3 +1,4 @@
+dev-libs/crypto++ 9999: C++ class library of cryptographic schemes
 dev-libs/xxhash 0.6.2-r1: Extremely fast non-cryptographic hash algorithm
 dev-util/geany 1.29 9999: GTK+ based fast and lightweight IDE
 dev-util/geany-json-prettifier 1.5: A JSON formatter prettifier, minifier and validator plugin for Geany editor
