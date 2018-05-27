@@ -2,18 +2,15 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-
-inherit git-r3
-
 DESCRIPTION='Searches files based on the value of $PATH'
 HOMEPAGE='https://github.com/konsolebox/scripts'
 LICENSE='public-domain'
 
-EGIT_REPO_URI='https://github.com/konsolebox/scripts.git'
-SRC_URI=
+SRC_URI="https://raw.githubusercontent.com/konsolebox/scripts/982d58cbf1b817d81f1f084ceba683b42336e8aa/binfind.bash -> binfind-${PV}.bash"
+S=${WORKDIR}
 
 SLOT=0
-KEYWORDS=
+KEYWORDS='~amd64 ~arm ~x86'
 IUSE=
 
 DEPEND=
@@ -22,6 +19,10 @@ RDEPEND='
 	!app-text/binfind
 '
 
+src_unpack() {
+	cp -v -- "${DISTDIR}/${A}" "${WORKDIR}/binfind"
+}
+
 src_install() {
-	mv -- "${PN}.bash" "${PN}" && dobin "${PN}"
+	dobin binfind
 }

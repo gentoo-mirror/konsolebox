@@ -5,7 +5,7 @@ EAPI=5
 
 inherit git-r3
 
-DESCRIPTION='Searches files based on the value of $PATH'
+DESCRIPTION='Sends signals to process trees'
 HOMEPAGE='https://github.com/konsolebox/scripts'
 LICENSE='public-domain'
 
@@ -18,8 +18,8 @@ IUSE=
 
 DEPEND=
 RDEPEND='
-	>=app-shells/bash-4.0
-	!app-text/binfind
+	app-shells/bash
+	sys-process/procps
 '
 
 src_install() {
