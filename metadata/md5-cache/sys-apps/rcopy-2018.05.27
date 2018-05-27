@@ -1,10 +1,10 @@
 DEFINED_PHASES=install unpack
-DEPEND=>=dev-vcs/git-1.8.2.1
 DESCRIPTION=Relatively copies binaries along with their dependencies to a directory
 EAPI=5
 HOMEPAGE=https://github.com/konsolebox/scripts
+KEYWORDS=~amd64 ~arm ~x86
 LICENSE=public-domain
 RDEPEND=>=app-shells/bash-4.0
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
-_md5_=94210fc948fa33968baa3b2cb9a8669e
+SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/982d58cbf1b817d81f1f084ceba683b42336e8aa/rcopy.bash -> rcopy-2018.05.27.bash
+_md5_=56fcee3d384f5c2e2fc422f3f83b2861

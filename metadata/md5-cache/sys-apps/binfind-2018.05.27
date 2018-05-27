@@ -1,10 +1,10 @@
 DEFINED_PHASES=install unpack
-DEPEND=>=dev-vcs/git-1.8.2.1
 DESCRIPTION=Searches files based on the value of $PATH
 EAPI=5
 HOMEPAGE=https://github.com/konsolebox/scripts
+KEYWORDS=~amd64 ~arm ~x86
 LICENSE=public-domain
 RDEPEND=>=app-shells/bash-4.0 !app-text/binfind
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
-_md5_=f599aa7c768f96c2123edb96c4e124d4
+SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/982d58cbf1b817d81f1f084ceba683b42336e8aa/binfind.bash -> binfind-2018.05.27.bash
+_md5_=a05f0bb989dadd487e16232c110fd1de

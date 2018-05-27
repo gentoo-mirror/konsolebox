@@ -1,0 +1,10 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Finds library files based on expressions
+EAPI=5
+HOMEPAGE=https://github.com/konsolebox/scripts
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=public-domain
+RDEPEND=>=app-shells/bash-4.0
+SLOT=0
+SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/982d58cbf1b817d81f1f084ceba683b42336e8aa/libfind.bash -> libfind-2018.05.27.bash
+_md5_=7422740e81daf1259f1d9501646c44d2

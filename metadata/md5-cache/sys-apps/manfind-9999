@@ -7,4 +7,4 @@ LICENSE=public-domain
 RDEPEND=>=app-shells/bash-4.0
 SLOT=0
 _eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
-_md5_=198f39837beead55c85eb5afe00791f7
+_md5_=bee504e2d764701040034115263f069a
