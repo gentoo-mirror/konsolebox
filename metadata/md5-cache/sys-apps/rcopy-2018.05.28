@@ -6,5 +6,5 @@ KEYWORDS=~amd64 ~arm ~x86
 LICENSE=public-domain
 RDEPEND=>=app-shells/bash-4.0
 SLOT=0
-SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/982d58cbf1b817d81f1f084ceba683b42336e8aa/rcopy.bash -> rcopy-2018.05.27.bash
-_md5_=56fcee3d384f5c2e2fc422f3f83b2861
+SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/79b5dc687b74ce1348adbade858058723391a127/rcopy.bash -> rcopy-2018.05.28.bash
+_md5_=8587de2cc5edfdfaf0381c8934a5a6ba
