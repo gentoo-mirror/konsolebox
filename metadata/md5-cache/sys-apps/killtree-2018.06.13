@@ -6,5 +6,5 @@ KEYWORDS=~amd64 ~arm ~x86
 LICENSE=public-domain
 RDEPEND=app-shells/bash sys-process/procps
 SLOT=0
-SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/8190d4ba054ce12cd431447eb019b1f2949a1687/killtree.bash -> killtree-2018.05.31.bash
-_md5_=32a8c7f610212d294939f846de2f5fec
+SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/635a139a296c9f57349066602723518734d7208a/killtree.bash -> killtree-2018.06.13.bash
+_md5_=51154152b4a3bdb04e87eb30be11bc00
