@@ -5,8 +5,9 @@ EAPI=5
 HOMEPAGE=https://github.com/konsolebox/scripts
 KEYWORDS=~amd64 ~arm ~x86
 LICENSE=public-domain
+PROPERTIES=live
 RDEPEND=>=app-shells/bash-4.0
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/34611edd00554a7a7f6e5de277faf54a1961cfee/libfind.sh -> libfind-2015.06.11.sh
-_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
+_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
 _md5_=2f401178f843dcbe18e647a21bd30b5e

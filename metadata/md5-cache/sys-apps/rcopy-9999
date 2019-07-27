@@ -4,7 +4,8 @@ DESCRIPTION=Relatively copies binaries along with their dependencies to a direct
 EAPI=5
 HOMEPAGE=https://github.com/konsolebox/scripts
 LICENSE=public-domain
+PROPERTIES=live
 RDEPEND=>=app-shells/bash-4.0
 SLOT=0
-_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
+_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
 _md5_=94210fc948fa33968baa3b2cb9a8669e

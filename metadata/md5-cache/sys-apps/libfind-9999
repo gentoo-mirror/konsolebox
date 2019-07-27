@@ -4,7 +4,8 @@ DESCRIPTION=Finds library files based on expressions
 EAPI=5
 HOMEPAGE=https://github.com/konsolebox/scripts
 LICENSE=public-domain
+PROPERTIES=live
 RDEPEND=>=app-shells/bash-4.0
 SLOT=0
-_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
+_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
 _md5_=fdcf58adc5e9308e16a2d031a5b18fc1
