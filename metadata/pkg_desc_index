@@ -1,1 +1,19 @@
+app-shells/bash 5.0_p7 5.0_p7-r2 9999 99999: The standard GNU Bourne again shell
+dev-libs/crypto++ 9999: C++ class library of cryptographic schemes
+dev-ruby/digest-kangarootwelve 0.2.0-r1 0.3.1-r1: KangarooTwelve for Ruby
+dev-ruby/digest-xxhash 0.1.0-r1: An XXHash library that complies with Digest::Instance's functional design
+dev-util/geany 1.29 9999: GTK+ based fast and lightweight IDE
 dev-util/geany-json-prettifier 1.5: A JSON formatter prettifier, minifier and validator plugin for Geany editor
+dev-util/geany-plugins 9999: A collection of different plugins for Geany
+media-fonts/montserrat 20140717: Inspired by the signage found in a historical neighborhood of Buenos Aires
+media-sound/playshell 0.2.5 9999: A console-based frontend for playing media
+net-dns/dnscrypt-proxy 9999: A tool for securing communications between a client and a DNS resolver
+net-dns/dnscrypt-proxy-multi 9999: Runs multiple instances of dnscrypt-proxy
+net-p2p/rtorrent 0.9.6: BitTorrent Client using libtorrent
+net-vpn/tor 0.2.8.17 0.3.1.10: Anonymizing overlay network for TCP
+sys-apps/binfind 2015.02.19 2018.05.27 9999: Searches files based on the value of $PATH
+sys-apps/jchroot 1.0 9999: chroot with more isolation
+sys-apps/killtree 2018.07.21 9999: Sends signals to process trees
+sys-apps/libfind 2015.06.11 2018.05.27 9999: Finds library files based on expressions
+sys-apps/manfind 2015.02.19-r1 2018.05.27 9999: Searches for manual pages based on $MANPATH
+sys-apps/rcopy 2015.06.12 2018.05.28-r1 9999: Relatively copies binaries along with their dependencies to a directory
