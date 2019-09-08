@@ -1,19 +1,20 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-USE_RUBY='ruby22 ruby23 ruby24 ruby25'
+USE_RUBY='ruby22 ruby23 ruby24 ruby25 ruby26'
 
 RUBY_FAKEGEM_RECIPE_DOC=rdoc
-RUBY_FAKEGEM_DOC_SOURCES='ext/digest/kangarootwelve/ext.c lib/digest/kangarootwelve/version.rb'
+RUBY_FAKEGEM_DOC_SOURCES='ext/digest/xxhash/ext.c lib/digest/xxhash/version.rb'
 RUBY_FAKEGEM_EXTRADOC='README.md'
 RUBY_FAKEGEM_RECIPE_TEST=rake
 RUBY_FAKEGEM_TASK_TEST=test
 
 inherit ruby-fakegem
 
-DESCRIPTION='KangarooTwelve for Ruby'
-HOMEPAGE='https://github.com/konsolebox/digest-kangarootwelve-ruby'
+DESCRIPTION="An XXHash library that complies with Digest::Instance's functional design"
+
+HOMEPAGE='https://github.com/konsolebox/digest-xxhash-ruby'
 LICENSE=MIT
 
 SLOT=0
