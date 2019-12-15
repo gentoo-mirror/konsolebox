@@ -9,5 +9,5 @@ PROPERTIES=live
 RDEPEND=>=app-shells/bash-4.0
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/34611edd00554a7a7f6e5de277faf54a1961cfee/libfind.sh -> libfind-2015.06.11.sh
-_eclasses_=git-r3	6d22636df236df4cc8475f7b7668bdcd
+_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b
 _md5_=2f401178f843dcbe18e647a21bd30b5e
