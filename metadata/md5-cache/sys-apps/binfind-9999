@@ -7,5 +7,5 @@ LICENSE=public-domain
 PROPERTIES=live
 RDEPEND=>=app-shells/bash-4.0 !app-text/binfind
 SLOT=0
-_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b
+_eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33
 _md5_=f599aa7c768f96c2123edb96c4e124d4

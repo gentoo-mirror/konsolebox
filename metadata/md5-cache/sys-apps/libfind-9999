@@ -7,5 +7,5 @@ LICENSE=public-domain
 PROPERTIES=live
 RDEPEND=>=app-shells/bash-4.0
 SLOT=0
-_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b
+_eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33
 _md5_=fdcf58adc5e9308e16a2d031a5b18fc1
