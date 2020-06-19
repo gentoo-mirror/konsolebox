@@ -1,4 +1,4 @@
-app-shells/bash 5.0_p17 9999 99999: The standard GNU Bourne again shell
+app-shells/bash 5.0_p17-r1 5.1_alpha 9999 99999: The standard GNU Bourne again shell
 dev-libs/crypto++ 9999: C++ class library of cryptographic schemes
 dev-ruby/digest-kangarootwelve 0.2.0-r2 0.3.1-r2: KangarooTwelve for Ruby
 dev-ruby/digest-xxhash 0.1.0-r2: An XXHash library that complies with Digest::Instance's functional design
