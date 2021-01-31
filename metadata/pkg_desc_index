@@ -3,7 +3,6 @@ dev-libs/crypto++ 9999: C++ class library of cryptographic schemes
 dev-ruby/digest-kangarootwelve 0.2.0-r2 0.3.1-r2: KangarooTwelve for Ruby
 dev-ruby/digest-xxhash 0.1.0-r2: An XXHash library that complies with Digest::Instance's functional design
 dev-util/geany-json-prettifier 1.5: A JSON formatter prettifier, minifier and validator plugin for Geany editor
-dev-util/geany-plugins 9999: A collection of different plugins for Geany
 media-fonts/montserrat 20140717: Inspired by the signage found in a historical neighborhood of Buenos Aires
 media-sound/playshell 0.2.5 9999: A console-based frontend for playing media
 net-dns/dnscrypt-proxy 9999: A tool for securing communications between a client and a DNS resolver
