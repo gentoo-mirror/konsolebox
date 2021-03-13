@@ -5,7 +5,7 @@ EAPI=5
 HOMEPAGE=https://github.com/konsolebox/scripts
 LICENSE=public-domain
 PROPERTIES=live
-RDEPEND=>=app-shells/bash-4.0
+RDEPEND=app-shells/bash sys-apps/findutils
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=fdcf58adc5e9308e16a2d031a5b18fc1
+_md5_=5417d42ffb64df60be3f6bf2568b11af

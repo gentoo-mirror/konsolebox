@@ -1,11 +1,11 @@
 DEFINED_PHASES=install unpack
 DEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DESCRIPTION=Searches for manual pages based on $MANPATH
+DESCRIPTION=Searches for manual pages based on
 EAPI=5
 HOMEPAGE=https://github.com/konsolebox/scripts
 LICENSE=public-domain
 PROPERTIES=live
-RDEPEND=>=app-shells/bash-4.0
+RDEPEND=app-shells/bash sys-apps/findutils
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=bee504e2d764701040034115263f069a
+_md5_=39fe73071b54b6abb0e9413e38009c5b

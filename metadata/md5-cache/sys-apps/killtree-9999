@@ -8,4 +8,4 @@ PROPERTIES=live
 RDEPEND=app-shells/bash sys-process/procps
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=8d092d6136dce2dd4371c1f6c4e79e55
+_md5_=5c02e649531c947b9832f3834991b3f9

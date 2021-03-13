@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=sys-libs/zlib >=dev-libs/libsigc++-2.2.2:2 ssl? ( !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:= ) ) virtual/pkgconfig dev-util/cppunit >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=BitTorrent library written in C++ for *nix
+EAPI=6
+HOMEPAGE=https://rakshasa.github.io/rtorrent/
+IUSE=debug ipv6 libressl ssl test
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/zlib >=dev-libs/libsigc++-2.2.2:2 ssl? ( !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:= ) )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://rtorrent.net/downloads/libtorrent-0.13.6.tar.gz
+_eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=0d186ee2018fc8033389bb089c0eb510

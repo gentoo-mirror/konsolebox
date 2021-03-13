@@ -8,6 +8,7 @@ app-shells/bash:mem-scramble - Build with custom malloc/free overwriting allocat
 app-shells/bash:net - Enable /dev/tcp/host/port redirection
 app-shells/bash:plugins - Add support for loading builtins at runtime via 'enable'
 app-shells/bash:vanilla - Only use release patches
+dev-games/cegui:devil - Build the DevIL based ImageCodec module
 dev-ruby/digest-kangarootwelve:target_armv6m - Build 'armv6m' target.
 dev-ruby/digest-kangarootwelve:target_armv7a - Build 'armv7a' target.
 dev-ruby/digest-kangarootwelve:target_armv7m - Build 'armv7m' target.
@@ -31,22 +32,9 @@ dev-ruby/digest-xxhash:test - Run tests. This may require FEATURES="test".
 dev-util/geany:gtk3 - Use GTK+3 instead of GTK+2
 dev-util/geany:konsolebox - Use github.com/konsolebox/geany as source, or use patches from github.com/konsolebox/geany-patches
 dev-util/geany:vte - Enable Terminal support (x11-libs/vte)
-dev-util/geany-plugins:autoclose - Enable the autoclose plugin.
-dev-util/geany-plugins:automark - Enable the automark plugin
-dev-util/geany-plugins:commander - Enable the commander plugin which provides a command panel for rapid access to any action.
-dev-util/geany-plugins:ctags - Enable ctags plugin
-dev-util/geany-plugins:debugger - Enable the debugger plugin which interfaces with sys-devel/gdb
-dev-util/geany-plugins:defineformat - Enable the defineformat plugin.
-dev-util/geany-plugins:devhelp - Enable the devhelp plugin which integrates dev-util/devhelp
-dev-util/geany-plugins:enchant - Enable spell checking using enchant
-dev-util/geany-plugins:gpg - Enable geanypg plugin which integrates GPG using app-crypt/gpgme
-dev-util/geany-plugins:gtkspell - Use gtkspell for dictionary support
-dev-util/geany-plugins:markdown - Enable the markdown plugin which uses app-text/discount and net-libs/webkit-gtk to display a realtime preview markdown.
-dev-util/geany-plugins:multiterm - Enable the multiterm plugin
-dev-util/geany-plugins:overview - Enable overview plugin
-dev-util/geany-plugins:scope - Enable the scope plugin which is a graphical GDB front-end
-dev-util/geany-plugins:soup - Enable updatechecker and geniuspaste plugins which require net-libs/libsoup
-dev-util/geany-plugins:webkit - Enable webhelper plugin which requires net-libs/webkit-gtk
+games-arcade/smc:music - Download and install the music files
+media-gfx/mcomix:comicthumb - Install comicthumb
+media-gfx/mcomix:thumbnailer - Install comicthumb.thumbnailer
 net-dns/dnscrypt-proxy:plugins - Enable plugin support to inspect and modify queries and responses
 net-dns/dnscrypt-proxy:systemd - Use systemd's socket activation instead of creating the sockets itself
 net-dns/dnscrypt-proxy-multi:chroot - Add chroot support with /etc/init.d/dnscrypt-proxy-multi-chroot
