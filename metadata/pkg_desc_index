@@ -9,7 +9,7 @@ games-arcade/smc 1.9: Secret Maryo Chronicles
 media-fonts/montserrat 1.0 6.002 7.200 7.210 9999: Font inspired by the signage found in a historical neighborhood of Buenos Aires
 media-gfx/mcomix 1.3.0_pre20201123: GTK image viewer for comic book archives
 media-sound/playshell 0.2.5 9999: A console-based frontend for playing media
-net-dns/dnscrypt-proxy 9999: A tool for securing communications between a client and a DNS resolver
+net-dns/dnscrypt-proxy 1.9999: A tool for securing communications between a client and a DNS resolver
 net-dns/dnscrypt-proxy-multi 9999: Runs multiple instances of dnscrypt-proxy
 net-libs/libtorrent 0.13.6-r3: BitTorrent library written in C++ for *nix
 net-p2p/rtorrent 0.9.6-r1: BitTorrent Client using libtorrent
