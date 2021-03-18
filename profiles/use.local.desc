@@ -8,6 +8,10 @@ app-shells/bash:mem-scramble - Build with custom malloc/free overwriting allocat
 app-shells/bash:net - Enable /dev/tcp/host/port redirection
 app-shells/bash:plugins - Add support for loading builtins at runtime via 'enable'
 app-shells/bash:vanilla - Only use release patches
+app-shells/bash-slotted:bundled-readline - Use bundled readline
+app-shells/bash-slotted:mem-scramble - Build with custom malloc/free overwriting allocated/freed memory
+app-shells/bash-slotted:net - Enable /dev/tcp/host/port redirection
+app-shells/bash-slotted:vanilla - Only use release patches
 dev-games/cegui:devil - Build the DevIL based ImageCodec module
 dev-ruby/digest-kangarootwelve:target_armv6m - Build 'armv6m' target.
 dev-ruby/digest-kangarootwelve:target_armv7a - Build 'armv7a' target.
@@ -48,3 +52,7 @@ net-vpn/tor:tor-hardening - Compile tor with hardening on vanilla compilers/link
 net-vpn/tor:transparent-proxy - Enable transparent proxying
 net-vpn/tor:web - Build a tor2web service instead of a tor client
 net-vpn/tor:zstd - Use app-arch/zstd for compression
+sys-apps/openrc:bash - enable the use of bash in service scripts (experimental)
+sys-apps/openrc:netifrc - enable Gentoo's network stack (net.* scripts)
+sys-apps/openrc:newnet - enable the new network stack (experimental)
+sys-apps/openrc:sysv-utils - Install sysvinit compatibility scripts for halt, init, poweroff, reboot and shutdown
