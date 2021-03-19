@@ -2,6 +2,12 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-admin/sudo:gcrypt - Use message digest functions from dev-libs/libgcrypt instead of sudo's
+app-admin/sudo:libressl - Use message digest functions from dev-libs/libressl instead of sudo's
+app-admin/sudo:offensive - Let sudo print insults when the user types the wrong password
+app-admin/sudo:secure-path - Replace PATH variable with compile time secure paths
+app-admin/sudo:sendmail - Allow sudo to send emails with sendmail
+app-admin/sudo:sssd - Add System Security Services Daemon support
 app-shells/bash:bashlogger - Log ALL commands typed into bash; should ONLY be used in restricted environments such as honeypots
 app-shells/bash:bundled-readline - Use bundled readline
 app-shells/bash:mem-scramble - Build with custom malloc/free overwriting allocated/freed memory
