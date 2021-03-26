@@ -8,7 +8,6 @@ dev-ruby/digest-xxhash 0.1.0-r3: An XXHash library that complies with Digest::In
 dev-util/geany 1.29-r1 9999: GTK+ based fast and lightweight IDE
 dev-util/geany-json-prettifier 1.5: A JSON formatter prettifier, minifier and validator plugin for Geany editor
 games-arcade/smc 1.9: Secret Maryo Chronicles
-media-fonts/montserrat 1.0 6.002 7.200 7.210 9999: Font inspired by the signage found in a historical neighborhood of Buenos Aires
 media-gfx/mcomix 1.3.0_pre20201123: GTK image viewer for comic book archives
 media-sound/playshell 0.2.5 9999: A console-based frontend for playing media
 net-dns/dnscrypt-proxy 1.9999: A tool for securing communications between a client and a DNS resolver
