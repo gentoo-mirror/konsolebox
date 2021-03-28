@@ -33,8 +33,7 @@ dev-ruby/digest-kangarootwelve:target_reference32bits - Build 'reference32bits' 
 dev-ruby/digest-kangarootwelve:target_sandybridge - Build 'sandybridge' target.
 dev-ruby/digest-kangarootwelve:test - Run tests. This may require FEATURES="test".
 dev-ruby/digest-xxhash:test - Run tests. This may require FEATURES="test".
-dev-util/geany:gtk3 - Use GTK+3 instead of GTK+2
-dev-util/geany:konsolebox - Use github.com/konsolebox/geany as source, or use patches from github.com/konsolebox/geany-patches
+dev-util/geany:konsolebox - Use https://github.com/konsolebox/geany.git as source, or use patches from https://github.com/konsolebox/geany-patches
 dev-util/geany:vte - Enable Terminal support (x11-libs/vte)
 games-arcade/smc:music - Download and install the music files
 media-gfx/mcomix:comicthumb - Install comicthumb

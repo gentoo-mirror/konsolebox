@@ -1,0 +1,14 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst postrm setup unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Font inspired by the signage found in a historical neighborhood of Buenos Aires
+EAPI=7
+HOMEPAGE=https://github.com/JulietaUla/Montserrat/
+INHERIT=font git-r3
+IUSE=X
+LICENSE=OFL-1.1
+PROPERTIES=live
+RESTRICT=binchecks strip test
+SLOT=0
+_eclasses_=font	0667878c2b594871023dd1833d05996f	git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=483371f6847965866d8d54d61645f856

@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install postinst postrm prepare setup
+DEPEND=>=dev-libs/glib-2.28:2 >=x11-libs/gtk+-2.24:2 vte? ( x11-libs/vte:0 ) virtual/pkgconfig dev-util/intltool sys-devel/gettext
+DESCRIPTION=GTK+ based fast and lightweight IDE
+EAPI=7
+HOMEPAGE=http://www.geany.org
+INHERIT=l10n xdg-utils
+IUSE=doc konsolebox +vte
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=GPL-2+ HPND
+RDEPEND=>=dev-libs/glib-2.28:2 >=x11-libs/gtk+-2.24:2 vte? ( x11-libs/vte:0 )
+SLOT=0
+SRC_URI=http://download.geany.org/geany-1.29.tar.bz2 https://github.com/konsolebox/geany-patches/releases/download/1.29-konsolebox-20161128/geany-1.29-konsolebox-20161128-patch.tar.gz
+_eclasses_=l10n	8cdd85e169b835d518bc2fd59f780d8e	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=a178d842da5541b1da8d872878ccca16
