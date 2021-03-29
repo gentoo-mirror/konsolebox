@@ -22,4 +22,5 @@ sys-apps/killtree 2021.03.16 9999: Sends signals to process trees
 sys-apps/libfind 2021.03.16 9999: Finds library files based on expressions
 sys-apps/manfind 2018.05.27-r1 9999: Searches for manual pages based on
 sys-apps/openrc 0.42.1-r2: OpenRC manages the services, startup and shutdown of a host
-sys-apps/rcopy 2021.03.16 9999: Relatively copies binaries along with their dependencies to a directory
+sys-apps/rcopy 2021.03.29 9999: Relatively copies binaries along with their dependencies to a directory
+x11-themes/geany-minimalism 0.1: A collection of colour schemes for Geany

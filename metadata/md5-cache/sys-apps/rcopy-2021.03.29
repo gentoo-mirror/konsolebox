@@ -6,5 +6,5 @@ KEYWORDS=~amd64 ~arm ~arm64 ~x86
 LICENSE=public-domain
 RDEPEND=>=app-shells/bash-4.0 sys-apps/coreutils sys-libs/glibc
 SLOT=0
-SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/8839aae5a30a747a0e5d3bafe0d88f7c5cb08170/rcopy.bash -> rcopy-2021.03.16.bash
-_md5_=21556cc643460ec8e4ea8de2e62143bc
+SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/fdac8bb1ac01b9391589e14cb302dfa2ed8f9ec6/rcopy.bash -> rcopy-2021.03.29.bash
+_md5_=2e20dd6413ad4e728e5a43c8b97ece4f
