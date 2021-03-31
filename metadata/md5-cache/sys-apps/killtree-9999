@@ -3,9 +3,10 @@ DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Sends signals to process trees
 EAPI=5
 HOMEPAGE=https://github.com/konsolebox/scripts
+INHERIT=git-r3
 LICENSE=public-domain
 PROPERTIES=live
 RDEPEND=app-shells/bash sys-process/procps
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=5c02e649531c947b9832f3834991b3f9

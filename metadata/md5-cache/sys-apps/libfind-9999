@@ -3,9 +3,10 @@ DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Finds library files based on expressions
 EAPI=5
 HOMEPAGE=https://github.com/konsolebox/scripts
+INHERIT=git-r3
 LICENSE=public-domain
 PROPERTIES=live
 RDEPEND=app-shells/bash sys-apps/findutils
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=5417d42ffb64df60be3f6bf2568b11af

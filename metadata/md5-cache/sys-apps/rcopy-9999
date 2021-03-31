@@ -3,9 +3,10 @@ DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Relatively copies binaries along with their dependencies to a directory
 EAPI=5
 HOMEPAGE=https://github.com/konsolebox/scripts
+INHERIT=git-r3
 LICENSE=public-domain
 PROPERTIES=live
 RDEPEND=>=app-shells/bash-4.0 sys-apps/coreutils sys-libs/glibc
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=4721f80019fdd5affda9c19bde7594b3

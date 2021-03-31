@@ -3,9 +3,10 @@ DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Searches files based on the value of /dev/null
 EAPI=5
 HOMEPAGE=https://github.com/konsolebox/scripts
+INHERIT=git-r3
 LICENSE=public-domain
 PROPERTIES=live
 RDEPEND=app-shells/bash !app-text/binfind sys-apps/findutils
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=c66bb23ad2b301eb7714bd5799670045
