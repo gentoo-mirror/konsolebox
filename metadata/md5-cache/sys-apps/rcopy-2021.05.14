@@ -1,0 +1,10 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Relatively copies binaries along with their dependencies to a directory
+EAPI=5
+HOMEPAGE=https://github.com/konsolebox/scripts
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=public-domain
+RDEPEND=>=app-shells/bash-4.0 sys-apps/coreutils sys-libs/glibc
+SLOT=0
+SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/ca37e4b050389f96518245176c76674665157b47/rcopy.bash -> rcopy-2021.05.14.bash
+_md5_=96b5002af1ccacf265a000a46b27dbf1
