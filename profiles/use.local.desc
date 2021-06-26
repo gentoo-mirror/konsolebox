@@ -41,6 +41,7 @@ media-gfx/mcomix:thumbnailer - Install comicthumb.thumbnailer
 net-dns/dnscrypt-proxy:plugins - Enable plugin support to inspect and modify queries and responses
 net-dns/dnscrypt-proxy:systemd - Use systemd's socket activation instead of creating the sockets itself
 net-dns/dnscrypt-proxy-multi:chroot - Add chroot support with /etc/init.d/dnscrypt-proxy-multi-chroot
+net-irc/znc:zlib - Enable mod_deflate-like gzip support for znc's web interface using sys-libs/zlib.
 net-p2p/rtorrent:chroot - Add chroot support using sys-apps/jchroot
 net-p2p/rtorrent:daemon - Uses app-misc/screen to daemonize this application
 net-vpn/tor:bufferevents - Use libevent's buffered IO implementation (unstable, buggy)
