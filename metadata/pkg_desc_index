@@ -1,7 +1,7 @@
 app-crypt/libmd 1.0.3-r1: Message Digest functions from BSD systems
 app-editors/visual-studio-code 1.54.3: Multiplatform Visual Studio Code from Microsoft
-app-shells/bash 4.3_p48 4.4_p23 5.0_p18 5.1_p8 9999 99999: The standard GNU Bourne again shell
-app-shells/bash-slotted 2.05b 3.0 3.0_p22 3.1 3.1_p23 3.2 3.2_p53 4.0 4.0_p44 4.1 4.1_p17 4.2 4.2_p53 4.3 4.3_p48 4.4 4.4_p23 5.0 5.0_p18 5.1 5.1_p8 9999 99999: The standard GNU Bourne again shell
+app-shells/bash 4.3_p48 4.4_p23 5.0_p18 5.1_p8 5.1_p12 9999 99999: The standard GNU Bourne again shell
+app-shells/bash-slotted 2.05b 3.0 3.0_p22 3.1 3.1_p23 3.2 3.2_p53 4.0 4.0_p44 4.1 4.1_p17 4.2 4.2_p53 4.3 4.3_p48 4.4 4.4_p23 5.0 5.0_p18 5.1 5.1_p8 5.1_p12 9999 99999: The standard GNU Bourne again shell
 app-text/wgetpaste 9999: Command-line interface to various pastebins
 dev-games/cegui 0.6.2b: Crazy Eddie's GUI System
 dev-ruby/digest-kangarootwelve 0.2.0-r3 0.3.1-r3 0.3.2: KangarooTwelve for Ruby
