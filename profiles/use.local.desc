@@ -63,3 +63,13 @@ sys-apps/portage:native-extensions - Compiles native "C" extensions (speedups, i
 sys-apps/portage:rsync-verify - Enable full-tree cryptographic verification of Gentoo repository rsync checkouts using app-portage/gemato.
 sys-apps/portage:unofficial - Include unofficial features. See #777393 and #782655.
 sys-apps/portage:xattr - Preserve extended attributes (filesystem-stored metadata) when installing files. Usually only required for hardened systems.
+sys-fs/cryptsetup:argon2 - Enable password hashing algorithm from app-crypt/argon2
+sys-fs/cryptsetup:asterisk-patch - Apply patch that enables showing asterisk on password input
+sys-fs/cryptsetup:gcrypt - Use dev-libs/libgcrypt crypto backend
+sys-fs/cryptsetup:kernel - Use kernel crypto backend (mainly for embedded systems)
+sys-fs/cryptsetup:nettle - Use dev-libs/nettle crypto backend
+sys-fs/cryptsetup:openssl - Use dev-libs/openssl crypto backend
+sys-fs/cryptsetup:pwquality - Use dev-libs/libpwquality for password quality checking
+sys-fs/cryptsetup:reencrypt - Build cryptsetup-reencrypt
+sys-fs/cryptsetup:ssh - Build cryptsetup-ssh for experimental support of token via SSH-server
+sys-fs/cryptsetup:urandom - Use /dev/urandom instead of /dev/random

@@ -27,4 +27,6 @@ sys-apps/manfind 2018.05.27-r1 2021.05.14 9999: Searches for manual pages based 
 sys-apps/openrc 0.42.1-r2: OpenRC manages the services, startup and shutdown of a host
 sys-apps/portage 3.0.28: The package management and distribution system for Gentoo
 sys-apps/rcopy 2021.03.29 2021.05.14 9999: Relatively copies binaries along with their dependencies to a directory
+sys-apps/tlock 1.6: Terminal lock
+sys-fs/cryptsetup 2.4.1-r1: Tool to setup encrypted devices with dm-crypt
 x11-themes/geany-minimalism 0.1: A collection of colour schemes for Geany
