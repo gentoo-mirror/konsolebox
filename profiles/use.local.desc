@@ -73,3 +73,5 @@ sys-fs/cryptsetup:pwquality - Use dev-libs/libpwquality for password quality che
 sys-fs/cryptsetup:reencrypt - Build cryptsetup-reencrypt
 sys-fs/cryptsetup:ssh - Build cryptsetup-ssh for experimental support of token via SSH-server
 sys-fs/cryptsetup:urandom - Use /dev/urandom instead of /dev/random
+sys-libs/pam:asterisk-patch - Apply patch that modifies libpam_misc's behavior to display asterisks instead of nothing
+sys-libs/pam:berkdb - Build the pam_userdb module, that allows to authenticate users against a Berkeley DB file. Please note that enabling this USE flag will create a PAM module that links to the Berkeley DB (as provided by sys-libs/db) installed in /usr/lib and will thus not work for boot-critical services authentication.
