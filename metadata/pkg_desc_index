@@ -5,7 +5,7 @@ app-shells/bash-slotted 2.05b 3.0 3.0_p22 3.1 3.1_p23 3.2 3.2_p53 4.0 4.0_p44 4.
 app-text/wgetpaste 9999: Command-line interface to various pastebins
 dev-games/cegui 0.6.2b: Crazy Eddie's GUI System
 dev-ruby/digest-kangarootwelve 0.2.0-r3 0.3.1-r3 0.3.2: KangarooTwelve for Ruby
-dev-ruby/digest-xxhash 0.1.0-r3 0.1.2 0.2.0: An XXHash library that complies with Digest::Instance's functional design
+dev-ruby/digest-xxhash 0.1.0-r3 0.1.2 0.2.0 0.2.1: An XXHash library that complies with Digest::Instance's functional design
 dev-ruby/pry 0.14.0 9999: Pry is a powerful alternative to the standard IRB shell for Ruby
 dev-util/geany 1.29-r2 9999: GTK+ based fast and lightweight IDE
 dev-util/geany-json-prettifier 1.5: A JSON formatter prettifier, minifier and validator plugin for Geany editor
