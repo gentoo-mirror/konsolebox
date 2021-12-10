@@ -17,6 +17,7 @@ net-dns/dnscrypt-proxy 1.9999: A tool for securing communications between a clie
 net-dns/dnscrypt-proxy-multi 9999: Runs multiple instances of dnscrypt-proxy
 net-irc/znc 1.8.2: An advanced IRC Bouncer
 net-libs/libtorrent 0.13.6-r4: BitTorrent library written in C++ for *nix
+net-misc/openssh 8.6_p1-r2: Port of OpenBSD's free SSH release
 net-p2p/rtorrent 0.9.6-r2: BitTorrent Client using libtorrent
 net-vpn/tor 0.2.8.17-r3 0.3.1.10-r3: Anonymizing overlay network for TCP
 sys-apps/binfind 2018.05.27-r1 2021.05.14 9999: Searches files based on the value of /dev/null
