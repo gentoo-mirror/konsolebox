@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=>=app-shells/bash-4.0 sys-apps/coreutils sys-libs/glibc
 SLOT=0
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=4721f80019fdd5affda9c19bde7594b3
+_md5_=9d0a7d083243b59ba390a5baf6acee48

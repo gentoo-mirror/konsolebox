@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=app-shells/bash sys-apps/findutils
 SLOT=0
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=39fe73071b54b6abb0e9413e38009c5b
+_md5_=3a5d46c25ecfc92a5e81b40ba4f0a3cb
