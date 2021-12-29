@@ -13,24 +13,32 @@ app-shells/bash-slotted:mem-scramble - Build with custom malloc/free overwriting
 app-shells/bash-slotted:net - Enable /dev/tcp/host/port redirection
 app-shells/bash-slotted:vanilla - Only use release patches
 dev-games/cegui:devil - Build the DevIL based ImageCodec module
-dev-ruby/digest-kangarootwelve:target_armv6m - Build 'armv6m' target.
-dev-ruby/digest-kangarootwelve:target_armv7a - Build 'armv7a' target.
-dev-ruby/digest-kangarootwelve:target_armv7m - Build 'armv7m' target.
-dev-ruby/digest-kangarootwelve:target_armv8a - Build 'armv8a' target.
-dev-ruby/digest-kangarootwelve:target_asmx86-64 - Build 'asmx86-64' target.
-dev-ruby/digest-kangarootwelve:target_asmx86-64shld - Build 'asmx86-64shld' target.
-dev-ruby/digest-kangarootwelve:target_avr8 - Build 'avr8' target.
-dev-ruby/digest-kangarootwelve:target_bulldozer - Build 'bulldozer' target.
-dev-ruby/digest-kangarootwelve:target_compact - Build 'compact' target.
-dev-ruby/digest-kangarootwelve:target_generic32 - Build 'generic32' target.
-dev-ruby/digest-kangarootwelve:target_generic32lc - Build 'generic32lc' target.
-dev-ruby/digest-kangarootwelve:target_generic64 - Build 'generic64' target.
-dev-ruby/digest-kangarootwelve:target_generic64lc - Build 'generic64lc' target.
-dev-ruby/digest-kangarootwelve:target_haswell - Build 'haswell' target.
-dev-ruby/digest-kangarootwelve:target_nehalem - Build 'nehalem' target.
-dev-ruby/digest-kangarootwelve:target_reference - Build 'reference' target.
-dev-ruby/digest-kangarootwelve:target_reference32bits - Build 'reference32bits' target.
-dev-ruby/digest-kangarootwelve:target_sandybridge - Build 'sandybridge' target.
+dev-ruby/digest-kangarootwelve:target_armv6 - Build 'armv6' target (0.4.0 and newer versions only)
+dev-ruby/digest-kangarootwelve:target_armv6m - Build 'armv6m' target
+dev-ruby/digest-kangarootwelve:target_armv7a - Build 'armv7a' target
+dev-ruby/digest-kangarootwelve:target_armv7m - Build 'armv7m' target
+dev-ruby/digest-kangarootwelve:target_armv8a - Build 'armv8a' target
+dev-ruby/digest-kangarootwelve:target_asmx86-64 - Build 'asmx86-64' target (0.3.2 and older versions only)
+dev-ruby/digest-kangarootwelve:target_asmx86-64shld - Build 'asmx86-64shld' target (0.3.2 and older versions only)
+dev-ruby/digest-kangarootwelve:target_avr8 - Build 'avr8' target
+dev-ruby/digest-kangarootwelve:target_avx - Build 'avx' target (0.4.0 and newer versions only)
+dev-ruby/digest-kangarootwelve:target_avx2 - Build 'avx2' target (0.4.0 and newer versions only)
+dev-ruby/digest-kangarootwelve:target_avx2noasm - Build 'avx2noasm' target (0.4.0 and newer versions only)
+dev-ruby/digest-kangarootwelve:target_avx512 - Build 'avx512' target (0.4.0 and newer versions only)
+dev-ruby/digest-kangarootwelve:target_avx512noasm - Build 'avx512noasm' target (0.4.0 and newer versions only)
+dev-ruby/digest-kangarootwelve:target_bulldozer - Build 'bulldozer' target (0.3.2 and older versions only)
+dev-ruby/digest-kangarootwelve:target_compact - Build 'compact' target
+dev-ruby/digest-kangarootwelve:target_generic32 - Build 'generic32' target
+dev-ruby/digest-kangarootwelve:target_generic32lc - Build 'generic32lc' target
+dev-ruby/digest-kangarootwelve:target_generic64 - Build 'generic64' target
+dev-ruby/digest-kangarootwelve:target_generic64lc - Build 'generic64lc' target
+dev-ruby/digest-kangarootwelve:target_haswell - Build 'haswell' target (0.3.2 and older versions only)
+dev-ruby/digest-kangarootwelve:target_nehalem - Build 'nehalem' target (0.3.2 and older versions only)
+dev-ruby/digest-kangarootwelve:target_reference - Build 'reference' target
+dev-ruby/digest-kangarootwelve:target_reference32bits - Build 'reference32bits' target
+dev-ruby/digest-kangarootwelve:target_sandybridge - Build 'sandybridge' target (0.3.2 and older versions only)
+dev-ruby/digest-kangarootwelve:target_ssse3 - Build 'ssse3' target (0.4.0 and newer versions only)
+dev-ruby/digest-kangarootwelve:target_xop - Build 'xop' target (0.4.0 and newer versions only)
 dev-ruby/digest-kangarootwelve:test - Run tests. This may require FEATURES="test".
 dev-ruby/digest-xxhash:test - Run tests. This may require FEATURES="test".
 dev-util/geany:konsolebox - Use https://github.com/konsolebox/geany.git as source, or use patches from https://github.com/konsolebox/geany-patches
