@@ -26,7 +26,7 @@ sys-apps/jchroot 1.0 1.1 9999: A chroot with more isolation
 sys-apps/killtree 2021.03.16 2021.05.14 9999: Sends signals to process trees
 sys-apps/libfind 2021.03.16 2021.05.14 9999: Finds library files based on expressions
 sys-apps/manfind 2018.05.27-r1 2021.05.14 9999: Searches for manual pages based on
-sys-apps/portage 3.0.28: The package management and distribution system for Gentoo
+sys-apps/portage 3.0.28-r1: The package management and distribution system for Gentoo
 sys-apps/rcopy 2021.03.29 2021.05.14 9999: Relatively copies binaries along with their dependencies to a directory
 sys-apps/tlock 1.6: Terminal lock
 sys-fs/cryptsetup 2.4.1-r2: Tool to setup encrypted devices with dm-crypt
