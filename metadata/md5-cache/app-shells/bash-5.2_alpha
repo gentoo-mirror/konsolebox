@@ -1,15 +1,16 @@
 BDEPEND=virtual/yacc
 DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
-DEPEND=!static? ( >=sys-libs/ncurses-5.9-r3:0= readline? ( !bundled-readline? ( >=sys-libs/readline-6.2:0= ) ) ) static? ( >=sys-libs/ncurses-5.9-r3[static-libs(+)] readline? ( !bundled-readline? ( >=sys-libs/readline-6.2[static-libs(+)] ) ) ) nls? ( virtual/libintl ) !<sys-apps/portage-2.1.6.7_p1 !sys-libs/libtermcap-compat
+DEPEND=!static? ( >=sys-libs/ncurses-5.9-r3:0= readline? ( !bundled-readline? ( >=sys-libs/readline-0:0= ) ) ) static? ( >=sys-libs/ncurses-5.9-r3[static-libs(+)] readline? ( !bundled-readline? ( >=sys-libs/readline-0[static-libs(+)] ) ) ) nls? ( virtual/libintl ) !<sys-apps/portage-2.1.6.7_p1 !sys-libs/libtermcap-compat
 DESCRIPTION=The standard GNU Bourne again shell
 EAPI=7
 HOMEPAGE=http://tiswww.case.edu/php/chet/bash/bashtop.html
 INHERIT=bash-build
-IUSE=afs bundled-readline mem-scramble +net nls +readline static vanilla
+IUSE=afs bundled-readline mem-scramble +net nls +readline static vanilla bashlogger examples plugins
 KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86 ~x64-cygwin ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
-LICENSE=GPL-2
-RDEPEND=!static? ( >=sys-libs/ncurses-5.9-r3:0= readline? ( !bundled-readline? ( >=sys-libs/readline-6.2:0= ) ) ) !app-shells/bash:2.05b
-SLOT=2.05b
-SRC_URI=mirror://gnu/bash/bash-2.05b.tar.gz
+LICENSE=GPL-3
+RDEPEND=!static? ( >=sys-libs/ncurses-5.9-r3:0= readline? ( !bundled-readline? ( >=sys-libs/readline-0:0= ) ) )
+REQUIRED_USE=readline? ( bundled-readline )
+SLOT=0
+SRC_URI=mirror://gnu/bash/bash-5.2-alpha.tar.gz ftp://ftp.cwru.edu/pub/bash/bash-5.2-alpha.tar.gz
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	prefix	d04f14b297013ad1410550c0757f14f8	bash-build	f5f80fa0796add7c9de35e14937fd9c6
-_md5_=384326bffc4ab9c8ea401760f02ae3ac
+_md5_=e5a338343ae140d70f280ccbeac95c9c
