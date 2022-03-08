@@ -4,7 +4,7 @@ app-text/wgetpaste 9999: Command-line interface to various pastebins
 dev-games/cegui 0.6.2b: Crazy Eddie's GUI System
 dev-libs/xxhash 9999: Extremely fast non-cryptographic hash algorithm
 dev-ruby/digest-kangarootwelve 0.2.0-r4 0.3.1-r4 0.3.2-r1 0.4.2: KangarooTwelve for Ruby
-dev-ruby/digest-xxhash 0.1.0-r4 0.1.2-r1 0.2.0-r1 0.2.1-r1 0.2.2 0.2.3: An XXHash library that complies with Digest::Instance's functional design
+dev-ruby/digest-xxhash 0.1.0-r4 0.1.2-r1 0.2.0-r1 0.2.1-r1 0.2.2 0.2.3 0.2.4: An XXHash library that complies with Digest::Instance's functional design
 dev-ruby/nori 2.6.0_p20211008: XML to Hash translator
 dev-ruby/pry 0.14.0 0.14.1 9999: Pry is a powerful alternative to the standard IRB shell for Ruby
 dev-ruby/rake-compiler 1.1.1 1.1.7: Provide a standard and simplified way to build and package Ruby extensions
