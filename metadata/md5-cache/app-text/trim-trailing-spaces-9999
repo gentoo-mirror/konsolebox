@@ -1,12 +1,12 @@
 DEFINED_PHASES=install unpack
 DEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DESCRIPTION=Searches files based on the value of /dev/null
+DESCRIPTION=Removes trailing spaces in files
 EAPI=5
 HOMEPAGE=https://github.com/konsolebox/scripts
 INHERIT=git-r3
-LICENSE=public-domain
+LICENSE=MIT
 PROPERTIES=live
-RDEPEND=app-shells/bash !app-text/binfind sys-apps/findutils
+RDEPEND=app-shells/bash sys-apps/coreutils sys-apps/findutils sys-apps/grep sys-apps/sed
 SLOT=0
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=60082551ae6685fbb271fb7ff3cd0f92
+_md5_=84f950029a33a5e33f1109fcf9d52341
