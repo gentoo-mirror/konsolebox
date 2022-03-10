@@ -2,14 +2,14 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-DESCRIPTION="Searches files based on the value of $PATH"
+DESCRIPTION="Removes trailing spaces in files"
 HOMEPAGE="https://github.com/konsolebox/scripts"
-LICENSE="public-domain"
+LICENSE="MIT"
 
 SLOT=0
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86"
-RDEPEND="app-shells/bash !app-text/binfind sys-apps/findutils"
-COMMIT="982d58cbf1b817d81f1f084ceba683b42336e8aa"
+KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86 ~amd64-linux ~x86-linux"
+RDEPEND="app-shells/bash sys-apps/coreutils sys-apps/findutils sys-apps/grep sys-apps/sed"
+COMMIT="d1cfeb3e08f801d6c6b45babb36c693d2d753c3f"
 SRC_URI="https://raw.githubusercontent.com/konsolebox/scripts/${COMMIT}/${PN}.bash -> ${PN}-${PV}.bash"
 S=${WORKDIR}
 

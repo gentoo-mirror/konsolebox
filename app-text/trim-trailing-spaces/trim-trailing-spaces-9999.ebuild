@@ -5,12 +5,12 @@ EAPI=5
 
 inherit git-r3
 
-DESCRIPTION="Searches files based on the value of $PATH"
+DESCRIPTION="Removes trailing spaces in files"
 HOMEPAGE="https://github.com/konsolebox/scripts"
-LICENSE="public-domain"
+LICENSE="MIT"
 
 SLOT=0
-RDEPEND="app-shells/bash !app-text/binfind sys-apps/findutils"
+RDEPEND="app-shells/bash sys-apps/coreutils sys-apps/findutils sys-apps/grep sys-apps/sed"
 EGIT_REPO_URI="https://github.com/konsolebox/scripts.git"
 EGIT_BRANCH=master
 
