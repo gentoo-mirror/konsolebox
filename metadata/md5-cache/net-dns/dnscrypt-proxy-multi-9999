@@ -9,5 +9,5 @@ LICENSE=public-domain
 PROPERTIES=live
 RDEPEND=>=net-dns/dnscrypt-proxy-1.7.0 <net-dns/dnscrypt-proxy-2 >=dev-lang/ruby-2:= chroot? ( app-portage/portage-utils sys-apps/findutils sys-apps/rcopy sys-process/psmisc virtual/awk )
 SLOT=0
-_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
 _md5_=9ba16687526f992fcb31d1dfaad6575f
