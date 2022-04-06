@@ -30,7 +30,7 @@ sys-apps/manfind 2018.05.27-r1 2021.05.14 9999: Searches for manual pages based 
 sys-apps/portage 3.0.28-r2: The package management and distribution system for Gentoo
 sys-apps/rcopy 2021.03.29 2021.05.14 9999: Relatively copies binaries along with their dependencies to a directory
 sys-apps/tlock 1.6: Terminal lock
-sys-apps/xn 2022.04.06 9999: Renames files and directories based on their 160-bit KangarooTwelve checksum
+sys-apps/xn 2022.04.07 9999: Renames files and directories based on their 160-bit KangarooTwelve checksum
 sys-fs/cryptsetup 2.4.1-r2: Tool to setup encrypted devices with dm-crypt
 sys-libs/pam 1.5.2-r1: Linux-PAM (Pluggable Authentication Modules)
 x11-themes/geany-minimalism 0.2: A collection of colour schemes for Geany
