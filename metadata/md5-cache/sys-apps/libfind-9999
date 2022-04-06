@@ -1,12 +1,12 @@
-DEFINED_PHASES=install unpack
+DEFINED_PHASES=install prepare unpack
 DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Finds library files based on expressions
 EAPI=5
 HOMEPAGE=https://github.com/konsolebox/scripts
-INHERIT=git-r3
+INHERIT=konsolebox-scripts
 LICENSE=public-domain
 PROPERTIES=live
 RDEPEND=app-shells/bash sys-apps/findutils
 SLOT=0
-_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=6ddea4af0725955a0fce9d9c85c0d6c0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	konsolebox-scripts	14cc27af562dcf48e7e123f57ddfcf42
+_md5_=bc236b98c7b7c34e806286dc1c133237

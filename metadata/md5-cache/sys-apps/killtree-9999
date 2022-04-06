@@ -1,12 +1,12 @@
-DEFINED_PHASES=install unpack
+DEFINED_PHASES=install prepare unpack
 DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Sends signals to process trees
 EAPI=5
 HOMEPAGE=https://github.com/konsolebox/scripts
-INHERIT=git-r3
+INHERIT=konsolebox-scripts
 LICENSE=public-domain
 PROPERTIES=live
 RDEPEND=app-shells/bash sys-process/procps
 SLOT=0
-_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=f617f2970f038810154f64b928e8679d
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	konsolebox-scripts	14cc27af562dcf48e7e123f57ddfcf42
+_md5_=67644f1c34399e5a0e903f3de421fe62

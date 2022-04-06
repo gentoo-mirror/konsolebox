@@ -4,7 +4,7 @@ app-text/trim-trailing-spaces 2022.03.10 9999: Removes trailing spaces in files
 app-text/wgetpaste 9999: Command-line interface to various pastebins
 dev-games/cegui 0.6.2b: Crazy Eddie's GUI System
 dev-libs/xxhash 9999: Extremely fast non-cryptographic hash algorithm
-dev-ruby/digest-kangarootwelve 0.2.0-r4 0.3.1-r4 0.3.2-r1 0.4.2: KangarooTwelve for Ruby
+dev-ruby/digest-kangarootwelve 0.2.0-r4 0.3.1-r4 0.3.2-r1 0.4.2 0.4.4: KangarooTwelve for Ruby
 dev-ruby/digest-xxhash 0.1.0-r4 0.1.2-r1 0.2.0-r1 0.2.1-r1 0.2.2 0.2.3 0.2.4: An XXHash library that complies with Digest::Instance's functional design
 dev-ruby/nori 2.6.0_p20211008: XML to Hash translator
 dev-ruby/pry 0.14.0 0.14.1 9999: Pry is a powerful alternative to the standard IRB shell for Ruby
@@ -22,14 +22,15 @@ net-libs/libtorrent 0.13.6-r4: BitTorrent library written in C++ for *nix
 net-misc/openssh 8.6_p1-r2: Port of OpenBSD's free SSH release
 net-p2p/rtorrent 0.9.6-r2: BitTorrent Client using libtorrent
 net-vpn/tor 0.2.8.17-r3 0.3.1.10-r3: Anonymizing overlay network for TCP
-sys-apps/binfind 2018.05.27-r1 2021.05.14 9999: Searches files based on the value of /dev/null
+sys-apps/binfind 2018.05.27-r1 2021.05.14 9999: Searches files based on the value of $PATH
 sys-apps/jchroot 1.0 1.1 9999: A chroot with more isolation
 sys-apps/killtree 2021.03.16 2021.05.14 9999: Sends signals to process trees
 sys-apps/libfind 2021.03.16 2021.05.14 9999: Finds library files based on expressions
-sys-apps/manfind 2018.05.27-r1 2021.05.14 9999: Searches for manual pages based on
+sys-apps/manfind 2018.05.27-r1 2021.05.14 9999: Searches for manual pages based on $MANPATH
 sys-apps/portage 3.0.28-r2: The package management and distribution system for Gentoo
 sys-apps/rcopy 2021.03.29 2021.05.14 9999: Relatively copies binaries along with their dependencies to a directory
 sys-apps/tlock 1.6: Terminal lock
+sys-apps/xn 2022.04.06 9999: Renames files and directories based on their 160-bit KangarooTwelve checksum
 sys-fs/cryptsetup 2.4.1-r2: Tool to setup encrypted devices with dm-crypt
 sys-libs/pam 1.5.2-r1: Linux-PAM (Pluggable Authentication Modules)
 x11-themes/geany-minimalism 0.2: A collection of colour schemes for Geany

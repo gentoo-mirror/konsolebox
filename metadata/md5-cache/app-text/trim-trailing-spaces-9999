@@ -1,12 +1,12 @@
-DEFINED_PHASES=install unpack
+DEFINED_PHASES=install prepare unpack
 DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Removes trailing spaces in files
 EAPI=5
 HOMEPAGE=https://github.com/konsolebox/scripts
-INHERIT=git-r3
+INHERIT=konsolebox-scripts
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=app-shells/bash sys-apps/coreutils sys-apps/findutils sys-apps/grep sys-apps/sed
 SLOT=0
-_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=84f950029a33a5e33f1109fcf9d52341
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	konsolebox-scripts	14cc27af562dcf48e7e123f57ddfcf42
+_md5_=5f24d43863f4e3f6f3d71ade9194e0b0

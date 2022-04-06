@@ -1,12 +1,12 @@
 DEFINED_PHASES=install prepare unpack
 DEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DESCRIPTION=Relatively copies binaries along with their dependencies to a directory
+DESCRIPTION=Renames files and directories based on their 160-bit KangarooTwelve checksum
 EAPI=5
 HOMEPAGE=https://github.com/konsolebox/scripts
 INHERIT=konsolebox-scripts
-LICENSE=public-domain
+LICENSE=MIT
 PROPERTIES=live
-RDEPEND=>=app-shells/bash-4.0 sys-apps/coreutils sys-libs/glibc
+RDEPEND=dev-lang/ruby dev-ruby/digest-kangarootwelve
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	konsolebox-scripts	14cc27af562dcf48e7e123f57ddfcf42
-_md5_=327995754550450ac23653f07ac4a2a0
+_md5_=3d3c864b39af19883a646fdbcbd65596
