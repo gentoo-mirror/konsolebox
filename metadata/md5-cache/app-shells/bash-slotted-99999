@@ -1,4 +1,4 @@
-BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.4:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl] virtual/yacc
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl] virtual/yacc
 DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
 DEPEND=!static? ( >=sys-libs/ncurses-5.9-r3:0= readline? ( !bundled-readline? ( >=sys-libs/readline-0:0= ) ) ) static? ( >=sys-libs/ncurses-5.9-r3[static-libs(+)] readline? ( !bundled-readline? ( >=sys-libs/readline-0[static-libs(+)] ) ) ) nls? ( virtual/libintl ) !<sys-apps/portage-2.1.6.7_p1 !sys-libs/libtermcap-compat
 DESCRIPTION=The standard GNU Bourne again shell
@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=!static? ( >=sys-libs/ncurses-5.9-r3:0= readline? ( !bundled-readline? ( >=sys-libs/readline-0:0= ) ) ) !app-shells/bash:99999
 REQUIRED_USE=readline? ( bundled-readline )
 SLOT=99999
-_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	prefix	eab3c99d77fe00506c109c8a736186f7	gnuconfig	262062cef0ba4f22b397193da514a350	libtool	241a8f577b9781a42a7421e53448a44e	autotools	a7813cfab8862ac10bcf3e01efb3f5c4	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	bash-build	f5f80fa0796add7c9de35e14937fd9c6
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	prefix	eab3c99d77fe00506c109c8a736186f7	gnuconfig	262062cef0ba4f22b397193da514a350	libtool	241a8f577b9781a42a7421e53448a44e	autotools	9724194ab651ce63fd9bc06e4e1410b4	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	bash-build	f5f80fa0796add7c9de35e14937fd9c6
 _md5_=d1e3bb603b01dded7c2b27fb59ccc6ae
