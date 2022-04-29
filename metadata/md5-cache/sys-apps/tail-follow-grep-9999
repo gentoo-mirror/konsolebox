@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare unpack
+DEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=Basically a wrapper for 'tail -f' and 'grep --line-buffered'
+EAPI=5
+HOMEPAGE=https://github.com/konsolebox/scripts
+INHERIT=konsolebox-scripts
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=app-shells/bash sys-apps/coreutils sys-apps/grep sys-fs/inotify-tools
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	konsolebox-scripts	14cc27af562dcf48e7e123f57ddfcf42
+_md5_=45cb1d35d129100752457b03ad45700d
