@@ -13,8 +13,9 @@
 
 # @ECLASS-VARIABLE: KONSOLEBOX_SCRIPTS_GIT_BRANCH
 # @DESCRIPTION:
-# Git branch to checkout when PV == 9999.  Default is master.
-: ${KONSOLEBOX_SCRIPTS_GIT_BRANCH=master}
+# Git branch to checkout when PV == 9999*.  Default is 'testing' if
+# PV == 99999, or 'master' otherwise.
+: ${KONSOLEBOX_SCRIPTS_GIT_BRANCH=}
 
 # @ECLASS-VARIABLE: KONSOLEBOX_SCRIPTS_COMMIT
 # @DEFAULT_UNSET
@@ -29,10 +30,12 @@
 
 [[ ${EAPI} == [5678] ]] || die "EAPI needs to be 5, 6, 7 or 8."
 
-if [[ ${PV} == 9999 ]]; then
+if [[ ${PV} == 9999* ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/konsolebox/scripts.git"
 	EGIT_BRANCH=${KONSOLEBOX_SCRIPTS_GIT_BRANCH}
+	[[ -z ${EGIT_BRANCH} && ${PV} == 99999 ]] && EGIT_BRANCH=testing
+	[[ -z ${EGIT_BRANCH} ]] && EGIT_BRANCH=master
 else
 	SRC_URI="https://raw.githubusercontent.com/konsolebox/scripts/${KONSOLEBOX_SCRIPTS_COMMIT}/${PN}.${KONSOLEBOX_SCRIPTS_EXT} -> ${PN}-${PV}.${KONSOLEBOX_SCRIPTS_EXT}"
 	S=${WORKDIR}
@@ -43,12 +46,12 @@ SLOT=${SLOT-0}
 
 # @FUNCTION: konsolebox-scripts_src_unpack()
 # @DESCRIPTION:
-# Implements src_prepere
+# Implements src_unpack
 konsolebox-scripts_src_unpack() {
-	if [[ ${PV} != 9999 ]]; then
-		cp -v -- "${DISTDIR}/${A}" "${WORKDIR}/${PN}" || die
-	else
+	if [[ ${PV} == 9999* ]]; then
 		git-r3_src_unpack
+	else
+		cp -v -- "${DISTDIR}/${A}" "${WORKDIR}/${PN}" || die
 	fi
 }
 
@@ -56,8 +59,13 @@ konsolebox-scripts_src_unpack() {
 # @DESCRIPTION:
 # Implements src_prepere
 konsolebox-scripts_src_prepare() {
-	if [[ ${PV} == 9999 ]]; then
-		mv -- "${PN}.${KONSOLEBOX_SCRIPTS_EXT}" "${PN}" || die
+	if [[ ${PV} == 9999* ]]; then
+		cp -v -- "${PN}.${KONSOLEBOX_SCRIPTS_EXT}" "${PN}" || die
+	fi
+
+	if has nounset ${IUSE//+} && use nounset; then
+		[[ ${KONSOLEBOX_SCRIPTS_EXT} == bash ]] || die "Nounset is only valid in bash scripts."
+		sed -ie '1s|.*|&\n\n\[\[ BASH_VERSINFO -ge 5 \]\] \&\& set -u|' "${PN}" || die
 	fi
 }
 
