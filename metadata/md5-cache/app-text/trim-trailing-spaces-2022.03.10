@@ -8,5 +8,5 @@ LICENSE=MIT
 RDEPEND=app-shells/bash sys-apps/coreutils sys-apps/findutils sys-apps/grep sys-apps/sed
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/d1cfeb3e08f801d6c6b45babb36c693d2d753c3f/trim-trailing-spaces.bash -> trim-trailing-spaces-2022.03.10.bash
-_eclasses_=konsolebox-scripts	14cc27af562dcf48e7e123f57ddfcf42
+_eclasses_=konsolebox-scripts	ba7f7aa665a2429605467ee7bc5f8da4
 _md5_=ba3cc5816132a0358339e144fbbeb6b1

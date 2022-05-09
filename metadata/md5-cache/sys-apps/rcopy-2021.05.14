@@ -8,5 +8,5 @@ LICENSE=public-domain
 RDEPEND=>=app-shells/bash-4.0 sys-apps/coreutils sys-libs/glibc
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/ca37e4b050389f96518245176c76674665157b47/rcopy.bash -> rcopy-2021.05.14.bash
-_eclasses_=konsolebox-scripts	14cc27af562dcf48e7e123f57ddfcf42
+_eclasses_=konsolebox-scripts	ba7f7aa665a2429605467ee7bc5f8da4
 _md5_=cd74835524dc989fbd1ba22d0ba638de

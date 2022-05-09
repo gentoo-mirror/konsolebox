@@ -12,6 +12,7 @@ app-shells/bash-slotted:bundled-readline - Use bundled readline
 app-shells/bash-slotted:mem-scramble - Build with custom malloc/free overwriting allocated/freed memory
 app-shells/bash-slotted:net - Enable /dev/tcp/host/port redirection
 app-shells/bash-slotted:vanilla - Only use release patches
+app-text/trim-trailing-spaces:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
 dev-games/cegui:devil - Build the DevIL based ImageCodec module
 dev-ruby/digest-kangarootwelve:target_armv6 - Build 'armv6' target (0.4.0 and newer versions only)
 dev-ruby/digest-kangarootwelve:target_armv6m - Build 'armv6m' target
@@ -70,6 +71,10 @@ net-vpn/tor:tor-hardening - Compile tor with hardening on vanilla compilers/link
 net-vpn/tor:transparent-proxy - Enable transparent proxying
 net-vpn/tor:web - Build a tor2web service instead of a tor client
 net-vpn/tor:zstd - Use app-arch/zstd for compression
+sys-apps/binfind:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
+sys-apps/killtree:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
+sys-apps/libfind:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
+sys-apps/manfind:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
 sys-apps/portage:apidoc - Build html API documentation with sphinx-apidoc.
 sys-apps/portage:gentoo-dev - Enable features required for Gentoo ebuild development.
 sys-apps/portage:ipc - Use inter-process communication between portage and running ebuilds.
@@ -77,6 +82,8 @@ sys-apps/portage:native-extensions - Compiles native "C" extensions (speedups, i
 sys-apps/portage:rsync-verify - Enable full-tree cryptographic verification of Gentoo repository rsync checkouts using app-portage/gemato.
 sys-apps/portage:unofficial - Include unofficial features. See #777393 and #782655.
 sys-apps/portage:xattr - Preserve extended attributes (filesystem-stored metadata) when installing files. Usually only required for hardened systems.
+sys-apps/rcopy:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
+sys-apps/tail-follow-grep:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
 sys-fs/cryptsetup:argon2 - Enable password hashing algorithm from app-crypt/argon2
 sys-fs/cryptsetup:asterisk-patch - Apply patch that enables showing asterisk on password input
 sys-fs/cryptsetup:gcrypt - Use dev-libs/libgcrypt crypto backend

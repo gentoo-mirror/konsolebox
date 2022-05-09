@@ -8,5 +8,5 @@ LICENSE=public-domain
 RDEPEND=app-shells/bash !app-text/binfind sys-apps/findutils
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/982d58cbf1b817d81f1f084ceba683b42336e8aa/binfind.bash -> binfind-2018.05.27.bash
-_eclasses_=konsolebox-scripts	14cc27af562dcf48e7e123f57ddfcf42
+_eclasses_=konsolebox-scripts	ba7f7aa665a2429605467ee7bc5f8da4
 _md5_=14163b2b48fc5b5842fa567ca123b7df
