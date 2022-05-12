@@ -61,8 +61,6 @@ net-misc/openssh:scp - Enable scp command with known security problems. See bug 
 net-misc/openssh:security-key - Include builtin U2F/FIDO support
 net-misc/openssh:ssl - Enable additional crypto algorithms via OpenSSL
 net-misc/openssh:xmss - Enable XMSS post-quantum authentication algorithm
-net-p2p/rtorrent:chroot - Add chroot support using sys-apps/jchroot
-net-p2p/rtorrent:daemon - Uses app-misc/screen to daemonize this application
 net-vpn/tor:bufferevents - Use libevent's buffered IO implementation (unstable, buggy)
 net-vpn/tor:chroot - Add chroot support with /etc/conf.d/tor-chroot and /etc/init.d/tor-chroot
 net-vpn/tor:scrypt - Use app-crypt/libscrypt for the scrypt algorithm
