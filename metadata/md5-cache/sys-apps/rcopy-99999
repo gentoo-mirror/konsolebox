@@ -1,7 +1,7 @@
 DEFINED_PHASES=install prepare unpack
 DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Relatively copies binaries along with their dependencies to a directory
-EAPI=5
+EAPI=6
 HOMEPAGE=https://github.com/konsolebox/scripts
 INHERIT=konsolebox-scripts
 IUSE=nounset
@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=>=app-shells/bash-4.0 sys-apps/coreutils sys-libs/glibc
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	konsolebox-scripts	ba7f7aa665a2429605467ee7bc5f8da4
-_md5_=267ef2f72c863e5e450c619dd0374b2a
+_md5_=3acf1eae72c4c379c8b202f08c102da7

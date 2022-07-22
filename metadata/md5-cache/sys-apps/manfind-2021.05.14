@@ -1,6 +1,6 @@
 DEFINED_PHASES=install prepare unpack
 DESCRIPTION=Searches for manual pages based on $MANPATH
-EAPI=5
+EAPI=6
 HOMEPAGE=https://github.com/konsolebox/scripts
 INHERIT=konsolebox-scripts
 KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86
@@ -9,4 +9,4 @@ RDEPEND=app-shells/bash sys-apps/findutils
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/abf76516f3429bee21580da67dc45f84e530da3a/manfind.bash -> manfind-2021.05.14.bash
 _eclasses_=konsolebox-scripts	ba7f7aa665a2429605467ee7bc5f8da4
-_md5_=4ce9b1a8fb193d87b4bfbc25838b4839
+_md5_=e64f7a196549a468d4aef9d2fa652df9

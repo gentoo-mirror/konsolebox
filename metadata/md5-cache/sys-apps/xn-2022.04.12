@@ -1,6 +1,6 @@
 DEFINED_PHASES=install prepare unpack
 DESCRIPTION=Renames files and directories based on their 160-bit KangarooTwelve checksum
-EAPI=5
+EAPI=6
 HOMEPAGE=https://github.com/konsolebox/scripts
 INHERIT=konsolebox-scripts
 KEYWORDS=~amd64 ~arm ~arm64 ~hppa ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
@@ -9,4 +9,4 @@ RDEPEND=dev-lang/ruby dev-ruby/digest-kangarootwelve
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/bcbcc00d467f1e895bb9c9f86a58e5402cab3185/xn.rb -> xn-2022.04.12.rb
 _eclasses_=konsolebox-scripts	ba7f7aa665a2429605467ee7bc5f8da4
-_md5_=ec7ee1f3d6c30bc5292c09d736567ad1
+_md5_=970e889b26ba3806ed1f01e0c944a27d

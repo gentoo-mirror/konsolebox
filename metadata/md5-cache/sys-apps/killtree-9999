@@ -1,7 +1,7 @@
 DEFINED_PHASES=install prepare unpack
 DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Sends signals to process trees
-EAPI=5
+EAPI=6
 HOMEPAGE=https://github.com/konsolebox/scripts
 INHERIT=konsolebox-scripts
 IUSE=nounset
@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=app-shells/bash sys-process/procps
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	konsolebox-scripts	ba7f7aa665a2429605467ee7bc5f8da4
-_md5_=68444cf5352ed07a7cc88615c5f9f4b6
+_md5_=798cb2357b6bc0c5570569ed17364abd

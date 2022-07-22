@@ -42,6 +42,8 @@ dev-ruby/digest-kangarootwelve:target_ssse3 - Build 'ssse3' target (0.4.0 and ne
 dev-ruby/digest-kangarootwelve:target_xop - Build 'xop' target (0.4.0 and newer versions only)
 dev-ruby/digest-kangarootwelve:test - Run tests. This may require FEATURES="test".
 dev-ruby/digest-xxhash:test - Run tests. This may require FEATURES="test".
+dev-ruby/rubygems:konsolebox - Use konsolebox's defaults
+dev-ruby/rubygems:server - Install support for the rubygems server
 dev-util/geany:konsolebox - Use https://github.com/konsolebox/geany.git as source, or use patches from https://github.com/konsolebox/geany-patches
 dev-util/geany:vte - Enable Terminal support (x11-libs/vte)
 games-arcade/smc:music - Download and install the music files

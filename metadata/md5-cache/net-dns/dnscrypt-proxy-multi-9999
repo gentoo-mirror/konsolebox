@@ -1,7 +1,7 @@
 DEFINED_PHASES=install postinst unpack
 DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Runs multiple instances of dnscrypt-proxy
-EAPI=5
+EAPI=6
 HOMEPAGE=https://github.com/konsolebox/scripts
 INHERIT=git-r3
 IUSE=chroot
@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=>=net-dns/dnscrypt-proxy-1.7.0 <net-dns/dnscrypt-proxy-2 >=dev-lang/ruby-2:= chroot? ( app-portage/portage-utils sys-apps/findutils sys-apps/rcopy sys-process/psmisc virtual/awk )
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=9ba16687526f992fcb31d1dfaad6575f
+_md5_=1f0c254cb103ca5a99bd3520202d7ec6

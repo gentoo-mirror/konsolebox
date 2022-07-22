@@ -1,7 +1,7 @@
 DEFINED_PHASES=install prepare unpack
 DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Searches for manual pages based on $MANPATH
-EAPI=5
+EAPI=6
 HOMEPAGE=https://github.com/konsolebox/scripts
 INHERIT=konsolebox-scripts
 IUSE=nounset
@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=app-shells/bash sys-apps/findutils
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	konsolebox-scripts	ba7f7aa665a2429605467ee7bc5f8da4
-_md5_=ee133774c8512baab9a2e1ab0da85fc3
+_md5_=bdbf31205854ad0b70b4a69926d67ed6
