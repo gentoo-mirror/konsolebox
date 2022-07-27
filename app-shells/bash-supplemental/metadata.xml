@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>konsolebox@gmail.com</email>
+		<name>konsolebox</name>
+	</maintainer>
+	<longdescription>
+		Package for Bash that allows supplemental installation of other
+		versions besides the one installed for the system
+	</longdescription>
+	<use>
+		<flag name="bundled-readline">Use bundled readline</flag>
+		<flag name="mem-scramble">
+			Build with custom malloc/free overwriting allocated/freed memory
+		</flag>
+		<flag name="net">Enable /dev/tcp/host/port redirection</flag>
+		<flag name="vanilla">Only use release patches</flag>
+	</use>
+	<upstream>
+		<remote-id type="cpe">cpe:/a:gnu:bash</remote-id>
+	</upstream>
+</pkgmetadata>
