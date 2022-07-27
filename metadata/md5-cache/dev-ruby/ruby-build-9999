@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=Installs virtually any version of Ruby, from source
+EAPI=6
+HOMEPAGE=https://github.com/rbenv/ruby-build
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=4309e95a2cc2681d35c74e4265fe8174

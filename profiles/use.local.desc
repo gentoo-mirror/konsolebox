@@ -8,10 +8,10 @@ app-shells/bash:mem-scramble - Build with custom malloc/free overwriting allocat
 app-shells/bash:net - Enable /dev/tcp/host/port redirection
 app-shells/bash:plugins - Add support for loading builtins at runtime via 'enable'
 app-shells/bash:vanilla - Only use release patches
-app-shells/bash-slotted:bundled-readline - Use bundled readline
-app-shells/bash-slotted:mem-scramble - Build with custom malloc/free overwriting allocated/freed memory
-app-shells/bash-slotted:net - Enable /dev/tcp/host/port redirection
-app-shells/bash-slotted:vanilla - Only use release patches
+app-shells/bash-supplemental:bundled-readline - Use bundled readline
+app-shells/bash-supplemental:mem-scramble - Build with custom malloc/free overwriting allocated/freed memory
+app-shells/bash-supplemental:net - Enable /dev/tcp/host/port redirection
+app-shells/bash-supplemental:vanilla - Only use release patches
 app-text/trim-trailing-spaces:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
 dev-games/cegui:devil - Build the DevIL based ImageCodec module
 dev-ruby/digest-kangarootwelve:target_armv6 - Build 'armv6' target (0.4.0 and newer versions only)
