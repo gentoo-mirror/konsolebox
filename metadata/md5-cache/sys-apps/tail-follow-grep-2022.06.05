@@ -8,5 +8,5 @@ LICENSE=MIT
 RDEPEND=app-shells/bash sys-apps/coreutils sys-apps/grep
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/5a65621f6692f80aea0846bdc16de4f531754b41/tail-follow-grep.bash -> tail-follow-grep-2022.06.05.bash
-_eclasses_=konsolebox-scripts	ba7f7aa665a2429605467ee7bc5f8da4
+_eclasses_=konsolebox-scripts	fba0741066375741ef55481ebdd32ce7
 _md5_=12aa4d1c31f0c2351bd2413d72c693f8

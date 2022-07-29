@@ -8,5 +8,5 @@ LICENSE=public-domain
 RDEPEND=app-shells/bash sys-apps/findutils
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/e9e50e3df25cee675d9ea83cadf3ff32983f072f/libfind.bash -> libfind-2022.05.10.bash
-_eclasses_=konsolebox-scripts	ba7f7aa665a2429605467ee7bc5f8da4
+_eclasses_=konsolebox-scripts	fba0741066375741ef55481ebdd32ce7
 _md5_=ad44d15ff4e0704dc988ccbd33570dfa
