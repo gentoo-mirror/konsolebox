@@ -105,11 +105,8 @@ if [[ ${PV} == *9999* ]]; then
 	else
 		die "Invalid *9999* version"
 	fi
-
-	REQUIRED_USE="readline? ( bundled-readline )"
 elif [[ ${PV} == *_alpha* || ${PV} == *_beta* || ${PV} == *_rc* ]]; then
 	SRC_URI="mirror://gnu/bash/bash-${MY_PV}.tar.gz ftp://ftp.cwru.edu/pub/bash/bash-${MY_PV}.tar.gz"
-	REQUIRED_USE="readline? ( bundled-readline )"
 	S=${WORKDIR}/bash-${MY_PV}
 else
 	[[ -z ${_BASH_BUILD_READLINE_VER} ]] && die "Readline version not provided."
@@ -117,6 +114,11 @@ else
 	[[ ${PV} == *_p* ]] && PLEVEL=${PV##*_p}
 	[[ PLEVEL -gt 0 ]] && _bash-build_get_patches && SRC_URI+=" ${__A0[*]}"
 	S=${WORKDIR}/bash-${MY_PV}
+fi
+
+if [[ ${SLOT} != 0 || ${PV} == *9999* || ${PV} == *_alpha* || ${PV} == *_beta* ||
+		${PV} == *_rc* ]]; then
+	REQUIRED_USE="readline? ( bundled-readline )"
 fi
 
 RDEPEND="
@@ -265,7 +267,7 @@ bash-build_src_configure() {
 # Implements src_compile
 bash-build_src_compile() {
 	emake || die "emake failed"
-	[[ ${SLOT} == 0 ]] && use plugins && emake -C examples/loadables all other
+	[[ ${SLOT} == 0 ]] && use plugins && emake -C examples/loadables all others
 }
 
 # @FUNCTION: bash-build_src_compile
@@ -298,9 +300,8 @@ bash-build_src_install() {
 
 		if use plugins; then
 			exeinto "/usr/$(get_libdir)/bash"
-			shopt -q nullglob || die "Nullglob has to be enabled here."
 			local loadables=(examples/loadables/*.o)
-			[[ ${#loadables[@]} -gt 0 ]] && doexe "${loadables[@]%.o}"
+			[[ ${#loadables[@]} -gt 0 && -e ${loadables} ]] && doexe "${loadables[@]%.o}"
 			insinto /usr/include/bash-plugins
 			doins *.h builtins/*.h include/*.h lib/{glob/glob.h,tilde/tilde.h}
 		fi
