@@ -3,14 +3,13 @@
 
 EAPI=7
 
-_BASH_BUILD_INSTALL_TYPE=supplemental
+_BASH_BUILD_INSTALL_TYPE=system
+_BASH_BUILD_READLINE_VER=8.2
 _BASH_BUILD_PATCHES=(
-	"${FILESDIR}"/bash-4.2-execute-job-control.patch #383237
-	"${FILESDIR}"/bash-4.2-parallel-build.patch
-	"${FILESDIR}"/bash-4.2-no-readline.patch
-	"${FILESDIR}"/bash-4.2-read-retry.patch #447810
-	"${FILESDIR}"/bash-4.2-speed-up-read-N.patch
+	"${FILESDIR}"/bash-5.0-syslog-history-extern.patch
 )
+_BASH_BUILD_PATCH_OPTIONS=(-p0)
+_BASH_BUILD_REQUIRE_YACC=true
 
 inherit bash-build
 
