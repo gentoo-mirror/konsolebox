@@ -37,7 +37,7 @@ sys-apps/pw 0_p20220428 0_p20220509 9999: Pipe Watch: monitor recent lines of ou
 sys-apps/rcopy 2022.05.11 9999 99999: Relatively copies binaries along with their dependencies to a directory
 sys-apps/tail-follow-grep 2022.06.05 9999 99999: Basically a wrapper for 'tail -f' and 'grep --line-buffered'
 sys-apps/tlock 1.6: Terminal lock
-sys-apps/xn 2022.04.12 9999 99999: Renames files and directories based on their 160-bit KangarooTwelve checksum
+sys-apps/xn 2022.10.30 9999 99999: Renames files and directories based on their 160-bit KangarooTwelve checksum
 sys-fs/cryptsetup 2.4.1-r2: Tool to setup encrypted devices with dm-crypt
 sys-libs/pam 1.5.2-r1: Linux-PAM (Pluggable Authentication Modules)
 x11-themes/geany-minimalism 0.2: A collection of colour schemes for Geany
