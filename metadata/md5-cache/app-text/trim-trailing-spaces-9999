@@ -9,5 +9,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=app-shells/bash sys-apps/coreutils sys-apps/findutils sys-apps/grep sys-apps/sed
 SLOT=0
-_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	konsolebox-scripts	fba0741066375741ef55481ebdd32ce7
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	konsolebox-scripts	fba0741066375741ef55481ebdd32ce7
 _md5_=fa39d5aa0a476764bd44aa5546ad0a06
