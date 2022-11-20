@@ -11,5 +11,5 @@ LICENSE=OFL-1.1
 RESTRICT=binchecks strip test
 SLOT=0
 SRC_URI=https://github.com/JulietaUla/Montserrat/archive/v6.002.zip -> montserrat-6.002.zip
-_eclasses_=font	9cdfddf092c05c7c4efd70cc30dea046
+_eclasses_=font	5e03cb70902daa9ff8967c61130f0f60
 _md5_=5e2a053dbc6fdea56e9ac8f5598089ef
