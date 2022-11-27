@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install prepare unpack
+DEFINED_PHASES=install unpack
 DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Pipe Watch: monitor recent lines of output from pipe
 EAPI=6
@@ -8,4 +8,4 @@ LICENSE=BSD-2
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157
-_md5_=baa872a676a18deca26e5ee1b252edd8
+_md5_=4a1e2c65399acce8fcae56d1d21b0102

@@ -33,7 +33,7 @@ sys-apps/killtree 2022.05.12 9999 99999: Sends signals to process trees
 sys-apps/libfind 2022.05.10 9999 99999: Finds library files based on expressions
 sys-apps/manfind 2021.05.14 9999 99999: Searches for manual pages based on $MANPATH
 sys-apps/portage 3.0.28-r2 3.0.30-r2: The package management and distribution system for Gentoo
-sys-apps/pw 0_p20220428 0_p20220509 9999: Pipe Watch: monitor recent lines of output from pipe
+sys-apps/pw 2 9999: Pipe Watch: monitor recent lines of output from pipe
 sys-apps/rcopy 2022.05.11 9999 99999: Relatively copies binaries along with their dependencies to a directory
 sys-apps/tail-follow-grep 2022.06.05 9999 99999: Basically a wrapper for 'tail -f' and 'grep --line-buffered'
 sys-apps/tlock 1.6: Terminal lock
