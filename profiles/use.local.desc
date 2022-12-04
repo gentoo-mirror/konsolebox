@@ -55,7 +55,6 @@ net-dns/dnscrypt-proxy-multi:chroot - Add chroot support with /etc/init.d/dnscry
 net-irc/znc:zlib - Enable mod_deflate-like gzip support for znc's web interface using sys-libs/zlib.
 net-misc/openssh:X509 - Adds support for X.509 certificate authentication
 net-misc/openssh:asterisk-patch - Apply display asterisks on no-echo input patch
-net-misc/openssh:bindist - Disable EC/RC5 algorithms in OpenSSL for patent reasons.
 net-misc/openssh:hpn - Enable high performance ssh
 net-misc/openssh:ldns - Use LDNS for DNSSEC/SSHFP validation.
 net-misc/openssh:livecd - Enable root password logins for live-cd environment.
@@ -86,6 +85,7 @@ sys-apps/rcopy:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
 sys-apps/tail-follow-grep:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
 sys-fs/cryptsetup:argon2 - Enable password hashing algorithm from app-crypt/argon2
 sys-fs/cryptsetup:asterisk-patch - Apply patch that enables showing asterisk on password input
+sys-fs/cryptsetup:fips - Enable FIPS mode restrictions
 sys-fs/cryptsetup:gcrypt - Use dev-libs/libgcrypt crypto backend
 sys-fs/cryptsetup:kernel - Use kernel crypto backend (mainly for embedded systems)
 sys-fs/cryptsetup:nettle - Use dev-libs/nettle crypto backend
