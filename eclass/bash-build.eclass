@@ -12,23 +12,27 @@
 # @DESCRIPTION:
 # This eclass contains unified code for building bash.
 
-# @ECLASS-VARIABLE: _BASH_BUILD_INSTALL_TYPE
+# @ECLASS_VARIABLE: _BASH_BUILD_INSTALL_TYPE
 # @DESCRIPTION:
 # Indicates whether the installation type is 'system' or 'supplemental'
 # @REQUIRED
 
-# @ECLASS-VARIABLE: _BASH_BUILD_READLINE_VER
+# @ECLASS_VARIABLE: _BASH_BUILD_READLINE_VER
 # @DESCRIPTION:
 # Declares the required version of Readline.
 # This doesn't have to be specified in *9999* ebuilds.
 
-# @ECLASS-VARIABLE: _BASH_BUILD_PATCHES
+# @ECLASS_VARIABLE: _BASH_BUILD_PATCHES
 # @DESCRIPTION:
 # Specifies the patches
 
-# @ECLASS-VARIABLE: _BASH_BUILD_PATCH_OPTIONS
+# @ECLASS_VARIABLE: _BASH_BUILD_PATCH_OPTIONS
 # @DESCRIPTION:
 # Specifies the options for epatch
+
+# @ECLASS_VARIABLE: _BASH_BUILD_USE_ARCHIVED_PATCHES
+# @DESCRIPTION:
+# Whether to use patches from github.com/konsolebox/gentoo-bash-patches
 
 [[ ${EAPI} == 7 ]] || die "EAPI needs to be 7."
 
@@ -95,6 +99,7 @@ _bash-build_get_patches() {
 
 PLEVEL=0
 MAY_USE_SYSTEM_READLINE=false
+PATCH_COMMIT=693bbda26e14280fa11cfdbe8930f63355c00cc3
 
 if [[ ${PV} == *9999* ]]; then
 	EGIT_REPO_URI="https://git.savannah.gnu.org/git/bash.git"
@@ -116,6 +121,9 @@ else
 	[[ PLEVEL -gt 0 ]] && _bash-build_get_patches && SRC_URI+=" ${__A0[*]}"
 	S=${WORKDIR}/bash-${MY_PV}
 fi
+
+[[ ${#_BASH_BUILD_PATCHES[@]} -gt 0 && ${_BASH_BUILD_USE_ARCHIVED_PATCHES} == true ]] && \
+	SRC_URI+=" https://github.com/konsolebox/gentoo-bash-patches/archive/${PATCH_COMMIT}.tar.gz -> gentoo-bash-patches-${PATCH_COMMIT}.tar.gz"
 
 if [[ ${MAY_USE_SYSTEM_READLINE} == true ]]; then
 	[[ -z ${_BASH_BUILD_READLINE_VER-} ]] && die "Readline version needs to be provided."
@@ -145,7 +153,7 @@ DEPEND="
 	!sys-libs/libtermcap-compat
 "
 
-BDEPEND="virtual/yacc"
+BDEPEND="|| ( app-alternatives/yacc virtual/yacc )"
 
 [[ ${SLOT} != 0 && ${PN} != bash ]] && RDEPEND+="!app-shells/bash:${SLOT}"
 
@@ -174,6 +182,10 @@ bash-build_src_unpack() {
 	else
 		unpack "bash-${MY_PV}.tar.gz"
 	fi
+
+	[[ ${#_BASH_BUILD_PATCHES[@]} -gt 0 && ${_BASH_BUILD_USE_ARCHIVED_PATCHES} == true ]] && \
+		! use vanilla && \
+			unpack "gentoo-bash-patches-${PATCH_COMMIT}.tar.gz"
 }
 
 # @FUNCTION: bash-build_src_prepare
@@ -198,7 +210,10 @@ bash-build_src_prepare() {
 	touch -r . doc/*
 
 	if [[ ${#_BASH_BUILD_PATCHES[@]} -gt 0 ]] && ! use vanilla; then
-		eapply "${_BASH_BUILD_PATCH_OPTIONS[@]}" "${_BASH_BUILD_PATCHES[@]}"
+		local prefix=${FILESDIR%/}/
+		[[ ${_BASH_BUILD_USE_ARCHIVED_PATCHES} == true ]] && \
+			prefix=${WORKDIR}/gentoo-bash-patches-${PATCH_COMMIT}/patches/
+		eapply "${_BASH_BUILD_PATCH_OPTIONS[@]}" "${_BASH_BUILD_PATCHES[@]/#/${prefix}}"
 	fi
 
 	eapply_user
@@ -276,7 +291,7 @@ bash-build_src_compile() {
 	[[ ${SLOT} == 0 ]] && use plugins && emake -C examples/loadables all others
 }
 
-# @FUNCTION: bash-build_src_compile
+# @FUNCTION: bash-build_src_install
 # @DESCRIPTION:
 # Implements src_install
 bash-build_src_install() {
