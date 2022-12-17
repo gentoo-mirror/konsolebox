@@ -8,5 +8,5 @@ LICENSE=public-domain
 RDEPEND=app-shells/bash sys-process/procps
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/8daee668aa31d90b390e559b68cb9692043d70a9/killtree.bash -> killtree-2022.05.12.bash
-_eclasses_=konsolebox-scripts	fba0741066375741ef55481ebdd32ce7
+_eclasses_=konsolebox-scripts	05a4a7c98d56a59d780d05828f3582ab
 _md5_=00b6f63882c603dcfef94bbb0fe93826

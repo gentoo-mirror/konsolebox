@@ -8,5 +8,5 @@ LICENSE=MIT
 RDEPEND=dev-lang/ruby dev-ruby/digest-kangarootwelve
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/75989f90d588ec4714a8dc93cbcc73c935ed9662/xn.rb -> xn-2022.10.30.rb
-_eclasses_=konsolebox-scripts	fba0741066375741ef55481ebdd32ce7
+_eclasses_=konsolebox-scripts	05a4a7c98d56a59d780d05828f3582ab
 _md5_=add224ea39b97360e50783757e3bf485
