@@ -2,6 +2,26 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-emulation/wine-d3d9:capi - Enable ISDN support via CAPI
+app-emulation/wine-d3d9:custom-cflags - Bypass strip-flags; use at your own peril
+app-emulation/wine-d3d9:d3d9 - Apply highly experimental patches for Gallium Nine support. This patch may break some applications.
+app-emulation/wine-d3d9:dos - Pull in games-emulation/dosbox to run DOS applications
+app-emulation/wine-d3d9:gecko - Add support for the Gecko engine when using iexplore
+app-emulation/wine-d3d9:gssapi - Use GSSAPI (Kerberos SSP support)
+app-emulation/wine-d3d9:gstreamer - Use media-libs/gstreamer to provide DirectShow functionality;
+app-emulation/wine-d3d9:mono - Add support for .NET using Wine's Mono add-on
+app-emulation/wine-d3d9:netapi - Use libnetapi from net-fs/samba to support Windows networks in netapi32.dll
+app-emulation/wine-d3d9:opencl - Enable OpenCL support
+app-emulation/wine-d3d9:osmesa - Add support for OpenGL in bitmaps using libOSMesa
+app-emulation/wine-d3d9:pcap - Support packet capture software (e.g. wireshark)
+app-emulation/wine-d3d9:perl - Install helpers written in perl (winedump/winemaker)
+app-emulation/wine-d3d9:realtime - Pull in sys-auth/rtkit for low-latency pulseaudio support
+app-emulation/wine-d3d9:run-exes - Use Wine to open and run .EXE and .MSI files
+app-emulation/wine-d3d9:samba - Add support for NTLM auth. See: https://web.archive.org/web/20160108123008/http://wiki.winehq.org:80/NtlmAuthSetupGuide and https://web.archive.org/web/20150906013746/http://wiki.winehq.org/NtlmSigningAndSealing (these pages are not currently in the updated WineHQ Wiki).
+app-emulation/wine-d3d9:sdl - Add support for gamepad detection using SDL
+app-emulation/wine-d3d9:udev - Use virtual/libudev to provide plug and play support
+app-emulation/wine-d3d9:vkd3d - Use app-emulation/vkd3d to provide Direct3D 12 support
+app-emulation/wine-d3d9:vulkan - Enable Vulkan drivers
 app-shells/bash:bashlogger - Log ALL commands typed into bash; should ONLY be used in restricted environments such as honeypots
 app-shells/bash:bundled-readline - Use bundled readline
 app-shells/bash:mem-scramble - Build with custom malloc/free overwriting allocated/freed memory
