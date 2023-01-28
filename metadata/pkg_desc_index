@@ -36,7 +36,7 @@ sys-apps/jchroot 1.1 9999: A chroot with more isolation
 sys-apps/killtree 2022.05.12 9999 99999: Sends signals to process trees
 sys-apps/libfind 2022.05.10 9999 99999: Finds library files based on expressions
 sys-apps/manfind 2021.05.14 9999 99999: Searches for manual pages based on $MANPATH
-sys-apps/portage 3.0.28-r2 3.0.30-r2 3.0.38.1-r4 3.0.39-r3: The package management and distribution system for Gentoo
+sys-apps/portage 3.0.43-r1 3.0.44: The package management and distribution system for Gentoo
 sys-apps/pw 2 9999: Pipe Watch: monitor recent lines of output from pipe
 sys-apps/rcopy 2022.05.11 9999 99999: Relatively copies binaries along with their dependencies to a directory
 sys-apps/tail-follow-grep 2022.06.05 9999 99999: Basically a wrapper for 'tail -f' and 'grep --line-buffered'
