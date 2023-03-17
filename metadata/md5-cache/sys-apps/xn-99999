@@ -8,5 +8,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=dev-lang/ruby dev-ruby/digest-kangarootwelve
 SLOT=0
-_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	konsolebox-scripts	05a4a7c98d56a59d780d05828f3582ab
+_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a	konsolebox-scripts	05a4a7c98d56a59d780d05828f3582ab
 _md5_=ede2bcff2ff2dd9d4b314c56a031f961
