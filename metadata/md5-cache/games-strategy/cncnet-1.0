@@ -9,5 +9,5 @@ RDEPEND=|| ( app-emulation/wine-d3d9 app-emulation/wine-staging[abi_x86_32] app-
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://downloads.cncnet.org/cncnet-1.0-1-any.pkg.tar.xz
-_eclasses_=xdg-utils	ac0e315a3688929e34ac75b139e7349a
+_eclasses_=xdg-utils	baea6080dd821f5562d715887954c9d3
 _md5_=9e78cb11851848a410454db1e4d789c5

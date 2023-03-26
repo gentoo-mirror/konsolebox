@@ -9,5 +9,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=app-shells/bash sys-apps/coreutils sys-apps/grep sys-fs/inotify-tools
 SLOT=0
-_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a	konsolebox-scripts	05a4a7c98d56a59d780d05828f3582ab
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676	konsolebox-scripts	05a4a7c98d56a59d780d05828f3582ab
 _md5_=0573a80ffda74d03bf78a12c25377fc0
