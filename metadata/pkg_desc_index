@@ -15,7 +15,6 @@ dev-ruby/net-ping 2.0.8: A collection of classes that provide different ways to 
 dev-ruby/nori 2.6.0_p20211008: XML to Hash translator
 dev-ruby/pry 0.14.0 0.14.1 9999: Pry is a powerful alternative to the standard IRB shell for Ruby
 dev-ruby/rack 2.2.3: A modular Ruby webserver interface
-dev-ruby/rake-compiler 1.2.0: Provide a standard and simplified way to build and package Ruby extensions
 dev-ruby/rbenv 9999: Seamlessly manage your app's Ruby environment
 dev-ruby/ruby-build 9999: Installs virtually any version of Ruby, from source
 dev-ruby/rubygems 3.3.8: Centralized Ruby extension management system
