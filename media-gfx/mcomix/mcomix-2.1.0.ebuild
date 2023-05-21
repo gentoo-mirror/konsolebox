@@ -4,15 +4,15 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3_{9..11} )
-inherit desktop git-r3 python-r1 xdg
+inherit desktop python-r1 xdg
 
 DESCRIPTION="GTK image viewer for comic book archives"
 HOMEPAGE="https://sourceforge.net/projects/mcomix/"
-EGIT_REPO_URI="https://git.code.sf.net/p/mcomix/git"
+SRC_URI="mirror://sourceforge/mcomix/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 IUSE="comicthumb thumbnailer"
 
 DEPEND="${PYTHON_DEPS}"
@@ -27,14 +27,10 @@ BDEPEND="sys-devel/gettext
 REQUIRED_USE="${PYTHON_REQUIRED_USE}
 	thumbnailer? ( comicthumb )"
 
+S=${WORKDIR}/${P}
+
 src_prepare() {
 	default
-
-	for file in mcomix/messages/*/LC_MESSAGES/*.po; do
-		msgfmt "${file}" -o "${file%.po}.mo" || die
-		rm "${file}" || die
-	done
-
 	use comicthumb && eapply "${FILESDIR}/comicthumb-mcomix3-f8679cf.patch"
 	gunzip mcomix.1.gz || die
 }

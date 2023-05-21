@@ -1,9 +1,9 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-PYTHON_COMPAT=(python3_{8,9,10})
+PYTHON_COMPAT=( python3_{9..11} )
 inherit desktop python-r1 xdg
 
 DESCRIPTION="GTK image viewer for comic book archives"
@@ -27,16 +27,12 @@ BDEPEND="sys-devel/gettext
 REQUIRED_USE="${PYTHON_REQUIRED_USE}
 	thumbnailer? ( comicthumb )"
 
+PATCHES=("${FILESDIR}/mcomix-2.1.0-repeated-format-fix.patch")
+
 S=${WORKDIR}/${P}
 
 src_prepare() {
 	default
-
-	for file in mcomix/messages/*/LC_MESSAGES/*po; do
-		msgfmt ${file} -o ${file/po/mo} || die
-		rm ${file} || die
-	done
-
 	use comicthumb && eapply "${FILESDIR}/comicthumb-mcomix3-f8679cf.patch"
 	gunzip mcomix.1.gz || die
 }
