@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -10,7 +10,7 @@ RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 RUBY_FAKEGEM_EXTRADOC="README.md CHANGELOG.md"
 RUBY_FAKEGEM_GEMSPEC=${PN}.gemspec
 
-inherit ruby-fakegem
+inherit ruby-fakegem-compat
 
 if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
@@ -18,7 +18,6 @@ if [[ ${PV} == *9999* ]]; then
 	EGIT_BRANCH=master
 	EGIT_CHECKOUT_DIR=${WORKDIR}/all/${P}
 	SRC_URI=
-	KEYWORDS=
 else
 	SRC_URI="https://github.com/pry/pry/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64 ~arm ~arm64 ~hppa ~loong ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86"
