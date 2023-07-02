@@ -12,7 +12,7 @@ dev-ruby/digest-kangarootwelve 0.2.0-r5 0.3.2-r3 0.4.6-r1 0.4.7: KangarooTwelve 
 dev-ruby/digest-xxhash 0.1.2-r2 0.2.5-r1 0.2.6: xxhash for Ruby
 dev-ruby/net-ping 2.0.8: A collection of classes that provide different ways to ping computers
 dev-ruby/nori 2.6.0_p20220930: XML to Hash translator
-dev-ruby/pry 0.14.0 0.14.1 0.14.2 9999: Pry is a powerful alternative to the standard IRB shell for Ruby
+dev-ruby/pry 0.14.2 9999: Pry is a powerful alternative to the standard IRB shell for Ruby
 dev-ruby/rbenv 9999: Seamlessly manage your app's Ruby environment
 dev-ruby/ruby-build 9999: Installs virtually any version of Ruby, from source
 dev-ruby/rubygems 3.3.26 3.4.6: Centralized Ruby extension management system
@@ -32,7 +32,7 @@ sys-apps/jchroot 1.1 9999: A chroot with more isolation
 sys-apps/killtree 2022.05.12 9999 99999: Sends signals to process trees
 sys-apps/libfind 2022.05.10 9999 99999: Finds library files based on expressions
 sys-apps/manfind 2021.05.14 9999 99999: Searches for manual pages based on $MANPATH
-sys-apps/portage 3.0.43-r1 3.0.44: The package management and distribution system for Gentoo
+sys-apps/portage 3.0.43-r1 3.0.44 3.0.49: The package management and distribution system for Gentoo
 sys-apps/pw 2 9999: Pipe Watch: monitor recent lines of output from pipe
 sys-apps/rcopy 2022.05.11 9999 99999: Relatively copies binaries along with their dependencies to a directory
 sys-apps/tail-follow-grep 2022.06.05 9999 99999: Basically a wrapper for 'tail -f' and 'grep --line-buffered'
