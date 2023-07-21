@@ -14,5 +14,5 @@ REQUIRED_USE=|| ( ruby_targets_ruby30 ruby_targets_ruby31 )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/rubygems/rubygems/archive/v3.3.26.tar.gz -> rubygems-3.3.26.tar.gz
-_eclasses_=use-ruby-mask	0cbe5616a82c7356257fe71e8fdea0c7	ruby-utils	69e7140043885477733c347fee4a981a	ruby-utils-compat	d8415686189ec74d02704ea34ff3bde9	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	ruby-ng	e7004f981e452d70374b865ccff407aa	ruby-ng-compat	e6d2fea9e13b497476082f62b71438c4	prefix	eab3c99d77fe00506c109c8a736186f7
+_eclasses_=use-ruby-mask	0cbe5616a82c7356257fe71e8fdea0c7	ruby-utils	69e7140043885477733c347fee4a981a	ruby-utils-compat	d8415686189ec74d02704ea34ff3bde9	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	67b3e3d8916d690003f645486ed86aac	ruby-ng	e7004f981e452d70374b865ccff407aa	ruby-ng-compat	e6d2fea9e13b497476082f62b71438c4	prefix	eab3c99d77fe00506c109c8a736186f7
 _md5_=a14c7261a29868bf9510c56893f8ce0a
