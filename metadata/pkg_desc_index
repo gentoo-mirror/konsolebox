@@ -8,8 +8,8 @@ app-text/trim-trailing-spaces 2022.05.12 9999 99999: Removes trailing spaces in 
 app-text/wgetpaste 9999: Command-line interface to various pastebins
 dev-games/cegui 0.6.2b: Crazy Eddie's GUI System
 dev-libs/xxhash 9999: Extremely fast non-cryptographic hash algorithm
-dev-ruby/digest-kangarootwelve 0.2.0-r5 0.3.2-r3 0.4.6-r1 0.4.7: KangarooTwelve for Ruby
-dev-ruby/digest-xxhash 0.1.2-r2 0.2.5-r1 0.2.6: xxhash for Ruby
+dev-ruby/digest-kangarootwelve 0.2.0-r6 0.3.2-r4 0.4.6-r2 0.4.7-r1: KangarooTwelve for Ruby
+dev-ruby/digest-xxhash 0.1.2-r3 0.2.5-r2 0.2.6-r1: xxhash for Ruby
 dev-ruby/net-ping 2.0.8: A collection of classes that provide different ways to ping computers
 dev-ruby/nori 2.6.0_p20220930: XML to Hash translator
 dev-ruby/pry 0.14.2 9999: Pry is a powerful alternative to the standard IRB shell for Ruby
