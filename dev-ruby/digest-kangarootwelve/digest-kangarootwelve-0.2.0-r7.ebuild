@@ -10,8 +10,8 @@ RUBY_FAKEGEM_EXTRADOC="README.md"
 
 inherit ruby-fakegem-compat toolchain-funcs
 
-DESCRIPTION="xxhash for Ruby"
-HOMEPAGE="https://github.com/konsolebox/digest-xxhash-ruby"
+DESCRIPTION="KangarooTwelve for Ruby"
+HOMEPAGE="https://github.com/konsolebox/digest-kangarootwelve-ruby"
 LICENSE=MIT
 
 SLOT=0
@@ -20,28 +20,23 @@ KEYWORDS="~amd64 ~arm ~arm64 ~hppa ~loong ~ppc ~ppc64 ~riscv ~sparc ~x86 ~amd64-
 ruby_add_bdepend "test? ( >=dev-ruby/minitest-5.8 )"
 
 each_ruby_prepare() {
-	sed -i '/spec\.files.*\"ext\".*/d' digest-xxhash.gemspec || \
+	sed -i '/spec\.files.*\"ext\".*/d' digest-kangarootwelve.gemspec || \
 		die "Failed to exclude ext files from spec.files."
-
-	if use test; then
-		printf '%s\n' > Rakefile.test "require 'rake/testtask'" \
-			"Rake::TestTask.new{ |t| t.test_files = FileList['test/test.rb']; t.verbose = true }"
-	fi
 }
 
 each_ruby_configure() {
-	CC=$(tc-getCC) ${RUBY} -C ext/digest/xxhash extconf.rb --with-cflags="${CFLAGS}" \
-			--with-ldflags="${LDFLAGS}" || die
+	${RUBY} -C ext/digest/kangarootwelve extconf.rb --with-cflags="${CFLAGS}" \
+			--with-ldflags="${LDFLAGS}" --enable-verbose-mode || die
 }
 
 each_ruby_compile() {
-	emake V=1 -C ext/digest/xxhash
-	mkdir -p lib/digest/xxhash || die
-	cp ext/digest/xxhash/xxhash.so lib/digest/ || die
+	emake CC="$(tc-getCC)" V=1 -C ext/digest/kangarootwelve
+	mkdir -p lib/digest/kangarootwelve || die
+	cp ext/digest/kangarootwelve/kangarootwelve.so lib/digest/ || die
 
 	if use doc; then
-		rdoc --quiet --ri --output=ri ext/digest/xxhash/ext.c \
-				lib/digest/xxhash/version.rb || die
+		rdoc --quiet --ri --output=ri ext/digest/kangarootwelve/ext.c \
+				lib/digest/kangarootwelve/version.rb || die
 	fi
 }
 
@@ -56,5 +51,5 @@ each_ruby_install() {
 }
 
 each_ruby_test() {
-	${RUBY} -S rake -f Rakefile.test test || die "Test failed."
+	${RUBY} -S rake -f "${FILESDIR}/Rakefile.test" test || die "Test failed."
 }
