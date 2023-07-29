@@ -1,8 +1,8 @@
 DEFINED_PHASES=compile configure install prepare setup test unpack
 DEPEND=ruby_targets_ruby30? ( test? ( >=dev-ruby/minitest-5.8[ruby_targets_ruby30(-)] ) ) ruby_targets_ruby31? ( test? ( >=dev-ruby/minitest-5.8[ruby_targets_ruby31(-)] ) ) ruby_targets_ruby32? ( test? ( >=dev-ruby/minitest-5.8[ruby_targets_ruby32(-)] ) ) ruby_targets_ruby30? ( dev-lang/ruby:3.0 ) ruby_targets_ruby31? ( dev-lang/ruby:3.1 ) ruby_targets_ruby32? ( dev-lang/ruby:3.2 ) ruby_targets_ruby30? ( doc? ( dev-ruby/rdoc[ruby_targets_ruby30(-)] ) ) ruby_targets_ruby31? ( doc? ( dev-ruby/rdoc[ruby_targets_ruby31(-)] ) ) ruby_targets_ruby32? ( doc? ( dev-ruby/rdoc[ruby_targets_ruby32(-)] ) ) ruby_targets_ruby30? ( test? ( dev-ruby/rake[ruby_targets_ruby30(-)] ) ) ruby_targets_ruby31? ( test? ( dev-ruby/rake[ruby_targets_ruby31(-)] ) ) ruby_targets_ruby32? ( test? ( dev-ruby/rake[ruby_targets_ruby32(-)] ) ) ruby_targets_ruby30? ( virtual/rubygems[ruby_targets_ruby30(-)] ) ruby_targets_ruby31? ( virtual/rubygems[ruby_targets_ruby31(-)] ) ruby_targets_ruby32? ( virtual/rubygems[ruby_targets_ruby32(-)] ) test? ( ruby_targets_ruby30? ( virtual/rubygems[ruby_targets_ruby30(-)] ) ruby_targets_ruby31? ( virtual/rubygems[ruby_targets_ruby31(-)] ) ruby_targets_ruby32? ( virtual/rubygems[ruby_targets_ruby32(-)] ) )
-DESCRIPTION=KangarooTwelve for Ruby
+DESCRIPTION=xxhash for Ruby
 EAPI=6
-HOMEPAGE=https://github.com/konsolebox/digest-kangarootwelve-ruby
+HOMEPAGE=https://github.com/konsolebox/digest-xxhash-ruby
 INHERIT=ruby-fakegem-compat toolchain-funcs
 IUSE=ruby_targets_ruby30 ruby_targets_ruby31 ruby_targets_ruby32 doc test test
 KEYWORDS=~amd64 ~arm ~arm64 ~hppa ~loong ~ppc ~ppc64 ~riscv ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x64-solaris
@@ -11,6 +11,6 @@ RDEPEND=ruby_targets_ruby30? ( dev-lang/ruby:3.0 ) ruby_targets_ruby31? ( dev-la
 REQUIRED_USE=|| ( ruby_targets_ruby30 ruby_targets_ruby31 ruby_targets_ruby32 )
 RESTRICT=!test? ( test ) !test? ( test )
 SLOT=0
-SRC_URI=https://rubygems.org/gems/digest-kangarootwelve-0.2.0.gem
+SRC_URI=https://rubygems.org/gems/digest-xxhash-0.2.6.gem
 _eclasses_=use-ruby-mask	0cbe5616a82c7356257fe71e8fdea0c7	ruby-utils	69e7140043885477733c347fee4a981a	ruby-utils-compat	d8415686189ec74d02704ea34ff3bde9	eqawarn	c9847c43b3253a276ae2eabddedab3d7	toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	ruby-ng	e7004f981e452d70374b865ccff407aa	ruby-fakegem	5e527fb26c6deaeeda655b48a2017909	ruby-fakegem-compat	6148a2883fb570b153f0ea394f7433f1
-_md5_=1303039a233a14e252784257cbb39c6f
+_md5_=54dec7936e80b26c09bb240ad962fefd

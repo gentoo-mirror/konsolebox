@@ -36,6 +36,7 @@ app-shells/bash-supplemental:pgo - Optimize the build using Profile Guided Optim
 app-shells/bash-supplemental:vanilla - Only use release patches
 app-text/trim-trailing-spaces:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
 dev-games/cegui:devil - Build the DevIL based ImageCodec module
+dev-lang/ruby:systemtap - Enable SystemTAP/DTrace tracing
 dev-ruby/digest-kangarootwelve:target_armv6 - Build 'armv6' target (0.4.0 and newer versions only)
 dev-ruby/digest-kangarootwelve:target_armv6m - Build 'armv6m' target
 dev-ruby/digest-kangarootwelve:target_armv7a - Build 'armv7a' target
