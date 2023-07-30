@@ -12,5 +12,5 @@ RDEPEND=!static? ( >=sys-libs/ncurses-5.9-r3:0= ) !app-shells/bash:5.0
 REQUIRED_USE=readline? ( bundled-readline )
 SLOT=5.0
 SRC_URI=mirror://gnu/bash/bash-5.0.tar.gz https://github.com/konsolebox/gentoo-bash-patches/archive/693bbda26e14280fa11cfdbe8930f63355c00cc3.tar.gz -> gentoo-bash-patches-693bbda26e14280fa11cfdbe8930f63355c00cc3.tar.gz
-_eclasses_=toolchain-funcs	e356bb9aa600fd4b0dc539d33513bba7	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	prefix	eab3c99d77fe00506c109c8a736186f7	bash-build	b0048c90373ac7d82ebd394130f52b8e
+_eclasses_=toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	prefix	eab3c99d77fe00506c109c8a736186f7	bash-build	b0048c90373ac7d82ebd394130f52b8e
 _md5_=7d58e3445bb1467615f71dab43695437
