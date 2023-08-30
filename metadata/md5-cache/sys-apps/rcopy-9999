@@ -1,4 +1,4 @@
-DEFINED_PHASES=install prepare unpack
+DEFINED_PHASES=compile install unpack
 DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Relatively copies binaries along with their dependencies to a directory
 EAPI=6
@@ -9,5 +9,5 @@ LICENSE=public-domain
 PROPERTIES=live
 RDEPEND=>=app-shells/bash-4.0 sys-apps/coreutils sys-libs/glibc
 SLOT=0
-_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	konsolebox-scripts	05a4a7c98d56a59d780d05828f3582ab
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	call	67fc2058019c814a44b9f9c5e9f3ff04	konsolebox-scripts	05c07b9019ef3521f58c150d81c9f683
 _md5_=3acf1eae72c4c379c8b202f08c102da7
