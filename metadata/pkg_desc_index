@@ -18,7 +18,7 @@ dev-ruby/pry 0.14.2 9999: Pry is a powerful alternative to the standard IRB shel
 dev-ruby/rbenv 9999: Seamlessly manage your app's Ruby environment
 dev-ruby/ruby-build 9999: Installs virtually any version of Ruby, from source
 dev-ruby/rubygems 3.3.26-r2 3.4.6-r2 3.4.15-r1 3.4.19: Centralized Ruby extension management system
-dev-util/geany 1.29-r2 9999: GTK+ based fast and lightweight IDE
+dev-util/geany 1.29_p20161128 1.29_p20230915 9999: GTK+ based fast and lightweight IDE
 dev-util/geany-json-prettifier 1.5: A JSON formatter prettifier, minifier and validator plugin for Geany editor
 games-arcade/smc 1.9: Secret Maryo Chronicles
 games-strategy/cncnet 1.0: CnCNet

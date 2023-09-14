@@ -8,7 +8,8 @@ IUSE=doc konsolebox +vte
 KEYWORDS=~amd64 ~arm ~x86
 LICENSE=GPL-2+ HPND
 RDEPEND=>=dev-libs/glib-2.28:2 >=x11-libs/gtk+-2.24:2 vte? ( x11-libs/vte:0 )
+REQUIRED_USE=konsolebox
 SLOT=0
 SRC_URI=http://download.geany.org/geany-1.29.tar.bz2 https://github.com/konsolebox/geany-patches/releases/download/1.29-konsolebox-20161128/geany-1.29-konsolebox-20161128-patch.tar.gz
 _eclasses_=strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	xdg-utils	baea6080dd821f5562d715887954c9d3
-_md5_=5562440348160376b2e720a132ef35b1
+_md5_=103ca2b1b319c5c910527413cc36836f

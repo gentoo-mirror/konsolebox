@@ -15,4 +15,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/rubygems/rubygems/archive/v3.4.15.tar.gz -> rubygems-3.4.15.tar.gz
 _eclasses_=use-ruby-mask	0cbe5616a82c7356257fe71e8fdea0c7	ruby-utils	69e7140043885477733c347fee4a981a	ruby-utils-compat	d8415686189ec74d02704ea34ff3bde9	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	ruby-ng	e7004f981e452d70374b865ccff407aa	ruby-ng-compat	e6d2fea9e13b497476082f62b71438c4	prefix	eab3c99d77fe00506c109c8a736186f7
-_md5_=3f5f50943298d1bfe4b4a1a04bb7a1eb
+_md5_=26c78c5b1189947ec35559df0cce752f
