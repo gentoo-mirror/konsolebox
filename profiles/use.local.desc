@@ -109,6 +109,17 @@ sys-apps/tail-follow-grep:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u'
 sys-apps/xn:ruby_single_target_ruby30 - Use Ruby 3.0 as runtime
 sys-apps/xn:ruby_single_target_ruby31 - Use Ruby 3.1 as runtime
 sys-apps/xn:ruby_single_target_ruby32 - Use Ruby 3.2 as runtime
+sys-devel/gdb:apply-remote-g-packet-reply-too-long-fix - Apply remote-g-packet-reply-too-long-fix.patch
+sys-devel/gdb:cet - Enable Intel Control-flow Enforcement Technology.
+sys-devel/gdb:debuginfod - Enable debuginfod support via dev-libs/elfutils libdebuginfod
+sys-devel/gdb:lzma - Support lzma compression in ELF debug info
+sys-devel/gdb:multitarget - Support all known targets in one gdb binary
+sys-devel/gdb:python - Enable support for the new internal scripting language, as well as extended pretty printers
+sys-devel/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
+sys-devel/gdb:sim - Build gdb's simulators for various hardware platforms. See https://sourceware.org/gdb/wiki/Sim.
+sys-devel/gdb:source-highlight - Enable listing highlighting via dev-util/source-highlight
+sys-devel/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
+sys-devel/gdb:xxhash - Use dev-libs/xxhash to speed up internal hashing.
 sys-fs/cryptsetup:argon2 - Enable password hashing algorithm from app-crypt/argon2
 sys-fs/cryptsetup:asterisk-patch - Apply patch that enables showing asterisk on password input
 sys-fs/cryptsetup:fips - Enable FIPS mode restrictions

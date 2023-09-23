@@ -18,7 +18,7 @@ dev-ruby/pry 0.14.2 9999: Pry is a powerful alternative to the standard IRB shel
 dev-ruby/rbenv 9999: Seamlessly manage your app's Ruby environment
 dev-ruby/ruby-build 9999: Installs virtually any version of Ruby, from source
 dev-ruby/rubygems 3.3.26-r2 3.4.6-r2 3.4.15-r1 3.4.19: Centralized Ruby extension management system
-dev-util/geany 1.29_p20161128 1.29_p20230915 9999: GTK+ based fast and lightweight IDE
+dev-util/geany 1.29_p20161128 1.29_p20230915 1.29_p20230923 9999: GTK+ based fast and lightweight IDE
 dev-util/geany-json-prettifier 1.5: A JSON formatter prettifier, minifier and validator plugin for Geany editor
 games-arcade/smc 1.9: Secret Maryo Chronicles
 games-strategy/cncnet 1.0: CnCNet
@@ -40,8 +40,9 @@ sys-apps/rcopy 2022.05.11 9999 99999: Relatively copies binaries along with thei
 sys-apps/tail-follow-grep 2022.06.05 9999 99999: Basically a wrapper for 'tail -f' and 'grep --line-buffered'
 sys-apps/tlock 1.6: Terminal lock
 sys-apps/xn 2023.08.04 2023.08.26 9999 99999: Renames files and directories based on their 160-bit KangarooTwelve checksum
+sys-devel/gdb 13.2-r2: GNU debugger
 sys-fs/cryptsetup 2.4.1-r2 2.4.3-r2: Tool to setup encrypted devices with dm-crypt
-sys-libs/pam 1.5.2-r3: Linux-PAM (Pluggable Authentication Modules)
+sys-libs/pam 1.5.2-r3 1.5.3: Linux-PAM (Pluggable Authentication Modules)
 x11-libs/gnome-pty-helper 0.40.2-r1: GNOME Setuid helper for opening ptys
 x11-libs/vte 0.28.2-r209: GNOME terminal widget
 x11-themes/geany-minimalism 0.2: A collection of colour schemes for Geany
