@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=Lists ASCII idiomatic names and octal/decimal code-point forms
+EAPI=6
+HOMEPAGE=http://www.catb.org/~esr/ascii/
+INHERIT=toolchain-funcs git-r3
+LICENSE=BSD-2
+PROPERTIES=live
+SLOT=0
+_eclasses_=toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=47ed5e0d01b0dd5f8db1d7ff9c89a44c
