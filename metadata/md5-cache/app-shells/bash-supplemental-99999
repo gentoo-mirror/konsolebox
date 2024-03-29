@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=!static? ( >=sys-libs/ncurses-5.9-r3:0= ) !app-shells/bash:99999
 REQUIRED_USE=readline? ( bundled-readline )
 SLOT=99999
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	24c947ff5f858625cf0b33c15eed4425	prefix	eab3c99d77fe00506c109c8a736186f7	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	libtool	5f49a16f67f81bdf873e3d1f10b10001	autotools	3af8f60c4bdb23e738db506a630898ee	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	bash-build	b0048c90373ac7d82ebd394130f52b8e
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	288c54efeb5e2aa70775e39032695ad4	prefix	eab3c99d77fe00506c109c8a736186f7	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	libtool	5f49a16f67f81bdf873e3d1f10b10001	autotools	3af8f60c4bdb23e738db506a630898ee	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	bash-build	b0048c90373ac7d82ebd394130f52b8e
 _md5_=d3498404989ef1ea895d914d4d5972a8
