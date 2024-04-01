@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=ruby_single_target_ruby31? ( dev-lang/ruby:3.1 dev-ruby/digest-kangarootwelve[ruby_targets_ruby31] ) ruby_single_target_ruby32? ( dev-lang/ruby:3.2 dev-ruby/digest-kangarootwelve[ruby_targets_ruby32] )
 REQUIRED_USE=^^ ( ruby_single_target_ruby31 ruby_single_target_ruby32 )
 SLOT=0
-_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	ruby-utils	820207a5d3f0e2e31c28080f131f2037	ruby-utils-compat	d8415686189ec74d02704ea34ff3bde9	call	67fc2058019c814a44b9f9c5e9f3ff04	konsolebox-scripts	05c07b9019ef3521f58c150d81c9f683
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1	ruby-utils	820207a5d3f0e2e31c28080f131f2037	ruby-utils-compat	d8415686189ec74d02704ea34ff3bde9	call	67fc2058019c814a44b9f9c5e9f3ff04	konsolebox-scripts	05c07b9019ef3521f58c150d81c9f683
 _md5_=292f4bf1e8c46515bd86991060f7750a

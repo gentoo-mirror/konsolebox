@@ -9,5 +9,5 @@ LICENSE=public-domain
 PROPERTIES=live
 RDEPEND=app-shells/bash sys-apps/findutils
 SLOT=0
-_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	call	67fc2058019c814a44b9f9c5e9f3ff04	konsolebox-scripts	05c07b9019ef3521f58c150d81c9f683
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1	call	67fc2058019c814a44b9f9c5e9f3ff04	konsolebox-scripts	05c07b9019ef3521f58c150d81c9f683
 _md5_=bdbf31205854ad0b70b4a69926d67ed6
