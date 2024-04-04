@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Elvish is an expressive programming language and a versatile interactive shell.
+EAPI=6
+HOMEPAGE=https://elv.sh/ https://github.com/elves/elvish
+KEYWORDS=-* ~amd64 ~arm64 ~x86
+LICENSE=BSD-2
+REQUIRED_USE=^^ ( amd64 arm64 x86 )
+SLOT=0
+SRC_URI=amd64? ( https://dl.elv.sh/linux-amd64/elvish-v0.20.1.tar.gz -> elvish-bin-0.20.1-amd64.tar.gz ) arm64? ( https://dl.elv.sh/linux-arm64/elvish-v0.20.1.tar.gz -> elvish-bin-0.20.1-arm64.tar.gz ) x86? ( https://dl.elv.sh/linux-386/elvish-v0.20.1.tar.gz -> elvish-bin-0.20.1-x86.tar.gz )
+_md5_=5e4e361dd30a1142706df63d6cabf4c9

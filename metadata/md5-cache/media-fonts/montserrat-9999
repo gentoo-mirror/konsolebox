@@ -10,4 +10,4 @@ PROPERTIES=live
 RESTRICT=binchecks strip test
 SLOT=0
 _eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb	git-r3	fbb2889c81f3a05910c1524db69425c1
-_md5_=4a74db56f351291fa667458b45d12d35
+_md5_=d638b8371406ab1e617584969c15cd6a
