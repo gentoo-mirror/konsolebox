@@ -1,16 +1,16 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI="6"
 
-inherit gnome2
+inherit gnome2 flag-o-matic
 
 DESCRIPTION="GNOME terminal widget"
 HOMEPAGE="https://wiki.gnome.org/Apps/Terminal/VTE"
 
 LICENSE="LGPL-2+"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~loong ~mips ~ppc ~ppc64 ~riscv ~sparc ~x86"
 IUSE="debug +introspection"
 
 RDEPEND="
@@ -25,7 +25,7 @@ RDEPEND="
 	introspection? ( >=dev-libs/gobject-introspection-0.9.0:= )
 "
 DEPEND="${RDEPEND}
-	dev-util/gtk-doc-am
+	|| ( dev-util/gtk-doc-am dev-build/gtk-doc-am )
 	>=dev-util/intltool-0.35
 	virtual/pkgconfig
 	sys-devel/gettext
@@ -50,6 +50,8 @@ PATCHES=(
 DOCS="AUTHORS ChangeLog HACKING NEWS README"
 
 src_configure() {
+	declare -f filter-lto >/dev/null && filter-lto
+
 	local myconf=""
 
 	if [[ ${CHOST} == *-interix* ]]; then
