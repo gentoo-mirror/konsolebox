@@ -86,6 +86,12 @@ media-gfx/mcomix:thumbnailer - Install comicthumb.thumbnailer
 net-dns/dnscrypt-proxy:plugins - Enable plugin support to inspect and modify queries and responses
 net-dns/dnscrypt-proxy:systemd - Use systemd's socket activation instead of creating the sockets itself
 net-dns/dnscrypt-proxy-multi:chroot - Add chroot support with /etc/init.d/dnscrypt-proxy-multi-chroot
+net-irc/hexchat:konsolebox - Use https://github.com/konsolebox/hexchat.git as source
+net-irc/hexchat:libcanberra - Enable sound event support using media-libs/libcanberra
+net-irc/hexchat:plugin-checksum - Build Checksum plugin (needs plugins)
+net-irc/hexchat:plugin-fishlim - Build FiSHLiM plugin (needs plugins)
+net-irc/hexchat:plugin-sysinfo - Build SysInfo plugin (needs plugins)
+net-irc/hexchat:theme-manager - Build the theme manager (mono)
 net-misc/openssh:X509 - Adds support for X.509 certificate authentication
 net-misc/openssh:asterisk-patch - Apply display asterisks on no-echo input patch
 net-misc/openssh:hpn - Enable high performance ssh
