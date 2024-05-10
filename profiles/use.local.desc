@@ -35,17 +35,17 @@ app-shells/bash-supplemental:net - Enable /dev/tcp/host/port redirection
 app-shells/bash-supplemental:pgo - Optimize the build using Profile Guided Optimization (PGO)
 app-shells/bash-supplemental:vanilla - Only use release patches
 app-text/trim-trailing-spaces:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
-dev-build/gdb:apply-remote-g-packet-reply-too-long-fix - Apply remote-g-packet-reply-too-long-fix.patch
-dev-build/gdb:cet - Enable Intel Control-flow Enforcement Technology.
-dev-build/gdb:debuginfod - Enable debuginfod support via dev-libs/elfutils libdebuginfod
-dev-build/gdb:lzma - Support lzma compression in ELF debug info
-dev-build/gdb:multitarget - Support all known targets in one gdb binary
-dev-build/gdb:python - Enable support for the new internal scripting language, as well as extended pretty printers
-dev-build/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
-dev-build/gdb:sim - Build gdb's simulators for various hardware platforms. See https://sourceware.org/gdb/wiki/Sim.
-dev-build/gdb:source-highlight - Enable listing highlighting via dev-util/source-highlight
-dev-build/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
-dev-build/gdb:xxhash - Use dev-libs/xxhash to speed up internal hashing.
+dev-debug/gdb:apply-remote-g-packet-reply-too-long-fix - Apply remote-g-packet-reply-too-long-fix.patch
+dev-debug/gdb:cet - Enable Intel Control-flow Enforcement Technology.
+dev-debug/gdb:debuginfod - Enable debuginfod support via dev-libs/elfutils libdebuginfod
+dev-debug/gdb:lzma - Support lzma compression in ELF debug info
+dev-debug/gdb:multitarget - Support all known targets in one gdb binary
+dev-debug/gdb:python - Enable support for the new internal scripting language, as well as extended pretty printers
+dev-debug/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
+dev-debug/gdb:sim - Build gdb's simulators for various hardware platforms. See https://sourceware.org/gdb/wiki/Sim.
+dev-debug/gdb:source-highlight - Enable listing highlighting via dev-util/source-highlight
+dev-debug/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
+dev-debug/gdb:xxhash - Use dev-libs/xxhash to speed up internal hashing.
 dev-games/cegui:devil - Build the DevIL based ImageCodec module
 dev-lang/ruby:systemtap - Enable SystemTAP/DTrace tracing
 dev-ruby/digest-kangarootwelve:target_armv6 - Build 'armv6' target (0.4.0 and newer versions only)
@@ -138,3 +138,6 @@ sys-fs/cryptsetup:ssh - Build cryptsetup-ssh for experimental support of token v
 sys-fs/cryptsetup:urandom - Use /dev/urandom instead of /dev/random
 sys-libs/pam:asterisk-patch - Apply patch that makes libpam_misc's misc_conv function display asterisks instead of nothing when asking no-echo input
 sys-libs/pam:berkdb - Build the pam_userdb module, that allows to authenticate users against a Berkeley DB file. Please note that enabling this USE flag will create a PAM module that links to the Berkeley DB (as provided by sys-libs/db) installed in /usr/lib and will thus not work for boot-critical services authentication.
+x11-misc/notification-daemon:auto-remove-old-notifications - Enable automatic removal of old notifications
+x11-misc/notification-daemon:konsolebox - Use https://github.com/konsolebox/notification-daemon.git as source or use patches from it
+x11-misc/notification-daemon:max-notifications-99 - Enable maximum number of notifications set to 99

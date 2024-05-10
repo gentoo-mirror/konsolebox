@@ -1,5 +1,5 @@
 BDEPEND=>=app-portage/elt-patches-20240116 sys-devel/gnuconfig || ( >=dev-build/automake-1.16.5:1.16 ) || ( >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/autoconf-2.71-r6:2.71 ) >=dev-build/libtool-2.4.7-r3 >=dev-vcs/git-1.8.2.1[curl] pgo? ( dev-util/gperf )
-DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEFINED_PHASES=compile configure install postinst preinst prepare setup test unpack
 DEPEND=!static? ( >=sys-libs/ncurses-5.9-r3:0= ) static? ( >=sys-libs/ncurses-5.9-r3[static-libs(+)] ) nls? ( virtual/libintl ) !<sys-apps/portage-2.1.6.7_p1 !sys-libs/libtermcap-compat
 DESCRIPTION=The standard GNU Bourne again shell
 EAPI=7
@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=!static? ( >=sys-libs/ncurses-5.9-r3:0= ) !app-shells/bash:99999
 REQUIRED_USE=readline? ( bundled-readline )
 SLOT=99999
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	288c54efeb5e2aa70775e39032695ad4	prefix	eab3c99d77fe00506c109c8a736186f7	gnuconfig	a397adda6984a4c423e28ac274c1ba98	libtool	5f49a16f67f81bdf873e3d1f10b10001	autotools	dc70c1dc473b68317fc4a86f5fbfc57d	git-r3	fbb2889c81f3a05910c1524db69425c1	bash-build	b3e714885547266a3a40d7f407191a92
-_md5_=b170c66be1b9b414bde36cc2817ba5b5
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	288c54efeb5e2aa70775e39032695ad4	prefix	eab3c99d77fe00506c109c8a736186f7	gnuconfig	a397adda6984a4c423e28ac274c1ba98	libtool	5f49a16f67f81bdf873e3d1f10b10001	autotools	dc70c1dc473b68317fc4a86f5fbfc57d	git-r3	fbb2889c81f3a05910c1524db69425c1	bash-build	c10bb236ad70ac70a9e544242cb870a3
+_md5_=df9c8139874452f05adfc31e4a3a208b

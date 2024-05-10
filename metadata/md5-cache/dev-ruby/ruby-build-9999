@@ -1,4 +1,4 @@
-DEFINED_PHASES=install unpack
+DEFINED_PHASES=compile install unpack
 DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Installs virtually any version of Ruby, from source
 EAPI=6
@@ -8,4 +8,4 @@ LICENSE=MIT
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
-_md5_=4309e95a2cc2681d35c74e4265fe8174
+_md5_=644a854b6334272fc467c9f4df465a9b

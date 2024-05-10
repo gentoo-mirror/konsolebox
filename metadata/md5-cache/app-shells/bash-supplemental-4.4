@@ -1,5 +1,5 @@
 BDEPEND=verify-sig? ( app-crypt/gnupg >=app-portage/gemato-20 ) pgo? ( dev-util/gperf )
-DEFINED_PHASES=compile configure install postinst preinst prepare setup unpack
+DEFINED_PHASES=compile configure install postinst preinst prepare setup test unpack
 DEPEND=!static? ( >=sys-libs/ncurses-5.9-r3:0= ) static? ( >=sys-libs/ncurses-5.9-r3[static-libs(+)] ) nls? ( virtual/libintl ) !<sys-apps/portage-2.1.6.7_p1 !sys-libs/libtermcap-compat
 DESCRIPTION=The standard GNU Bourne again shell
 EAPI=7
@@ -12,5 +12,5 @@ RDEPEND=!static? ( >=sys-libs/ncurses-5.9-r3:0= ) !app-shells/bash:4.4
 REQUIRED_USE=readline? ( bundled-readline )
 SLOT=4.4
 SRC_URI=mirror://gnu/bash/bash-4.4.tar.gz verify-sig? ( mirror://gnu/bash/bash-4.4.tar.gz.sig ) https://github.com/konsolebox/gentoo-bash-patches/archive/693bbda26e14280fa11cfdbe8930f63355c00cc3.tar.gz -> gentoo-bash-patches-693bbda26e14280fa11cfdbe8930f63355c00cc3.tar.gz
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	288c54efeb5e2aa70775e39032695ad4	prefix	eab3c99d77fe00506c109c8a736186f7	verify-sig	a79ba011daaf532d71a219182474d150	bash-build	b3e714885547266a3a40d7f407191a92
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	288c54efeb5e2aa70775e39032695ad4	prefix	eab3c99d77fe00506c109c8a736186f7	verify-sig	a79ba011daaf532d71a219182474d150	bash-build	c10bb236ad70ac70a9e544242cb870a3
 _md5_=80deadbcc030e22753215ed53a3cc5d3
