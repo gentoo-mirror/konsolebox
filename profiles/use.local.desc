@@ -34,6 +34,7 @@ app-shells/bash-supplemental:mem-scramble - Build with custom malloc/free overwr
 app-shells/bash-supplemental:net - Enable /dev/tcp/host/port redirection
 app-shells/bash-supplemental:pgo - Optimize the build using Profile Guided Optimization (PGO)
 app-shells/bash-supplemental:vanilla - Only use release patches
+app-shells/hist:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
 app-text/trim-trailing-spaces:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
 dev-debug/gdb:apply-remote-g-packet-reply-too-long-fix - Apply remote-g-packet-reply-too-long-fix.patch
 dev-debug/gdb:cet - Enable Intel Control-flow Enforcement Technology.
@@ -76,6 +77,8 @@ dev-ruby/digest-kangarootwelve:target_ssse3 - Build 'ssse3' target (0.4.0 and ne
 dev-ruby/digest-kangarootwelve:target_xop - Build 'xop' target (0.4.0 and newer versions only)
 dev-ruby/digest-kangarootwelve:test - Run tests. This may require FEATURES="test".
 dev-ruby/digest-xxhash:test - Run tests. This may require FEATURES="test".
+dev-ruby/gist:rubyexec - Use rubyexec as a wrapper for the binaries
+dev-ruby/gist:rubyexec-autopick - Autopick implementation when selected is not wanted
 dev-ruby/rubygems:konsolebox - Use konsolebox's defaults
 dev-ruby/rubygems:server - Install support for the rubygems server
 dev-util/geany:konsolebox - Use https://github.com/konsolebox/geany.git as source, or use patches from https://github.com/konsolebox/geany-patches

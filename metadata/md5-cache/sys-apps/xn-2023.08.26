@@ -10,5 +10,5 @@ RDEPEND=ruby_single_target_ruby31? ( dev-lang/ruby:3.1 dev-ruby/digest-kangaroot
 REQUIRED_USE=^^ ( ruby_single_target_ruby31 ruby_single_target_ruby32 )
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/86d50c613f3109048a72773a30756b20e985d8f2/xn.rb -> xn-2023.08.26-86d50c61.rb
-_eclasses_=ruby-utils	820207a5d3f0e2e31c28080f131f2037	ruby-utils-compat	d8415686189ec74d02704ea34ff3bde9	call	67fc2058019c814a44b9f9c5e9f3ff04	konsolebox-scripts	05c07b9019ef3521f58c150d81c9f683
+_eclasses_=ruby-utils	820207a5d3f0e2e31c28080f131f2037	ruby-utils-compat	c041cae57efc8535815851a719e92eff	call	67fc2058019c814a44b9f9c5e9f3ff04	konsolebox-scripts	05c07b9019ef3521f58c150d81c9f683
 _md5_=d31cafe4a95e875206d63f8b69ce7c56

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=Finds entries in ~/.bash_history
+EAPI=6
+HOMEPAGE=https://github.com/konsolebox/scripts
+INHERIT=konsolebox-scripts
+IUSE=nounset
+LICENSE=public-domain
+PROPERTIES=live
+RDEPEND=sys-apps/gawk
+SLOT=0
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1	call	67fc2058019c814a44b9f9c5e9f3ff04	konsolebox-scripts	05c07b9019ef3521f58c150d81c9f683
+_md5_=449e21006623ab863dfa6806f7a5cfeb
