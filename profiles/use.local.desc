@@ -79,6 +79,7 @@ dev-ruby/digest-kangarootwelve:test - Run tests. This may require FEATURES="test
 dev-ruby/digest-xxhash:test - Run tests. This may require FEATURES="test".
 dev-ruby/gist:rubyexec - Use rubyexec as a wrapper for the binaries
 dev-ruby/gist:rubyexec-autopick - Autopick implementation when selected is not wanted
+dev-ruby/pry:rubyexec - Use rubyexec as a wrapper for the binaries
 dev-ruby/rubygems:konsolebox - Use konsolebox's defaults
 dev-ruby/rubygems:server - Install support for the rubygems server
 dev-util/geany:konsolebox - Use https://github.com/konsolebox/geany.git as source, or use patches from https://github.com/konsolebox/geany-patches
