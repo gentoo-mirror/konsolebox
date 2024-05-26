@@ -9,5 +9,5 @@ LICENSE=public-domain
 PROPERTIES=live
 RDEPEND=>=app-shells/bash-4.0 sys-apps/coreutils sys-libs/glibc
 SLOT=0
-_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1	call	67fc2058019c814a44b9f9c5e9f3ff04	konsolebox-scripts	05c07b9019ef3521f58c150d81c9f683
+_eclasses_=git-r3	bd9e88efb3d08e739bdbb7b24338f1bf	call	67fc2058019c814a44b9f9c5e9f3ff04	konsolebox-scripts	05c07b9019ef3521f58c150d81c9f683
 _md5_=3acf1eae72c4c379c8b202f08c102da7

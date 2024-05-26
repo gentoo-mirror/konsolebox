@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=A portable command-line YAML, JSON, XML, CSV, TOML and properties processor
+EAPI=6
+HOMEPAGE=https://github.com/mikefarah/yq
+KEYWORDS=-* ~amd64 ~arm ~arm64 ~x86
+LICENSE=MIT
+RDEPEND=!app-misc/yq
+REQUIRED_USE=^^ ( amd64 arm arm64 x86 )
+SLOT=0
+SRC_URI=amd64? ( https://github.com/mikefarah/yq/releases/download/v4.44.1/yq_linux_amd64.tar.gz -> mikefarah-yq-bin-4.44.1-amd64.tar.gz ) arm? ( https://github.com/mikefarah/yq/releases/download/v4.44.1/yq_linux_arm.tar.gz -> mikefarah-yq-bin-4.44.1-arm.tar.gz ) arm64? ( https://github.com/mikefarah/yq/releases/download/v4.44.1/yq_linux_arm64.tar.gz -> mikefarah-yq-bin-4.44.1-arm64.tar.gz ) x86? ( https://github.com/mikefarah/yq/releases/download/v4.44.1/yq_linux_386.tar.gz -> mikefarah-yq-bin-4.44.1-x86.tar.gz )
+_md5_=009f10d5d4ab5c548c90d4b9fb982298

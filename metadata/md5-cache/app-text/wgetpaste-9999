@@ -9,5 +9,5 @@ LICENSE=public-domain
 PROPERTIES=live
 RDEPEND=net-misc/wget[ssl?]
 SLOT=0
-_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
+_eclasses_=git-r3	bd9e88efb3d08e739bdbb7b24338f1bf
 _md5_=2faf47529597a836923910f20160e199
