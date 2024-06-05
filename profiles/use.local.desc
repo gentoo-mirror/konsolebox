@@ -79,6 +79,7 @@ dev-ruby/digest-kangarootwelve:test - Run tests. This may require FEATURES="test
 dev-ruby/digest-xxhash:test - Run tests. This may require FEATURES="test".
 dev-ruby/gist:rubyexec - Use rubyexec as a wrapper for the binaries
 dev-ruby/gist:rubyexec-autopick - Autopick implementation when selected is not wanted
+dev-ruby/irb:rubyexec - Use rubyexec as a wrapper for the binaries
 dev-ruby/pry:rubyexec - Use rubyexec as a wrapper for the binaries
 dev-ruby/rubygems:konsolebox - Use konsolebox's defaults
 dev-ruby/rubygems:server - Install support for the rubygems server
@@ -142,6 +143,13 @@ sys-fs/cryptsetup:ssh - Build cryptsetup-ssh for experimental support of token v
 sys-fs/cryptsetup:urandom - Use /dev/urandom instead of /dev/random
 sys-libs/pam:asterisk-patch - Apply patch that makes libpam_misc's misc_conv function display asterisks instead of nothing when asking no-echo input
 sys-libs/pam:berkdb - Build the pam_userdb module, that allows to authenticate users against a Berkeley DB file. Please note that enabling this USE flag will create a PAM module that links to the Berkeley DB (as provided by sys-libs/db) installed in /usr/lib and will thus not work for boot-critical services authentication.
+www-client/elinks:apidoc - Provide doxygen generated API docs
+www-client/elinks:bittorrent - Enable support for the BitTorrent protocol
+www-client/elinks:finger - Enable support for the finger protocol
+www-client/elinks:gopher - Enable support for the gopher protocol
+www-client/elinks:mouse - Make elinks to grab all mouse events
+www-client/elinks:tre - Enable support for regex searches via dev-libs/tre
+www-client/elinks:xml - Enable support for bookmarks via dev-libs/expat
 x11-misc/notification-daemon:auto-remove-old-notifications - Enable automatic removal of old notifications
 x11-misc/notification-daemon:konsolebox - Use https://github.com/konsolebox/notification-daemon.git as source or use patches from it
 x11-misc/notification-daemon:max-notifications-99 - Enable maximum number of notifications set to 99
