@@ -56,6 +56,5 @@ sys-fs/cryptsetup 2.4.1-r2 2.4.3-r2: Tool to setup encrypted devices with dm-cry
 sys-libs/pam 1.5.3 1.6.1: Linux-PAM (Pluggable Authentication Modules)
 www-client/elinks 9999: Advanced and well-established text-mode web browser
 x11-libs/gnome-pty-helper 0.40.2-r1: GNOME Setuid helper for opening ptys
-x11-libs/vte 0.28.2-r209: GNOME terminal widget
 x11-misc/notification-daemon 9999: Notification daemon
 x11-themes/geany-minimalism 0.2: A collection of colour schemes for Geany
