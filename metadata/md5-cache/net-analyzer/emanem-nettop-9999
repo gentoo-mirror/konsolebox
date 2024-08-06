@@ -8,5 +8,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=net-libs/libpcap sys-libs/ncurses !net-analyzer/nettop
 SLOT=0
-_eclasses_=git-r3	bd9e88efb3d08e739bdbb7b24338f1bf	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_eclasses_=git-r3	bd9e88efb3d08e739bdbb7b24338f1bf	toolchain-funcs	e7e7331166166e7a516d19e264b098c2	multilib	c19072c3cd7ac5cb21de013f7e9832e0
 _md5_=71e487b9fdac368d63b7609ccbf71241

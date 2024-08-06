@@ -11,5 +11,5 @@ RDEPEND=!static? ( >=sys-libs/ncurses-5.9-r3:0= )
 REQUIRED_USE=readline? ( bundled-readline )
 SLOT=0
 SRC_URI=mirror://gnu/bash/bash-5.3-alpha.tar.gz ftp://ftp.cwru.edu/pub/bash/bash-5.3-alpha.tar.gz verify-sig? ( mirror://gnu/bash/bash-5.3-alpha.tar.gz.sig ftp://ftp.cwru.edu/pub/bash/bash-5.3-alpha.tar.gz.sig )
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	prefix	eab3c99d77fe00506c109c8a736186f7	verify-sig	a79ba011daaf532d71a219182474d150	bash-build	c10bb236ad70ac70a9e544242cb870a3
+_eclasses_=toolchain-funcs	e7e7331166166e7a516d19e264b098c2	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	prefix	eab3c99d77fe00506c109c8a736186f7	verify-sig	a79ba011daaf532d71a219182474d150	bash-build	c10bb236ad70ac70a9e544242cb870a3
 _md5_=4fae46a77105073dc6e5684141a266c0
