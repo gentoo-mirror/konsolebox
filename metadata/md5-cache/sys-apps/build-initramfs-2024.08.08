@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Automates building of an initrd image
+EAPI=6
+HOMEPAGE=https://github.com/konsolebox/scripts
+INHERIT=konsolebox-scripts
+IUSE=nounset
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=MIT
+RDEPEND=>=app-shells/bash-5 app-arch/cpio app-arch/xz-utils
+SLOT=0
+SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/8cc4a71c23fd0d7265510ea8437300915e7c5269/build-initramfs.bash -> build-initramfs-2024.08.08-8cc4a71c.bash
+_eclasses_=call	67fc2058019c814a44b9f9c5e9f3ff04	konsolebox-scripts	05c07b9019ef3521f58c150d81c9f683
+_md5_=22b2ba4511f9052897380ac90164f9d8

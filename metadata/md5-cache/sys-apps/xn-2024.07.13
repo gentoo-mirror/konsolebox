@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile install unpack
-DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Renames files and directories based on their 160-bit KangarooTwelve checksum
 EAPI=6
 HOMEPAGE=https://github.com/konsolebox/scripts
 INHERIT=konsolebox-scripts
 IUSE=ruby_single_target_ruby31 ruby_single_target_ruby32 ruby_single_target_ruby33
+KEYWORDS=~amd64 ~arm ~arm64 ~hppa ~loong ~ppc ~ppc64 ~riscv ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x64-solaris
 LICENSE=MIT
-PROPERTIES=live
 RDEPEND=ruby_single_target_ruby31? ( dev-lang/ruby:3.1 dev-ruby/digest-kangarootwelve[ruby_targets_ruby31] ) ruby_single_target_ruby32? ( dev-lang/ruby:3.2 dev-ruby/digest-kangarootwelve[ruby_targets_ruby32] ) ruby_single_target_ruby33? ( dev-lang/ruby:3.3 dev-ruby/digest-kangarootwelve[ruby_targets_ruby33] )
 REQUIRED_USE=^^ ( ruby_single_target_ruby31 ruby_single_target_ruby32 ruby_single_target_ruby33 )
 SLOT=0
-_eclasses_=git-r3	bd9e88efb3d08e739bdbb7b24338f1bf	ruby-utils	820207a5d3f0e2e31c28080f131f2037	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	call	67fc2058019c814a44b9f9c5e9f3ff04	konsolebox-scripts	05c07b9019ef3521f58c150d81c9f683
-_md5_=aa7a3e1b6fbdb50c8fcec3e7f0df17e5
+SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/5bdce57de386c47906d528ea58b53a35fb41e7a6/xn.rb -> xn-2024.07.13-5bdce57d.rb
+_eclasses_=ruby-utils	820207a5d3f0e2e31c28080f131f2037	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	call	67fc2058019c814a44b9f9c5e9f3ff04	konsolebox-scripts	05c07b9019ef3521f58c150d81c9f683
+_md5_=41d0a8c95e50b681b5be4dc049e393cf

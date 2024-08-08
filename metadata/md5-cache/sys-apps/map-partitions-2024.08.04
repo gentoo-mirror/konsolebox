@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Maps partitions in a block device to logical devices using dmsetup and sfdisk
+EAPI=6
+HOMEPAGE=https://github.com/konsolebox/scripts
+INHERIT=konsolebox-scripts
+IUSE=nounset
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=MIT
+RDEPEND=>=app-shells/bash-3.2 sys-apps/util-linux
+SLOT=0
+SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/e7192b2f5d796506a0b56b1f98f137ea9bee6acb/map-partitions.bash -> map-partitions-2024.08.04-e7192b2f.bash
+_eclasses_=call	67fc2058019c814a44b9f9c5e9f3ff04	konsolebox-scripts	05c07b9019ef3521f58c150d81c9f683
+_md5_=ff4603a9590782e84115778689270dc5
