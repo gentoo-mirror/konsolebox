@@ -41,7 +41,7 @@ net-irc/hexchat 2.16.2_p20240710 9999: Graphical IRC client based on XChat
 net-misc/openssh 8.9_p1-r2 9.0_p1-r6 9.1_p1 9.7_p1: Port of OpenBSD's free SSH release
 net-vpn/tor 0.2.8.17-r3 0.3.1.10-r3: Anonymizing overlay network for TCP
 sys-apps/binfind 2021.05.14 9999 99999: Searches files based on the value of $PATH
-sys-apps/build-initramfs 2024.08.08: Automates building of an initrd image
+sys-apps/build-initramfs 2024.08.09: Automates building of an initrd image
 sys-apps/jchroot 1.1 9999: A chroot with more isolation
 sys-apps/killtree 2022.05.12 9999 99999: Sends signals to process trees
 sys-apps/libfind 2022.05.10 9999 99999: Finds library files based on expressions

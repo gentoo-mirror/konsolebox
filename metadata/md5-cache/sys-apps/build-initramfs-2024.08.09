@@ -8,6 +8,6 @@ KEYWORDS=~amd64 ~arm ~arm64 ~x86
 LICENSE=MIT
 RDEPEND=>=app-shells/bash-5 app-arch/cpio app-arch/xz-utils
 SLOT=0
-SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/8cc4a71c23fd0d7265510ea8437300915e7c5269/build-initramfs.bash -> build-initramfs-2024.08.08-8cc4a71c.bash
+SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/c0ce78db59925694b115b64fa05549d63b0ee132/build-initramfs.bash -> build-initramfs-2024.08.09-c0ce78db.bash
 _eclasses_=call	67fc2058019c814a44b9f9c5e9f3ff04	konsolebox-scripts	05c07b9019ef3521f58c150d81c9f683
-_md5_=22b2ba4511f9052897380ac90164f9d8
+_md5_=f0e783b0e14b55a4bc90d67e920b3b75
