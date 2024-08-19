@@ -7,5 +7,5 @@ INHERIT=toolchain-funcs git-r3
 LICENSE=BSD-2
 PROPERTIES=live
 SLOT=0
-_eclasses_=toolchain-funcs	5f8f1dc0c94e007fa08af4e98a19d0e5	multilib	c19072c3cd7ac5cb21de013f7e9832e0	git-r3	bd9e88efb3d08e739bdbb7b24338f1bf
+_eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	git-r3	bd9e88efb3d08e739bdbb7b24338f1bf
 _md5_=47ed5e0d01b0dd5f8db1d7ff9c89a44c
