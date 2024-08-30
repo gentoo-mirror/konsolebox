@@ -88,6 +88,22 @@ dev-util/geany:vte - Enable Terminal support (x11-libs/vte)
 games-arcade/smc:music - Download and install the music files
 media-gfx/mcomix:comicthumb - Install comicthumb
 media-gfx/mcomix:thumbnailer - Install comicthumb.thumbnailer
+media-video/pipewire:X - Enable audible bell for X11
+media-video/pipewire:echo-cancel - Enable WebRTC-based echo canceller via media-libs/webrtc-audio-processing
+media-video/pipewire:extra - Build pw-cat/pw-play/pw-record
+media-video/pipewire:flatpak - Enable Flatpak support
+media-video/pipewire:gsettings - Use gsettings (dev-libs/glib) to read/save used modules (useful for e.g. media-sound/paprefs
+media-video/pipewire:jack-client - Install a plugin for running PipeWire as a JACK client
+media-video/pipewire:jack-sdk - Use PipeWire as JACK replacement
+media-video/pipewire:liblc3 - Allow loading LC3 plugins via media-sound/liblc3
+media-video/pipewire:lv2 - Allow loading LV2 plugins via media-libs/lv2
+media-video/pipewire:modemmanager - Combined with USE=bluetooth, allows PipeWire to perform telephony on mobile devices.
+media-video/pipewire:pipewire-alsa - Replace PulseAudio's ALSA plugin with PipeWire's plugin
+media-video/pipewire:roc - Enable roc support for real-time audio streaming over the network, using media-libs/roc-toolkit. See https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Network#roc
+media-video/pipewire:sound-server - Provide sound server using ALSA and bluetooth devices
+media-video/pipewire:ssl - Enable raop-sink support (needs dev-libs/openssl)
+media-video/pipewire:system-service - Install systemd unit files for running as a system service. This disables user service files.
+media-video/wireplumber:system-service - Install systemd unit files for running as a system service.
 net-dns/dnscrypt-proxy:plugins - Enable plugin support to inspect and modify queries and responses
 net-dns/dnscrypt-proxy:systemd - Use systemd's socket activation instead of creating the sockets itself
 net-dns/dnscrypt-proxy-multi:chroot - Add chroot support with /etc/init.d/dnscrypt-proxy-multi-chroot
@@ -115,7 +131,6 @@ net-vpn/tor:transparent-proxy - Enable transparent proxying
 net-vpn/tor:web - Build a tor2web service instead of a tor client
 net-vpn/tor:zstd - Use app-arch/zstd for compression
 sys-apps/binfind:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
-sys-apps/build-initramfs:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
 sys-apps/killtree:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
 sys-apps/libfind:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
 sys-apps/manfind:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
@@ -134,6 +149,7 @@ sys-apps/xn:ruby_single_target_ruby31 - Use Ruby 3.1 as runtime
 sys-apps/xn:ruby_single_target_ruby32 - Use Ruby 3.2 as runtime
 sys-apps/xn:ruby_single_target_ruby33 - Use Ruby 3.3 as runtime
 sys-apps/xn:ruby_single_target_ruby34 - Use Ruby 3.4 as runtime
+sys-boot/build-initramfs:nounset - Inject '[[ BASH_VERSINFO -ge 5 ]] && set -u' to script
 sys-fs/cryptsetup:argon2 - Enable password hashing algorithm from app-crypt/argon2
 sys-fs/cryptsetup:asterisk-patch - Apply patch that enables showing asterisk on password input
 sys-fs/cryptsetup:fips - Enable FIPS mode restrictions
