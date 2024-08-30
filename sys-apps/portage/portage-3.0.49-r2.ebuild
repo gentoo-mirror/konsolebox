@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -114,9 +114,9 @@ python_prepare_all() {
 	)
 
 	use unofficial && PATCHES+=(
-		"${FILESDIR}"/portage-3.0.28-env-update-post-update.patch
-		"${FILESDIR}"/portage-3.0.28-userpatches-manual.patch
-		"${FILESDIR}"/portage-3.0.28-userpatches.patch
+		"${FILESDIR}"/unofficial/portage-3.0.28-env-update-post-update.patch
+		"${FILESDIR}"/unofficial/portage-3.0.28-userpatches-manual.patch
+		"${FILESDIR}"/unofficial/portage-3.0.28-userpatches.patch
 	)
 
 	distutils-r1_python_prepare_all

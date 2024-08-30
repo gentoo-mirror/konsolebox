@@ -112,9 +112,9 @@ pkg_pretend() {
 
 src_prepare() {
 	use unofficial && PATCHES+=(
-		"${FILESDIR}"/portage-3.0.28-env-update-post-update.patch
-		"${FILESDIR}"/portage-3.0.28-userpatches-manual.patch
-		"${FILESDIR}"/portage-3.0.28-userpatches.patch
+		"${FILESDIR}"/unofficial/portage-3.0.28-env-update-post-update.patch
+		"${FILESDIR}"/unofficial/portage-3.0.28-userpatches-manual.patch
+		"${FILESDIR}"/unofficial/portage-3.0.28-userpatches.patch
 	)
 
 	default
