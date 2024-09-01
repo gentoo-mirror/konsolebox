@@ -9,6 +9,6 @@ LICENSE=MIT
 RDEPEND=>=app-shells/bash-3.2 sys-apps/util-linux
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/e7192b2f5d796506a0b56b1f98f137ea9bee6acb/map-partitions.bash -> map-partitions-2024.08.04-e7192b2f.bash
+SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/aa01cc97cd45c738f5e42348b3b90e2dee8cc6bc/map-partitions.bash -> map-partitions-2024.08.31-aa01cc97.bash
 _eclasses_=call	67fc2058019c814a44b9f9c5e9f3ff04	konsolebox-scripts	57e0c10617c7a06ee8b4c3886fb5b97a
-_md5_=ff4603a9590782e84115778689270dc5
+_md5_=99331b63c2425861e666e0c946afdedc

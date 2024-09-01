@@ -9,6 +9,6 @@ LICENSE=MIT
 RDEPEND=>=app-shells/bash-5 app-arch/cpio app-arch/xz-utils
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/c0ce78db59925694b115b64fa05549d63b0ee132/build-initramfs.bash -> build-initramfs-2024.08.09-c0ce78db.bash
+SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/ce8d85f4c8677681302ed2eb6af03b08df026107/build-initramfs.bash -> build-initramfs-2024.08.31-ce8d85f4.bash
 _eclasses_=call	67fc2058019c814a44b9f9c5e9f3ff04	konsolebox-scripts	57e0c10617c7a06ee8b4c3886fb5b97a
-_md5_=f0e783b0e14b55a4bc90d67e920b3b75
+_md5_=e254e21f5cf853b6fd3398eed26c613a
