@@ -8,5 +8,5 @@ LICENSE=MIT
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/rubyexec/2856a8270172de3dd3be28b401397247d2484ae3/rubyexec.c -> rubyexec-2856a8270172de3dd3be28b401397247d2484ae3.c
-_eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991
 _md5_=a77f6f0619025c5d794ebf3cc90bd8c1

@@ -11,5 +11,5 @@ REQUIRED_USE=^^ ( ruby_single_target_ruby31 ruby_single_target_ruby32 ruby_singl
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/86d50c613f3109048a72773a30756b20e985d8f2/xn.rb -> xn-2023.08.26-86d50c61.rb
-_eclasses_=ruby-utils	820207a5d3f0e2e31c28080f131f2037	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	call	67fc2058019c814a44b9f9c5e9f3ff04	konsolebox-scripts	57e0c10617c7a06ee8b4c3886fb5b97a
+_eclasses_=ruby-utils	ec73f640a49f4fb6394ef1d90fbb3b3c	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	call	67fc2058019c814a44b9f9c5e9f3ff04	konsolebox-scripts	57e0c10617c7a06ee8b4c3886fb5b97a
 _md5_=306f2f946da2e55d7a573187fc716fb3

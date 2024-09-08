@@ -11,5 +11,5 @@ RDEPEND=app-text/asciidoc dev-libs/libevent sys-libs/zlib bufferevents? ( dev-li
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://www.torproject.org/dist/tor-0.2.8.17.tar.gz https://archive.torproject.org/tor-package-archive/tor-0.2.8.17.tar.gz
-_eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	eqawarn	6bd80a2f74f3b59c77b180f76c693256	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	readme.gentoo-r1	b8c7a61664027641d79dcfc04bd366f4	systemd	c8b03e8df84486aa991d4396686e8942	estack	c61c368a76fdf3a82fdf8dbaebea3804	versionator	96e386d85551574ad7ec320ed101d6a2	user-info	69a1ed744ec33cf2c910ff2bd6084d11	user	ee8b59cbe68b390f981e3ee247ed908f
+_eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	eqawarn	6bd80a2f74f3b59c77b180f76c693256	flag-o-matic	fa33e3696fe4689dda7e9affe92e2c94	readme.gentoo-r1	32b48460d813533d85f082897cec1b80	systemd	0f241b5c9f3758c3d3423df59a7f655a	estack	c61c368a76fdf3a82fdf8dbaebea3804	versionator	96e386d85551574ad7ec320ed101d6a2	user-info	69a1ed744ec33cf2c910ff2bd6084d11	user	ee8b59cbe68b390f981e3ee247ed908f
 _md5_=4e508a60d8b35a3a7dc6243813cde1ac
