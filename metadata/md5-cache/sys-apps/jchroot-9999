@@ -1,11 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
-DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=A chroot with more isolation
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/vincentbernat/jchroot
-INHERIT=git-r3 toolchain-funcs
+INHERIT=toolchain-funcs git-r3
 LICENSE=ISC
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	bd9e88efb3d08e739bdbb7b24338f1bf	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991
-_md5_=f1ae3ee35bc7fc92248ddb632794eede
+_eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	git-r3	bd9e88efb3d08e739bdbb7b24338f1bf
+_md5_=5b242b7eab8a314189327cb23f04a5d3

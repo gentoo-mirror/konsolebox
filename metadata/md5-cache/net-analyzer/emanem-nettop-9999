@@ -1,7 +1,8 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare unpack
-DEPEND=net-libs/libpcap sys-libs/ncurses >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=net-libs/libpcap sys-libs/ncurses
 DESCRIPTION=A simple process/network usage report for Linux
-EAPI=6
+EAPI=7
 HOMEPAGE=http://nettop.youlink.org
 INHERIT=git-r3 toolchain-funcs
 LICENSE=GPL-3
@@ -9,4 +10,4 @@ PROPERTIES=live
 RDEPEND=net-libs/libpcap sys-libs/ncurses !net-analyzer/nettop
 SLOT=0
 _eclasses_=git-r3	bd9e88efb3d08e739bdbb7b24338f1bf	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991
-_md5_=71e487b9fdac368d63b7609ccbf71241
+_md5_=b69205df838425744739c8d1481b91ed

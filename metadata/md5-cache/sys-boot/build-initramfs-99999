@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Automates building of an initrd image
+EAPI=7
+HOMEPAGE=https://github.com/konsolebox/scripts
+INHERIT=konsolebox-scripts
+IUSE=nounset
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=>=app-shells/bash-5 app-arch/cpio app-arch/xz-utils
+RESTRICT=mirror
+SLOT=0
+_eclasses_=git-r3	bd9e88efb3d08e739bdbb7b24338f1bf	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	79d956156cdcc288c2f4b5f450cd6fe7
+_md5_=9003b82142b6e1ffae89eadc152f251c

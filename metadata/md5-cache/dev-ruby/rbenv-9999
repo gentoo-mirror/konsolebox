@@ -1,12 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Seamlessly manage your app's Ruby environment
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/rbenv/rbenv
 INHERIT=bash-completion-r1 toolchain-funcs git-r3
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=app-shells/bash
+RESTRICT=mirror
 SLOT=0
 _eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	bash-completion-r1	3047612be964ffd4a549447fc4289f12	git-r3	bd9e88efb3d08e739bdbb7b24338f1bf
-_md5_=72a4dbdb07324562c39b9d7988b01534
+_md5_=2b786cb9d4320ec0fe128aa83f02dd4f

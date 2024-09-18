@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install postinst unpack
+DESCRIPTION=Runs multiple instances of dnscrypt-proxy
+EAPI=7
+HOMEPAGE=https://github.com/konsolebox/scripts
+INHERIT=konsolebox-scripts
+IUSE=chroot ruby_single_target_ruby31 ruby_single_target_ruby32 ruby_single_target_ruby33
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=public-domain
+RDEPEND=>=net-dns/dnscrypt-proxy-1.7.0 <net-dns/dnscrypt-proxy-2 chroot? ( app-alternatives/awk app-portage/portage-utils sys-apps/findutils sys-apps/rcopy sys-process/psmisc )
+REQUIRED_USE=^^ ( ruby_single_target_ruby31 ruby_single_target_ruby32 ruby_single_target_ruby33 )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/cb7c5f042c20ca4fddabc8409a33b2a4dbce8887/dnscrypt-proxy-multi.rb -> dnscrypt-proxy-multi-2024.07.13-cb7c5f04.rb
+_eclasses_=ruby-utils	ec73f640a49f4fb6394ef1d90fbb3b3c	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	79d956156cdcc288c2f4b5f450cd6fe7
+_md5_=f2f26ad132e3f7531cfd342c38c9e0d9
