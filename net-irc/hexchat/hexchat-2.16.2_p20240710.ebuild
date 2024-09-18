@@ -22,12 +22,13 @@ S=${WORKDIR}/${MY_P}
 
 LICENSE="GPL-2 plugin-fishlim? ( MIT )"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~ppc ~ppc64 ~riscv ~sparc ~x86"
+KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ppc ~ppc64 ~riscv ~sparc ~x86"
 IUSE="dbus debug konsolebox +gtk libcanberra lua perl plugin-checksum plugin-fishlim plugin-sysinfo python ssl theme-manager"
 REQUIRED_USE="konsolebox
 	lua? ( ${LUA_REQUIRED_USE} )
 	plugin-fishlim? ( ssl )
 	python? ( ${PYTHON_REQUIRED_USE} )"
+RESTRICT="mirror"
 
 RDEPEND="
 	dev-libs/glib:2
