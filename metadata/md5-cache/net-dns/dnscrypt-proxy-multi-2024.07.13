@@ -11,5 +11,5 @@ REQUIRED_USE=^^ ( ruby_single_target_ruby31 ruby_single_target_ruby32 ruby_singl
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/cb7c5f042c20ca4fddabc8409a33b2a4dbce8887/dnscrypt-proxy-multi.rb -> dnscrypt-proxy-multi-2024.07.13-cb7c5f04.rb
-_eclasses_=ruby-utils	ec73f640a49f4fb6394ef1d90fbb3b3c	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	79d956156cdcc288c2f4b5f450cd6fe7
+_eclasses_=ruby-utils	b8263e6071c7a20b6afceaae3725827b	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	79d956156cdcc288c2f4b5f450cd6fe7
 _md5_=f2f26ad132e3f7531cfd342c38c9e0d9
