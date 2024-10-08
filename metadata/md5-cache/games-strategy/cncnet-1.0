@@ -9,5 +9,5 @@ RDEPEND=|| ( app-emulation/wine-d3d9[abi_x86_32] app-emulation/wine-proton[abi_x
 RESTRICT=mirror strip
 SLOT=0
 SRC_URI=https://downloads.cncnet.org/cncnet-1.0-1-any.pkg.tar.xz
-_eclasses_=xdg-utils	5465aed08f1dfc2a75f14cbea4272961
+_eclasses_=xdg-utils	42869b3c8d86a70ef3cf75165a395e09
 _md5_=900ae94b8304056457b16ab35806d050
