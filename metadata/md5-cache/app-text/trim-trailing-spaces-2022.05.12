@@ -9,5 +9,5 @@ RDEPEND=app-shells/bash sys-apps/coreutils sys-apps/findutils sys-apps/grep sys-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/684211752678c445a4ca1c1dd974d0ce93946e9d/trim-trailing-spaces.bash -> trim-trailing-spaces-2022.05.12-68421175.bash
-_eclasses_=call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	79d956156cdcc288c2f4b5f450cd6fe7
+_eclasses_=call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	2d8bab245b24b2a2dac3c249395b47f5
 _md5_=3a910a4d43a06e64bfcf81ed002a93ae

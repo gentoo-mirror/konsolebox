@@ -28,6 +28,7 @@ app-emulation/wine-d3d9:sdl - Add support for gamepad detection using SDL
 app-emulation/wine-d3d9:udev - Use virtual/libudev to provide plug and play support
 app-emulation/wine-d3d9:vkd3d - Use app-emulation/vkd3d to provide Direct3D 12 support
 app-emulation/wine-d3d9:vulkan - Enable Vulkan drivers
+app-shells/bash:bash-source-fullpath-default - Enable the bash_source_fullpath option by default
 app-shells/bash:bashlogger - Log ALL commands typed into bash; should ONLY be used in restricted environments such as honeypots
 app-shells/bash:bundled-readline - Use bundled readline
 app-shells/bash:mem-scramble - Build with custom malloc/free overwriting allocated/freed memory
@@ -35,6 +36,7 @@ app-shells/bash:net - Enable /dev/tcp/host/port redirection
 app-shells/bash:pgo - Optimize the build using Profile Guided Optimization (PGO)
 app-shells/bash:plugins - Add support for loading builtins at runtime via 'enable'
 app-shells/bash:vanilla - Only use release patches
+app-shells/bash-supplemental:bash-source-fullpath-default - Enable the bash_source_fullpath option by default
 app-shells/bash-supplemental:bundled-readline - Use bundled readline
 app-shells/bash-supplemental:mem-scramble - Build with custom malloc/free overwriting allocated/freed memory
 app-shells/bash-supplemental:net - Enable /dev/tcp/host/port redirection

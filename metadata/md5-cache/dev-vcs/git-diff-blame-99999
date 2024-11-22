@@ -1,15 +1,15 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile install postinst unpack
-DESCRIPTION=Runs multiple instances of dnscrypt-proxy
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Annotates each line in a diff hunk with author and commit information like blame
 EAPI=7
 HOMEPAGE=https://github.com/konsolebox/scripts
 INHERIT=konsolebox-scripts
-IUSE=chroot ruby_single_target_ruby31 ruby_single_target_ruby32 ruby_single_target_ruby33
-LICENSE=public-domain
+IUSE=ruby_single_target_ruby31 ruby_single_target_ruby32 ruby_single_target_ruby33
+LICENSE=Unlicense
 PROPERTIES=live
-RDEPEND=>=net-dns/dnscrypt-proxy-1.7.0 <net-dns/dnscrypt-proxy-2 chroot? ( app-alternatives/awk app-portage/portage-utils sys-apps/findutils sys-apps/rcopy sys-process/psmisc )
+RDEPEND=dev-vcs/git
 REQUIRED_USE=^^ ( ruby_single_target_ruby31 ruby_single_target_ruby32 ruby_single_target_ruby33 )
 RESTRICT=mirror
 SLOT=0
 _eclasses_=git-r3	bd9e88efb3d08e739bdbb7b24338f1bf	ruby-utils	8c235870eceb33155907ba2ef7b6592f	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	2d8bab245b24b2a2dac3c249395b47f5
-_md5_=f2f26ad132e3f7531cfd342c38c9e0d9
+_md5_=b4bf49deb8c5f2926814e839f6e8f2c6

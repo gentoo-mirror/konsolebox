@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=sys-apps/gawk
 RESTRICT=mirror
 SLOT=0
-_eclasses_=git-r3	bd9e88efb3d08e739bdbb7b24338f1bf	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	79d956156cdcc288c2f4b5f450cd6fe7
+_eclasses_=git-r3	bd9e88efb3d08e739bdbb7b24338f1bf	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	2d8bab245b24b2a2dac3c249395b47f5
 _md5_=311be844fb13f2a9c1a2c1ac5a0dc647

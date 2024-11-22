@@ -9,5 +9,5 @@ RDEPEND=app-shells/bash sys-apps/coreutils sys-apps/grep
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/eb02ed3cce567edceeb8d00e657636960504e419/tail-follow-grep.bash -> tail-follow-grep-2024.09.30-eb02ed3c.bash
-_eclasses_=call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	79d956156cdcc288c2f4b5f450cd6fe7
+_eclasses_=call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	2d8bab245b24b2a2dac3c249395b47f5
 _md5_=c03e654ecfa687ecd8f98f5212d7eab4

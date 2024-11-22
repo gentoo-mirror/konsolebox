@@ -5,11 +5,11 @@ DESCRIPTION=The standard GNU Bourne again shell
 EAPI=7
 HOMEPAGE=http://tiswww.case.edu/php/chet/bash/bashtop.html
 INHERIT=bash-build
-IUSE=afs bundled-readline mem-scramble +net nls pgo +readline static vanilla bashlogger examples plugins
+IUSE=afs bundled-readline mem-scramble +net nls pgo +readline static vanilla bash-source-fullpath-default bashlogger examples plugins
 LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=!static? ( >=sys-libs/ncurses-5.9-r3:0= )
 REQUIRED_USE=readline? ( bundled-readline )
 SLOT=0
-_eclasses_=toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	prefix	c3c4c93ebda319c0fa7ed6f942ba1010	gnuconfig	ddeb9f8caff1b5f71a09c75b7534df79	libtool	6b28392a775f807c8be5fc7ec9a605b9	autotools	7d91cc798a8afd8f4e0c6e9587296ebe	git-r3	bd9e88efb3d08e739bdbb7b24338f1bf	bash-build	c10bb236ad70ac70a9e544242cb870a3
+_eclasses_=toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	prefix	c3c4c93ebda319c0fa7ed6f942ba1010	gnuconfig	ddeb9f8caff1b5f71a09c75b7534df79	libtool	6b28392a775f807c8be5fc7ec9a605b9	autotools	7d91cc798a8afd8f4e0c6e9587296ebe	git-r3	bd9e88efb3d08e739bdbb7b24338f1bf	bash-build	58a913b4e81dcce8634ca1611f995569
 _md5_=b1b04346d505fb25bbc6ff63c9191af4

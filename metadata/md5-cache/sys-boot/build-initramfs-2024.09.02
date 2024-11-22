@@ -9,5 +9,5 @@ RDEPEND=>=app-shells/bash-5 app-arch/cpio app-arch/xz-utils
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/de1189da5d163e2afe1c54e030bd614144474bcd/build-initramfs.bash -> build-initramfs-2024.09.02-de1189da.bash
-_eclasses_=call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	79d956156cdcc288c2f4b5f450cd6fe7
+_eclasses_=call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	2d8bab245b24b2a2dac3c249395b47f5
 _md5_=cdb3f43d093754aaae0fa5e99a6a6db1

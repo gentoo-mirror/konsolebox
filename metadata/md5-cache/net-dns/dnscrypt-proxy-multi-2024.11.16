@@ -10,6 +10,6 @@ RDEPEND=>=net-dns/dnscrypt-proxy-1.7.0 <net-dns/dnscrypt-proxy-2 chroot? ( app-a
 REQUIRED_USE=^^ ( ruby_single_target_ruby31 ruby_single_target_ruby32 ruby_single_target_ruby33 )
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/cb7c5f042c20ca4fddabc8409a33b2a4dbce8887/dnscrypt-proxy-multi.rb -> dnscrypt-proxy-multi-2024.07.13-cb7c5f04.rb
-_eclasses_=ruby-utils	8c235870eceb33155907ba2ef7b6592f	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	79d956156cdcc288c2f4b5f450cd6fe7
-_md5_=f2f26ad132e3f7531cfd342c38c9e0d9
+SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/d043cca6c5fb166386424a9f8031fbd4d93eb207/dnscrypt-proxy-multi.rb -> dnscrypt-proxy-multi-2024.11.16-d043cca6.rb
+_eclasses_=ruby-utils	8c235870eceb33155907ba2ef7b6592f	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	2d8bab245b24b2a2dac3c249395b47f5
+_md5_=49fa9b5e532160b0b6f4f9a8af1b974a

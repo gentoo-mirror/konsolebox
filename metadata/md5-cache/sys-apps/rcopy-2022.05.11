@@ -9,5 +9,5 @@ RDEPEND=>=app-shells/bash-4.0 sys-apps/coreutils sys-libs/glibc
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/82505717a86c7a60b23d73f6b9257a44a67200c2/rcopy.bash -> rcopy-2022.05.11-82505717.bash
-_eclasses_=call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	79d956156cdcc288c2f4b5f450cd6fe7
+_eclasses_=call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	2d8bab245b24b2a2dac3c249395b47f5
 _md5_=a2fe17248997629979e78b8b3998fd02

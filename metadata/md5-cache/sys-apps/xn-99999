@@ -11,5 +11,5 @@ RDEPEND=ruby_single_target_ruby31? ( dev-lang/ruby:3.1 dev-ruby/digest-kangaroot
 REQUIRED_USE=^^ ( ruby_single_target_ruby31 ruby_single_target_ruby32 ruby_single_target_ruby33 )
 RESTRICT=mirror
 SLOT=0
-_eclasses_=git-r3	bd9e88efb3d08e739bdbb7b24338f1bf	ruby-utils	8c235870eceb33155907ba2ef7b6592f	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	79d956156cdcc288c2f4b5f450cd6fe7
+_eclasses_=git-r3	bd9e88efb3d08e739bdbb7b24338f1bf	ruby-utils	8c235870eceb33155907ba2ef7b6592f	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	2d8bab245b24b2a2dac3c249395b47f5
 _md5_=6f7361a4cbe502a5c0ac9e309ec0261d
