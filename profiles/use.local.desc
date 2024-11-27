@@ -117,6 +117,14 @@ net-misc/openssh:livecd - Enable root password logins for live-cd environment.
 net-misc/openssh:security-key - Include builtin U2F/FIDO support
 net-misc/openssh:ssl - Enable additional crypto algorithms via OpenSSL
 net-misc/openssh:xmss - Enable XMSS post-quantum authentication algorithm
+net-wireless/bluez:btpclient - Enable BTP client
+net-wireless/bluez:deprecated - Build deprecated plugins
+net-wireless/bluez:experimental - Build experimental plugins
+net-wireless/bluez:extra-tools - Install tools that upstream doesn't install on purpose by default. All this tools shouldn't be used. Then, please notify upstream about you still need them to let them know the situation.
+net-wireless/bluez:mesh - Add support for Bluetooth Mesh control application and advertising bearer.
+net-wireless/bluez:midi - Enable MIDI support
+net-wireless/bluez:obex - Enable OBEX transfer support
+net-wireless/bluez:test-programs - Install tools for testing of various Bluetooth functions
 sys-apps/portage:apidoc - Build html API documentation with sphinx-apidoc.
 sys-apps/portage:gentoo-dev - Enable features required for Gentoo ebuild development.
 sys-apps/portage:ipc - Use inter-process communication between portage and running ebuilds.
