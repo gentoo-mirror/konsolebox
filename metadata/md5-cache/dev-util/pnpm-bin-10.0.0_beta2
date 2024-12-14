@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DESCRIPTION=Fast, disk space efficient package manager
+EAPI=8
+HOMEPAGE=https://pnpm.io/
+KEYWORDS=~amd64 ~arm64
+LICENSE=MIT
+RDEPEND=!dev-util/pnpm
+REQUIRED_USE=^^ ( amd64 arm64 )
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=arm64? ( https://github.com/pnpm/pnpm/releases/download/v10.0.0-beta.2/pnpm-linux-arm64 -> pnpm-bin-10.0.0_beta2-arm64 ) amd64? ( https://github.com/pnpm/pnpm/releases/download/v10.0.0-beta.2/pnpm-linux-x64 -> pnpm-bin-10.0.0_beta2-amd64 )
+_md5_=21ddc0bd6aa77fc8414d25ca6c147ced

@@ -11,4 +11,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/niizam/vantage/archive/0e123d7508ca20bef26d4ea8ba2a13124f863d10.tar.gz -> vantage-0_p202405014-0e123d75.tar.gz
 _eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
-_md5_=7347f74b5cb84834d90a4244a0488cd8
+_md5_=6e0c314fcded60275feca2ba27881d49
