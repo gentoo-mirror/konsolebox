@@ -13,5 +13,5 @@ REQUIRED_USE=|| ( ruby_targets_ruby31 ruby_targets_ruby32 ruby_targets_ruby33 )
 RESTRICT=mirror !test? ( test )
 SLOT=0
 SRC_URI=https://github.com/savonrb/nori/archive/5eec90c52b0baf56b4b0491c5b2799dd22e32db4.tar.gz -> nori-5eec90c52b0baf56b4b0491c5b2799dd22e32db4.tar.gz
-_eclasses_=use-ruby-mask	0cbe5616a82c7356257fe71e8fdea0c7	ruby-utils	a5d18cde09a96648a4d316ada2786cdb	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	ruby-ng	f0dedda0b5f19492ca5de91d98bc1708	ruby-fakegem	92ad9217e94825cb9c8ad831b513a7ec	ruby-fakegem-compat	41e9f81a0aaa0290ff4aca83990f129e
+_eclasses_=use-ruby-mask	0cbe5616a82c7356257fe71e8fdea0c7	ruby-utils	a5d18cde09a96648a4d316ada2786cdb	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9	ruby-ng	f0dedda0b5f19492ca5de91d98bc1708	ruby-fakegem	92ad9217e94825cb9c8ad831b513a7ec	ruby-fakegem-compat	41e9f81a0aaa0290ff4aca83990f129e
 _md5_=57cd8ee1a658f254cc4ec51ed5ae5b52
