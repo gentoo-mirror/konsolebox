@@ -7,5 +7,5 @@ INHERIT=git-r3
 LICENSE=MIT
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	bd9e88efb3d08e739bdbb7b24338f1bf
+_eclasses_=git-r3	f6752201ee957bc0f832f16f18be0145
 _md5_=3f2dc288441a391305d9dc6ca9cf0072

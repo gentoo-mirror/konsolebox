@@ -6,8 +6,8 @@ app-emulation/wine-mono 4.7.3: Wine Mono is a replacement for the .NET runtime a
 app-misc/mikefarah-yq-bin 4.44.3: A portable command-line YAML, JSON, XML, CSV, TOML and properties processor
 app-misc/xq-bin 1.2.5: Command-line XML and HTML beautifier and content extractor
 app-portage/repoman 3.0.3_p20220218-r1: Repoman is a Quality Assurance tool for Gentoo ebuilds
-app-shells/bash 4.3_p48 4.4_p23 5.0_p18 5.1_p16 5.1_p16-r1 5.2_p26 5.3_alpha 9999 99999: The standard GNU Bourne again shell
-app-shells/bash-supplemental 2.05b 3.0 3.0_p22 3.1 3.1_p23 3.2 3.2_p53 4.0 4.0_p44 4.1 4.1_p17 4.2 4.2_p53 4.3 4.3_p48 4.4 4.4_p23 5.0 5.0_p18 5.1 5.1_p16 5.1_p16-r1 5.2 5.2_p26 5.3_alpha 9999 99999: The standard GNU Bourne again shell
+app-shells/bash 4.3_p48 4.4_p23 5.0_p18 5.1_p16 5.1_p16-r1 5.2_p26 5.3_alpha-r1 5.3_beta_p20250212 9999 99999: The standard GNU Bourne again shell
+app-shells/bash-supplemental 2.05b 3.0 3.0_p22 3.1 3.1_p23 3.2 3.2_p53 4.0 4.0_p44 4.1 4.1_p17 4.2 4.2_p53 4.3 4.3_p48 4.4 4.4_p23 5.0 5.0_p18 5.1 5.1_p16 5.1_p16-r1 5.2 5.2_p26 5.3_alpha-r1 5.3_beta_p20250212 9999 99999: The standard GNU Bourne again shell
 app-shells/elvish-bin 0.21.0: Elvish is an expressive programming language and a versatile interactive shell.
 app-shells/hist 2024.11.19 9999 99999: Finds entries in ~/.bash_history
 app-text/ascii 3.30 9999: Lists ASCII idiomatic names and octal/decimal code-point forms
@@ -15,11 +15,11 @@ app-text/trim-trailing-spaces 2022.05.12 9999 99999: Removes trailing spaces in 
 app-text/wgetpaste 9999: Command-line interface to various pastebins
 dev-debug/gdb 13.2-r2: GNU debugger
 dev-games/cegui 0.6.2b: Crazy Eddie's GUI System
-dev-lang/ruby 3.1.6 3.2.4 3.3.2: An object-oriented scripting language
+dev-lang/ruby 3.1.6-r1 3.2.7 3.3.7 3.4.1: An object-oriented scripting language
 dev-libs/xxhash 9999: Extremely fast non-cryptographic hash algorithm
 dev-python/manimpango 0.4.4 0.5.0: A C binding for Pango using Cython
 dev-ruby/digest-kangarootwelve 0.5.0: KangarooTwelve for Ruby
-dev-ruby/digest-xxhash 0.2.8: xxhash for Ruby
+dev-ruby/digest-xxhash 0.2.8 0.2.9: xxhash for Ruby
 dev-ruby/gist 6.0.0: Potentially the best command line gister
 dev-ruby/irb 1.13.1 9999: Interactive Ruby command-line tool for REPL (Read Eval Print Loop)
 dev-ruby/net-ping 2.0.8: A collection of classes that provide different ways to ping computers
@@ -28,8 +28,10 @@ dev-ruby/pry 0.14.2 9999: Pry is a powerful alternative to the standard IRB shel
 dev-ruby/rbenv 1.3.0 9999: Seamlessly manage your app's Ruby environment
 dev-ruby/ruby-build 9999: Installs virtually any version of Ruby, from source
 dev-ruby/rubyexec 0_p20240601: Ruby binary selector
-dev-ruby/rubygems 3.3.26-r3 3.4.6-r3 3.4.15-r2 3.4.19-r1 3.5.10: Centralized Ruby extension management system
-dev-util/geany 1.29_p20241210 9999: GTK+ based fast and lightweight IDE
+dev-ruby/rubygems 3.6.3: Centralized Ruby extension management system
+dev-ruby/typeprof 0.21.11 0.30.1: Performs a type analysis of non-annotated Ruby code
+dev-ruby/typeprof-exec 0.1: Installs a binwrapper for dev-ruby/typeprof
+dev-util/geany 1.29_p20250105 9999: GTK+ based fast and lightweight IDE
 dev-util/geany-json-prettifier 1.5: A JSON formatter prettifier, minifier and validator plugin for Geany editor
 dev-util/pnpm-bin 9.15.4 10.0.0: Fast, disk space efficient package manager
 dev-vcs/git-diff-blame 2024.11.16 9999 99999: Annotates each line in a diff hunk with author and commit information like blame
@@ -59,9 +61,9 @@ sys-apps/tail-follow-grep 2024.09.30 9999 99999: Basically a wrapper for 'tail -
 sys-apps/tlock 1.6: Terminal lock
 sys-apps/xn 2024.11.16 9999 99999: Renames files and directories based on their 160-bit KangarooTwelve checksum
 sys-auth/pam_dsba 0_p20240830: PAM module that defines DBUS_SESSION_BUS_ADDRESS
-sys-auth/pam_xdg 0.8.4: PAM module that manages XDG Base Directories
+sys-auth/pam_xdg 0.8.4 0.8.5: PAM module that manages XDG Base Directories
 sys-block/map-partitions 2024.08.31 9999 99999: Maps partitions in a block device to logical devices using dmsetup and sfdisk
-sys-boot/build-initramfs 2024.09.02 9999 99999: Automates building of an initrd image
+sys-boot/build-initramfs 2025.01.28 9999 99999: Automates building of an initrd image
 sys-boot/grub 2.12: GNU GRUB boot loader
 sys-fs/cryptsetup 2.4.1-r2 2.4.3-r2 2.7.5: Tool to setup encrypted devices with dm-crypt
 sys-kernel/rts5139 0_p20241019: A temporary fix for RTS5129/RTS5139 USB MMC card reader on Linux 3.16+ kernels

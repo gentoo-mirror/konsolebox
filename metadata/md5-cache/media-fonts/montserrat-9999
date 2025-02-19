@@ -9,5 +9,5 @@ LICENSE=OFL-1.1
 PROPERTIES=live
 RESTRICT=binchecks strip test
 SLOT=0
-_eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb	git-r3	bd9e88efb3d08e739bdbb7b24338f1bf
+_eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb	git-r3	f6752201ee957bc0f832f16f18be0145
 _md5_=d638b8371406ab1e617584969c15cd6a
