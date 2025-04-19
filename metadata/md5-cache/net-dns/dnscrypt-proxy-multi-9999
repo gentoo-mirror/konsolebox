@@ -4,12 +4,12 @@ DESCRIPTION=Runs multiple instances of dnscrypt-proxy
 EAPI=7
 HOMEPAGE=https://github.com/konsolebox/scripts
 INHERIT=konsolebox-scripts
-IUSE=chroot ruby_single_target_ruby31 ruby_single_target_ruby32 ruby_single_target_ruby33 ruby_single_target_ruby34
+IUSE=chroot ruby_single_target_ruby32 ruby_single_target_ruby33 ruby_single_target_ruby34
 LICENSE=public-domain
 PROPERTIES=live
 RDEPEND=>=net-dns/dnscrypt-proxy-1.7.0 <net-dns/dnscrypt-proxy-2 chroot? ( app-alternatives/awk app-portage/portage-utils sys-apps/findutils sys-apps/rcopy sys-process/psmisc )
-REQUIRED_USE=^^ ( ruby_single_target_ruby31 ruby_single_target_ruby32 ruby_single_target_ruby33 ruby_single_target_ruby34 )
+REQUIRED_USE=^^ ( ruby_single_target_ruby32 ruby_single_target_ruby33 ruby_single_target_ruby34 )
 RESTRICT=mirror
 SLOT=0
-_eclasses_=git-r3	f6752201ee957bc0f832f16f18be0145	ruby-utils	a5d18cde09a96648a4d316ada2786cdb	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	2d8bab245b24b2a2dac3c249395b47f5
+_eclasses_=git-r3	f6752201ee957bc0f832f16f18be0145	ruby-utils	cb2cdbbce7fae7a6b2b1021219b0680d	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	2d8bab245b24b2a2dac3c249395b47f5
 _md5_=f2f26ad132e3f7531cfd342c38c9e0d9
