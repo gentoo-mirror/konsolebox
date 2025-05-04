@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install unpack
+DEFINED_PHASES=compile install test unpack
 DESCRIPTION=Searches for manual pages based on $MANPATH
 EAPI=7
 HOMEPAGE=https://github.com/konsolebox/scripts
@@ -9,5 +9,5 @@ RDEPEND=app-shells/bash sys-apps/findutils
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/abf76516f3429bee21580da67dc45f84e530da3a/manfind.bash -> manfind-2021.05.14-abf76516.bash
-_eclasses_=call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	2d8bab245b24b2a2dac3c249395b47f5
+_eclasses_=call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	08404a3053a377394d7314127a2590ae
 _md5_=3969be7bdc9eb4403ec81d7083aba700

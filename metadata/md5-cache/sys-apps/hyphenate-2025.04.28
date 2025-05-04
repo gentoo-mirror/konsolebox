@@ -1,0 +1,16 @@
+BDEPEND=test? ( ruby_single_target_ruby32? ( dev-ruby/test-unit[ruby_targets_ruby32] ) ruby_single_target_ruby33? ( dev-ruby/test-unit[ruby_targets_ruby33] ) ruby_single_target_ruby34? ( dev-ruby/test-unit[ruby_targets_ruby34] ) )
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=Renames files and directories to the hyphenated version of their filenames
+EAPI=7
+HOMEPAGE=https://github.com/konsolebox/scripts
+INHERIT=konsolebox-scripts
+IUSE=ruby_single_target_ruby32 ruby_single_target_ruby33 ruby_single_target_ruby34 test
+KEYWORDS=~amd64 ~arm ~arm64 ~hppa ~loong ~ppc ~ppc64 ~riscv ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x64-solaris
+LICENSE=MIT
+RDEPEND=ruby_single_target_ruby32? ( dev-lang/ruby:3.2 ) ruby_single_target_ruby33? ( dev-lang/ruby:3.3 ) ruby_single_target_ruby34? ( dev-lang/ruby:3.4 )
+REQUIRED_USE=^^ ( ruby_single_target_ruby32 ruby_single_target_ruby33 ruby_single_target_ruby34 )
+RESTRICT=mirror !test? ( test )
+SLOT=0
+SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/949b2eda973599b0648f6cfe0f79b8490e55b9f1/hyphenate.rb -> hyphenate-2025.04.28-949b2eda.rb https://raw.githubusercontent.com/konsolebox/scripts/949b2eda973599b0648f6cfe0f79b8490e55b9f1/tests/hyphenate.test.rb -> hyphenate.test.rb.949b2eda
+_eclasses_=ruby-utils	cb2cdbbce7fae7a6b2b1021219b0680d	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	08404a3053a377394d7314127a2590ae
+_md5_=cc54a8066e70a1e9a35cec757d48ccdc

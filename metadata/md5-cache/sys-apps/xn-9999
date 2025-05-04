@@ -1,5 +1,5 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile install unpack
+DEFINED_PHASES=compile install test unpack
 DESCRIPTION=Renames files and directories based on their 160-bit KangarooTwelve checksum
 EAPI=7
 HOMEPAGE=https://github.com/konsolebox/scripts
@@ -11,5 +11,5 @@ RDEPEND=ruby_single_target_ruby32? ( dev-lang/ruby:3.2 dev-ruby/digest-kangaroot
 REQUIRED_USE=^^ ( ruby_single_target_ruby32 ruby_single_target_ruby33 ruby_single_target_ruby34 )
 RESTRICT=mirror
 SLOT=0
-_eclasses_=git-r3	f6752201ee957bc0f832f16f18be0145	ruby-utils	cb2cdbbce7fae7a6b2b1021219b0680d	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	2d8bab245b24b2a2dac3c249395b47f5
+_eclasses_=git-r3	f6752201ee957bc0f832f16f18be0145	ruby-utils	cb2cdbbce7fae7a6b2b1021219b0680d	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	08404a3053a377394d7314127a2590ae
 _md5_=6f7361a4cbe502a5c0ac9e309ec0261d

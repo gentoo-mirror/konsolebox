@@ -1,5 +1,5 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile install unpack
+DEFINED_PHASES=compile install test unpack
 DESCRIPTION=Sends signals to process trees
 EAPI=7
 HOMEPAGE=https://github.com/konsolebox/scripts
@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=app-shells/bash sys-process/procps
 RESTRICT=mirror
 SLOT=0
-_eclasses_=git-r3	f6752201ee957bc0f832f16f18be0145	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	2d8bab245b24b2a2dac3c249395b47f5
+_eclasses_=git-r3	f6752201ee957bc0f832f16f18be0145	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	08404a3053a377394d7314127a2590ae
 _md5_=3e0bc530479009d7239ae21205e01668

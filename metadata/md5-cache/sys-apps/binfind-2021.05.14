@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install unpack
+DEFINED_PHASES=compile install test unpack
 DESCRIPTION=Searches files based on the value of $PATH
 EAPI=7
 HOMEPAGE=https://github.com/konsolebox/scripts
@@ -9,5 +9,5 @@ RDEPEND=app-shells/bash !app-text/binfind sys-apps/findutils
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/f34bcc33177c34eff5b6108fba3f8ef5aa984ce1/binfind.bash -> binfind-2021.05.14-f34bcc33.bash
-_eclasses_=call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	2d8bab245b24b2a2dac3c249395b47f5
+_eclasses_=call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	08404a3053a377394d7314127a2590ae
 _md5_=67f814bfefc7baf6f993e361aa728530

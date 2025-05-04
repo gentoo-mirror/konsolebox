@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DESCRIPTION=Fast, disk space efficient package manager
+EAPI=8
+HOMEPAGE=https://pnpm.io/
+KEYWORDS=~amd64 ~arm64
+LICENSE=MIT
+RDEPEND=!dev-util/pnpm
+REQUIRED_USE=^^ ( amd64 arm64 )
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=arm64? ( https://github.com/pnpm/pnpm/releases/download/v9.15.9/pnpm-linux-arm64 -> pnpm-bin-9.15.9-arm64 ) amd64? ( https://github.com/pnpm/pnpm/releases/download/v9.15.9/pnpm-linux-x64 -> pnpm-bin-9.15.9-amd64 )
+_md5_=986ac01f201a908e8023fe4faeb63f6d

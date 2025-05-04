@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install unpack
+DEFINED_PHASES=compile install test unpack
 DESCRIPTION=Renames files and directories based on their 160-bit KangarooTwelve checksum
 EAPI=7
 HOMEPAGE=https://github.com/konsolebox/scripts
@@ -11,5 +11,5 @@ REQUIRED_USE=^^ ( ruby_single_target_ruby32 ruby_single_target_ruby33 ruby_singl
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/konsolebox/scripts/5160554dfe07851ae656907bbe64929c88ee0571/xn.rb -> xn-2024.11.16-5160554d.rb
-_eclasses_=ruby-utils	cb2cdbbce7fae7a6b2b1021219b0680d	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	2d8bab245b24b2a2dac3c249395b47f5
+_eclasses_=ruby-utils	cb2cdbbce7fae7a6b2b1021219b0680d	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	call	f1532c498c7cf4e42c5ac175fd70e94b	konsolebox-scripts	08404a3053a377394d7314127a2590ae
 _md5_=b9c5c561ae3e386985ce9a81347385d2
