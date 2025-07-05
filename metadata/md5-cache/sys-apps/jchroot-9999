@@ -7,5 +7,5 @@ INHERIT=toolchain-funcs git-r3
 LICENSE=ISC
 PROPERTIES=live
 SLOT=0
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	git-r3	f6752201ee957bc0f832f16f18be0145
+_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	git-r3	f6752201ee957bc0f832f16f18be0145
 _md5_=5b242b7eab8a314189327cb23f04a5d3
