@@ -13,5 +13,5 @@ REQUIRED_USE=|| ( ruby_targets_ruby32 ruby_targets_ruby33 )
 RESTRICT=mirror !test? ( test )
 SLOT=0
 SRC_URI=https://github.com/savonrb/nori/archive/5eec90c52b0baf56b4b0491c5b2799dd22e32db4.tar.gz -> nori-5eec90c52b0baf56b4b0491c5b2799dd22e32db4.tar.gz
-_eclasses_=use-ruby-mask	0cbe5616a82c7356257fe71e8fdea0c7	ruby-utils	cb2cdbbce7fae7a6b2b1021219b0680d	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	b2a329026f2e404e9e371097dda47f96	ruby-ng	960d5adaf301da1ef0ab9bdba5018a6d	ruby-fakegem	bc37b1e2fa23e795fae856dd70a23846	ruby-fakegem-compat	41e9f81a0aaa0290ff4aca83990f129e
+_eclasses_=use-ruby-mask	0cbe5616a82c7356257fe71e8fdea0c7	ruby-utils	cb2cdbbce7fae7a6b2b1021219b0680d	ruby-utils-compat	4351385031d5c9bd8abc649a27dbdfaa	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	a199af442898963433d6f038a88cce9c	ruby-ng	960d5adaf301da1ef0ab9bdba5018a6d	ruby-fakegem	bc37b1e2fa23e795fae856dd70a23846	ruby-fakegem-compat	41e9f81a0aaa0290ff4aca83990f129e
 _md5_=57cd8ee1a658f254cc4ec51ed5ae5b52
