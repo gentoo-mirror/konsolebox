@@ -1,4 +1,4 @@
-BDEPEND=verify-sig? ( app-crypt/gnupg >=app-portage/gemato-20 ) pgo? ( dev-util/gperf ) verify-sig? ( sec-keys/openpgp-keys-chetramey )
+BDEPEND=verify-sig? ( app-alternatives/gpg >=app-portage/gemato-20 ) pgo? ( dev-util/gperf ) verify-sig? ( sec-keys/openpgp-keys-chetramey )
 DEFINED_PHASES=compile configure install postinst preinst prepare setup test unpack
 DEPEND=!static? ( >=sys-libs/ncurses-5.9-r3:0= ) static? ( >=sys-libs/ncurses-5.9-r3[static-libs(+)] ) nls? ( virtual/libintl ) !<sys-apps/portage-2.1.6.7_p1 !sys-libs/libtermcap-compat
 DESCRIPTION=The standard GNU Bourne again shell
@@ -12,5 +12,5 @@ RDEPEND=!static? ( >=sys-libs/ncurses-5.9-r3:0= ) !app-shells/bash:3.0
 REQUIRED_USE=readline? ( bundled-readline )
 SLOT=3.0
 SRC_URI=mirror://gnu/bash/bash-3.0.tar.gz verify-sig? ( mirror://gnu/bash/bash-3.0.tar.gz.sig ) https://github.com/konsolebox/gentoo-bash-patches/archive/693bbda26e14280fa11cfdbe8930f63355c00cc3.tar.gz -> gentoo-bash-patches-693bbda26e14280fa11cfdbe8930f63355c00cc3.tar.gz
-_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multilib	a199af442898963433d6f038a88cce9c	prefix	c3c4c93ebda319c0fa7ed6f942ba1010	eapi9-pipestatus	d2c134036ac31c3085aebc9147f572bd	verify-sig	8e2e065056335c16cb9f4ab83673c939	bash-build	9e76b62873080137faed442ff72c3dcf
+_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multilib	a199af442898963433d6f038a88cce9c	prefix	c3c4c93ebda319c0fa7ed6f942ba1010	eapi9-pipestatus	d2c134036ac31c3085aebc9147f572bd	verify-sig	2cbcfd9aec371384bdcd6f99e8692a45	bash-build	9e76b62873080137faed442ff72c3dcf
 _md5_=9831c90ff7063423a84609befa94b4d3
